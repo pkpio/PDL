@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2013-11-08T19:17:27</DateModified>
+  <DateModified>2013-11-09T00:52:46</DateModified>
   <ModuleName>main</ModuleName>
   <SummaryTimeStamp>2013-11-07T16:01:08</SummaryTimeStamp>
-  <SavedFilePath>E:/Dropbox/Works and collections/Elec/Xilinx_learning/LUTs/iseconfig/main.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>E:/Dropbox/Works and collections/Elec/Xilinx_learning/LUTs\</ImplementationReportsDirectory>
+  <SavedFilePath>E:/Dropbox/Works and collections/Elec/Xilinx_learning/PDL/iseconfig/main.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>E:/Dropbox/Works and collections/Elec/Xilinx_learning/PDL\</ImplementationReportsDirectory>
   <DateInitialized>2013-11-07T16:39:51</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

@@ -1,7 +1,7 @@
 Release 13.3 - par O.76xd (nt64)
 Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
 
-Sat Nov 09 00:39:31 2013
+Sat Nov 09 01:10:05 2013
 
 
 # NOTE: This file is designed to be imported into a spreadsheet program
@@ -529,7 +529,7 @@ B11|||GND||||||||||||
 B12||IOBS|IO_L8N_CC_20|UNUSED||20|||||||||
 B13||IOBM|IO_L11P_CC_20|UNUSED||20|||||||||
 B14|||GND||||||||||||
-B15|Out|IOB|IO_L0N_5|OUTPUT|LVCMOS25*|5|12|SLOW||||LOCATED|NO|NONE|
+B15||IOBS|IO_L0N_5|UNUSED||5|||||||||
 B16|In|IOB|IO_L0P_5|INPUT|LVCMOS25*|5||||NONE||LOCATED|NO|NONE|
 B17||IOBM|IO_L2P_5|UNUSED||5|||||||||
 B18||IOBM|IO_L4P_23|UNUSED||23|||||||||
@@ -562,7 +562,7 @@ C10|||MGTAVTTTX_124||||||||||||
 C11|||GND||||||||||||
 C12||IOBS|IO_L6N_20|UNUSED||20|||||||||
 C13||IOBS|IO_L11N_CC_20|UNUSED||20|||||||||
-C14||IOBM|IO_L3P_5|UNUSED||5|||||||||
+C14|Out|IOB|IO_L3P_5|OUTPUT|LVCMOS25*|5|12|SLOW||||LOCATED|NO|NONE|
 C15||IOBS|IO_L3N_5|UNUSED||5|||||||||
 C16|||VCCO_5|||5|||||2.50||||
 C17||IOBM|IO_L5P_5|UNUSED||5|||||||||

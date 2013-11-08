@@ -35,18 +35,18 @@ Pad to Pad
 ---------------+---------------+---------+
 Source Pad     |Destination Pad|  Delay  |
 ---------------+---------------+---------+
-In             |Out            |   16.569|
+In             |Out            |   16.153|
 ---------------+---------------+---------+
 
 
-Analysis completed Sat Nov 09 00:39:46 2013 
+Analysis completed Sat Nov 09 01:10:19 2013 
 --------------------------------------------------------------------------------
 
 Trace Settings:
 -------------------------
 Trace Settings 
 
-Peak Memory Usage: 423 MB
+Peak Memory Usage: 424 MB
 
 
 

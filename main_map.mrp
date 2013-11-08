@@ -10,23 +10,23 @@ Target Device  : xc5vlx110t
 Target Package : ff1136
 Target Speed   : -1
 Mapper Version : virtex5 -- $Revision: 1.55 $
-Mapped Date    : Sat Nov 09 00:38:19 2013
+Mapped Date    : Sat Nov 09 01:09:28 2013
 
 Design Summary
 --------------
 Number of errors:      0
 Number of warnings:    0
 Slice Logic Utilization:
-  Number of Slice LUTs:                         24 out of  69,120    1%
-    Number used as logic:                       24 out of  69,120    1%
-      Number using O6 output only:              24
+  Number of Slice LUTs:                         25 out of  69,120    1%
+    Number used as logic:                       25 out of  69,120    1%
+      Number using O6 output only:              25
 
 Slice Logic Distribution:
-  Number of occupied Slices:                    12 out of  17,280    1%
-  Number of LUT Flip Flop pairs used:           24
-    Number with an unused Flip Flop:            24 out of      24  100%
-    Number with an unused LUT:                   0 out of      24    0%
-    Number of fully used LUT-FF pairs:           0 out of      24    0%
+  Number of occupied Slices:                    25 out of  17,280    1%
+  Number of LUT Flip Flop pairs used:           25
+    Number with an unused Flip Flop:            25 out of      25  100%
+    Number with an unused LUT:                   0 out of      25    0%
+    Number of fully used LUT-FF pairs:           0 out of      25    0%
     Number of slice register sites lost
       to control set restrictions:               0 out of  69,120    0%
 
@@ -46,9 +46,9 @@ Specific Feature Utilization:
 
 Average Fanout of Non-Clock Nets:                1.00
 
-Peak Memory Usage:  551 MB
-Total REAL time to MAP completion:  36 secs 
-Total CPU time to MAP completion:   15 secs 
+Peak Memory Usage:  546 MB
+Total REAL time to MAP completion:  13 secs 
+Total CPU time to MAP completion:   13 secs 
 
 Table of Contents
 -----------------
@@ -97,9 +97,6 @@ Optimized Block(s):
 TYPE 		BLOCK
 GND 		XST_GND
 VCC 		XST_VCC
-
-To enable printing of redundant blocks removed and signals merged, set the
-detailed map report option and rerun map.
 
 Section 6 - IOB Properties
 --------------------------

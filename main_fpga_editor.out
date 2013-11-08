@@ -1,55 +1,95 @@
-#:C19    
+#:C39    
 #Xilinx FPGA Editor Command Log File
 #Editor Version:
 #:V   NT M2.1 O.76xd
 #Current Working Directory:
-#:D   E:\Dropbox\Works and collections\Elec\Xilinx_learning\LUTs
+#:D   E:\Dropbox\Works and collections\Elec\Xilinx_learning\PDL
 #Date/Time:
-#:T   Fri Nov 08 23:01:03 2013
+#:T   Sat Nov 09 01:13:22 2013
 #------------------------------
 	#Reading main.ncd...
 	#Loading device for application Rf_Device from file '5vlx110t.nph' in environment C:\Xilinx\13.3\ISE_DS\ISE\.
 	#   "main" is an NCD, version 3.2, device xc5vlx110t, package ff1136, speed -1
-	#Design creation date: 2013.11.08.17.28.52
+	#Design creation date: 2013.11.08.19.39.34
 	#Building chip graphics...
 	#Loading speed info...
 	#1
 setattr main edit-mode no-logic-changes
 	#2
-select -k net 'In_IBUF'
+select -k net 'pdl_1/Olut<0>'
 	#3
-select -k net 'Out_OBUF'
+select -k net 'pdl_1/Olut<1>'
 	#4
-select -k net 'pdl_1/Olut<0>'
+select -k net 'pdl_1/Olut<2>'
 	#5
-select -k net 'pdl_1/Olut<1>'
-	#6
-select -k net 'pdl_1/Olut<2>'
-	#7
 select -k net 'pdl_1/Olut<3>'
+	#6
+select -k net 'pdl_1/Olut<4>'
+	#7
+unselect net 'pdl_1/Olut<0>'
 	#8
-unselect net 'In_IBUF'
+unselect net 'pdl_1/Olut<1>'
 	#9
-unselect net 'Out_OBUF'
-	#10
-unselect net 'pdl_1/Olut<1>'
-	#11
 unselect net 'pdl_1/Olut<2>'
-	#12
+	#10
 unselect net 'pdl_1/Olut<3>'
+	#11
+unselect net 'pdl_1/Olut<4>'
+	#12
+select -k net 'pdl_1/Olut<5>'
 	#13
-unselect net 'pdl_1/Olut<0>'
+unselect net 'pdl_1/Olut<5>'
 	#14
-select -k net 'pdl_1/Olut<1>'
+select -k net 'pdl_1/Olut<4>'
 	#15
-unselect net 'pdl_1/Olut<1>'
+unselect net 'pdl_1/Olut<4>'
 	#16
-select -k net 'pdl_1/Olut<0>'
+select -k net 'pdl_1/Olut<3>'
 	#17
-unselect net 'pdl_1/Olut<0>'
+unselect net 'pdl_1/Olut<3>'
 	#18
-select -k net 'pdl_1/Olut<1>'
-	#19
-unselect net 'pdl_1/Olut<1>'
-	#20
 select -k net 'pdl_1/Olut<2>'
+	#19
+unselect net 'pdl_1/Olut<2>'
+	#20
+select -k net 'pdl_1/Olut<1>'
+	#21
+unselect net 'pdl_1/Olut<1>'
+	#22
+select -k net 'pdl_1/Olut<0>'
+	#23
+select -k net 'pdl_1/Olut<1>'
+	#24
+select -k net 'pdl_1/Olut<2>'
+	#25
+select -k net 'pdl_1/Olut<3>'
+	#26
+select -k net 'pdl_1/Olut<4>'
+	#27
+select -k net 'pdl_1/Olut<5>'
+	#28
+select -k net 'pdl_1/Olut<6>'
+	#29
+select -k net 'pdl_1/Olut<7>'
+	#30
+select -k net 'pdl_1/Olut<8>'
+	#31
+select -k net 'pdl_1/Olut<9>'
+	#32
+select -k net 'pdl_1/Olut<10>'
+	#33
+select -k net 'pdl_1/Olut<11>'
+	#34
+select -k net 'pdl_1/Olut<12>'
+	#35
+select -k net 'pdl_1/Olut<13>'
+	#36
+select -k net 'pdl_1/Olut<14>'
+	#37
+select -k net 'pdl_1/Olut<15>'
+	#38
+select -k net 'pdl_1/Olut<16>'
+	#39
+select -k net 'pdl_1/Olut<17>'
+	#40
+select -k net 'pdl_1/Olut<18>'

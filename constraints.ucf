@@ -1,16 +1,59 @@
 
 
-INST "pdl_1/LUT6_inst_0" BEL = D6LUT;
-INST "pdl_1/LUT6_inst_2" LOC = SLICE_X45Y159;
-INST "pdl_1/LUT6_inst_2" BEL = D6LUT;
-INST "pdl_1/LUT6_inst_0" LOC = SLICE_X47Y159;
-INST "pdl_1/LUT6_inst_1" BEL = D6LUT;
-INST "pdl_1/LUT6_inst_1" LOC = SLICE_X46Y159;
 NET "In" LOC = B16;
-NET "Out" LOC = B15;
+NET "Out" LOC = C14;
 
 
+
+# PlanAhead Generated physical constraints 
+
+INST "pdl_1/LUT6_inst_24" BEL = D6LUT;
+INST "pdl_1/LUT6_inst_0" BEL = D6LUT;
+INST "pdl_1/LUT6_inst_1" BEL = D6LUT;
+INST "pdl_1/LUT6_inst_2" BEL = D6LUT;
 INST "pdl_1/LUT6_inst_3" BEL = D6LUT;
-INST "pdl_1/LUT6_inst_3" LOC = SLICE_X44Y159;
-INST "pdl_1/LUT6_inst_4" LOC = SLICE_X43Y159;
 INST "pdl_1/LUT6_inst_4" BEL = D6LUT;
+INST "pdl_1/LUT6_inst_5" BEL = D6LUT;
+INST "pdl_1/LUT6_inst_6" BEL = D6LUT;
+INST "pdl_1/LUT6_inst_7" BEL = D6LUT;
+INST "pdl_1/LUT6_inst_8" BEL = D6LUT;
+INST "pdl_1/LUT6_inst_9" BEL = D6LUT;
+INST "pdl_1/LUT6_inst_10" BEL = D6LUT;
+INST "pdl_1/LUT6_inst_11" BEL = D6LUT;
+INST "pdl_1/LUT6_inst_12" BEL = D6LUT;
+INST "pdl_1/LUT6_inst_13" BEL = D6LUT;
+INST "pdl_1/LUT6_inst_14" BEL = D6LUT;
+INST "pdl_1/LUT6_inst_15" BEL = D6LUT;
+INST "pdl_1/LUT6_inst_16" BEL = D6LUT;
+INST "pdl_1/LUT6_inst_17" BEL = D6LUT;
+INST "pdl_1/LUT6_inst_18" BEL = D6LUT;
+INST "pdl_1/LUT6_inst_19" BEL = D6LUT;
+INST "pdl_1/LUT6_inst_20" BEL = D6LUT;
+INST "pdl_1/LUT6_inst_21" BEL = D6LUT;
+INST "pdl_1/LUT6_inst_22" BEL = D6LUT;
+INST "pdl_1/LUT6_inst_23" BEL = D6LUT;
+INST "pdl_1/LUT6_inst_1" LOC = SLICE_X45Y159;
+INST "pdl_1/LUT6_inst_0" LOC = SLICE_X47Y159;
+INST "pdl_1/LUT6_inst_3" LOC = SLICE_X41Y159;
+INST "pdl_1/LUT6_inst_2" LOC = SLICE_X43Y159;
+INST "pdl_1/LUT6_inst_4" LOC = SLICE_X39Y159;
+INST "pdl_1/LUT6_inst_5" LOC = SLICE_X37Y159;
+INST "pdl_1/LUT6_inst_6" LOC = SLICE_X35Y159;
+INST "pdl_1/LUT6_inst_7" LOC = SLICE_X33Y159;
+INST "pdl_1/LUT6_inst_8" LOC = SLICE_X33Y158;
+INST "pdl_1/LUT6_inst_9" LOC = SLICE_X35Y158;
+INST "pdl_1/LUT6_inst_10" LOC = SLICE_X37Y158;
+INST "pdl_1/LUT6_inst_11" LOC = SLICE_X39Y158;
+INST "pdl_1/LUT6_inst_12" LOC = SLICE_X41Y158;
+INST "pdl_1/LUT6_inst_13" LOC = SLICE_X43Y158;
+INST "pdl_1/LUT6_inst_14" LOC = SLICE_X45Y158;
+INST "pdl_1/LUT6_inst_15" LOC = SLICE_X47Y158;
+INST "pdl_1/LUT6_inst_16" LOC = SLICE_X47Y157;
+INST "pdl_1/LUT6_inst_17" LOC = SLICE_X45Y157;
+INST "pdl_1/LUT6_inst_18" LOC = SLICE_X43Y157;
+INST "pdl_1/LUT6_inst_19" LOC = SLICE_X41Y157;
+INST "pdl_1/LUT6_inst_20" LOC = SLICE_X39Y157;
+INST "pdl_1/LUT6_inst_21" LOC = SLICE_X37Y157;
+INST "pdl_1/LUT6_inst_22" LOC = SLICE_X35Y157;
+INST "pdl_1/LUT6_inst_23" LOC = SLICE_X33Y157;
+INST "pdl_1/LUT6_inst_24" LOC = SLICE_X33Y156;
