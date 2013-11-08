@@ -1,0 +1,16 @@
+
+
+INST "pdl_1/LUT6_inst_0" BEL = D6LUT;
+INST "pdl_1/LUT6_inst_2" LOC = SLICE_X45Y159;
+INST "pdl_1/LUT6_inst_2" BEL = D6LUT;
+INST "pdl_1/LUT6_inst_0" LOC = SLICE_X47Y159;
+INST "pdl_1/LUT6_inst_1" BEL = D6LUT;
+INST "pdl_1/LUT6_inst_1" LOC = SLICE_X46Y159;
+NET "In" LOC = B16;
+NET "Out" LOC = B15;
+
+
+INST "pdl_1/LUT6_inst_3" BEL = D6LUT;
+INST "pdl_1/LUT6_inst_3" LOC = SLICE_X44Y159;
+INST "pdl_1/LUT6_inst_4" LOC = SLICE_X43Y159;
+INST "pdl_1/LUT6_inst_4" BEL = D6LUT;

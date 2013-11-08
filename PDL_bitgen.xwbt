@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=E:\Dropbox\Works and collections\Elec\Xilinx_learning\LUTs\PDL.ncd
+OUTFILE=E:\Dropbox\Works and collections\Elec\Xilinx_learning\LUTs\PDL.bit
+FAMILY=Virtex5
+PART=xc5vlx110t-1ff1136
+WORKINGDIR=E:\Dropbox\Works and collections\Elec\Xilinx_learning\LUTs
+LICENSE=ISE
+USER_INFO=__0_0_0

@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# PlanAhead v13.3 (64-bit)
+# Build 147507 by hdbuild on Tue Oct  4 19:13:50 MDT 2011
+# Start of session at: Fri Nov 08 22:52:05 2013
+# Process ID: 3884
+# Log file: E:/Dropbox/Works and collections/Elec/Xilinx_learning/LUTs/planAhead_run_1/planAhead.log
+# Journal file: E:/Dropbox/Works and collections/Elec/Xilinx_learning/LUTs/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {E:/Dropbox/Works and collections/Elec/Xilinx_learning/LUTs/pa.fromNcd.tcl}
+startgroup
+place_cell pdl_1/LUT6_inst_1 SLICE_X46Y159/D6LUT
+endgroup
+startgroup
+place_cell pdl_1/LUT6_inst_2 SLICE_X45Y159/D6LUT
+endgroup
+startgroup
+place_cell pdl_1/LUT6_inst_3 SLICE_X44Y159/D6LUT
+endgroup
+startgroup
+place_cell pdl_1/LUT6_inst_4 SLICE_X43Y159/D6LUT
+endgroup
+save_design
+exit
+stop_gui

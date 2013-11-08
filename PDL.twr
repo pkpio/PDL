@@ -1,0 +1,66 @@
+--------------------------------------------------------------------------------
+Release 13.3 Trace  (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\13.3\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 1
+-n 3 -fastpaths -xml PDL.twx PDL.ncd -o PDL.twr PDL.pcf -ucf constraints.ucf
+
+Design file:              PDL.ncd
+Physical constraint file: PDL.pcf
+Device,package,speed:     xc5vlx110t,ff1136,-1 (PRODUCTION 1.73 2011-10-03, STEPPING level 0)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+C0<0>          |O              |    7.320|
+C0<1>          |O              |    7.650|
+C0<2>          |O              |    7.121|
+C0<3>          |O              |    7.166|
+C0<4>          |O              |    7.575|
+C1<0>          |O              |    7.713|
+C1<1>          |O              |    7.030|
+C1<2>          |O              |    7.572|
+C1<3>          |O              |    7.207|
+C1<4>          |O              |    7.199|
+C2<0>          |O              |    6.361|
+C2<1>          |O              |    6.315|
+C2<2>          |O              |    6.534|
+C2<3>          |O              |    6.219|
+C2<4>          |O              |    6.180|
+I              |O              |    7.235|
+---------------+---------------+---------+
+
+
+Analysis completed Thu Nov 07 19:08:01 2013 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 422 MB
+
+
+

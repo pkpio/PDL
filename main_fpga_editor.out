@@ -1,0 +1,55 @@
+#:C19    
+#Xilinx FPGA Editor Command Log File
+#Editor Version:
+#:V   NT M2.1 O.76xd
+#Current Working Directory:
+#:D   E:\Dropbox\Works and collections\Elec\Xilinx_learning\LUTs
+#Date/Time:
+#:T   Fri Nov 08 23:01:03 2013
+#------------------------------
+	#Reading main.ncd...
+	#Loading device for application Rf_Device from file '5vlx110t.nph' in environment C:\Xilinx\13.3\ISE_DS\ISE\.
+	#   "main" is an NCD, version 3.2, device xc5vlx110t, package ff1136, speed -1
+	#Design creation date: 2013.11.08.17.28.52
+	#Building chip graphics...
+	#Loading speed info...
+	#1
+setattr main edit-mode no-logic-changes
+	#2
+select -k net 'In_IBUF'
+	#3
+select -k net 'Out_OBUF'
+	#4
+select -k net 'pdl_1/Olut<0>'
+	#5
+select -k net 'pdl_1/Olut<1>'
+	#6
+select -k net 'pdl_1/Olut<2>'
+	#7
+select -k net 'pdl_1/Olut<3>'
+	#8
+unselect net 'In_IBUF'
+	#9
+unselect net 'Out_OBUF'
+	#10
+unselect net 'pdl_1/Olut<1>'
+	#11
+unselect net 'pdl_1/Olut<2>'
+	#12
+unselect net 'pdl_1/Olut<3>'
+	#13
+unselect net 'pdl_1/Olut<0>'
+	#14
+select -k net 'pdl_1/Olut<1>'
+	#15
+unselect net 'pdl_1/Olut<1>'
+	#16
+select -k net 'pdl_1/Olut<0>'
+	#17
+unselect net 'pdl_1/Olut<0>'
+	#18
+select -k net 'pdl_1/Olut<1>'
+	#19
+unselect net 'pdl_1/Olut<1>'
+	#20
+select -k net 'pdl_1/Olut<2>'
