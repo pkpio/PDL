@@ -18,16 +18,11 @@
 // Additional Comments: 
 //
 //////////////////////////////////////////////////////////////////////////////////
-//`include "switchBlock.v"
 
-module PDL_PUF(s_tp, s_btm, s1, s2, reset, o);
-
-// s: The challenge vector of size PUFlength
-// q: The input trigger signal to the PUF (launch signal)
-// reset: Resets the PUF output to zero and prepares it for the next round
-// o: The output of the arbiters (response)
-// s1: a sum bit from adder1;
-// s2: a sum bit from adder2
+module PDL_PUF(
+	input clk,
+	input in,
+	output out);
  
     parameter PUFlength = 63;
 
@@ -38,20 +33,11 @@ module PDL_PUF(s_tp, s_btm, s1, s2, reset, o);
 	 wire [PUFlength:0] i1,i2;
 	 wire puf_out;//q_buf, puf_out;
 
-
-/*	 
-(* BEL ="D6LUT" *) (* LOCK_PINS = "all" *)
-LUT1 #(
-	.INIT(2'b10) // Specify LUT Contents
-) LUT1_inst_1 (
-	.O(q_buf), // LUT general output
-	.I0(q) // LUT input
-);
-*/
-
 	 
 (* KEEP_HIERARCHY="TRUE" *)
-pdl_based_switch sarray [PUFlength:0] (.i1({s1,i1[PUFlength:1]}),.i2({s2,i2[PUFlength:1]}), .select_tp(s_tp[PUFlength:0]), .select_btm(s_btm[PUFlength:0]),.o1(i1[PUFlength:0]),.o2(i2[PUFlength:0]));
+pdl_based_switch sarray [PUFlength:0] (
+	.i1({s1,i1[PUFlength:1]}),
+	.i2({s2,i2[PUFlength:1]}), .select_tp(s_tp[PUFlength:0]), .select_btm(s_btm[PUFlength:0]),.o1(i1[PUFlength:0]),.o2(i2[PUFlength:0]));
 
 FDC FDC1 (.Q (puf_out),
           .C (i2[0]),

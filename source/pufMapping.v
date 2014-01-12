@@ -1,24 +1,32 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date:    11:06:00 06/14/2010 
-// Design Name: 
-// Module Name:    system 
-// Project Name: 
-// Target Devices: 
-// Tool versions: 
-// Description: 
+// Engineer:       Praveen Kumar Pendyala
 //
-// Dependencies: 
+// Create Date:    11:34:00 06/14/2010
+// Design Name:    PDL
+// Module Name:    test_bench
+// Project Name:   PDL
+// Target Devices: Virtex 5 lx
+// Tool versions:  Xilinix ISE 13.3
+// Description:    This is a test bench for pdl - programmable delay logic based puf.
+// This module instantiates 16 instances of a pdl based puf. The working of the puf 
+// can be found in the pdl_puf module. This module makes 16 instances to demonstrate
+// the placement of pdl switch in all/most of the available space on the FPGA device.
 //
-// Revision: 
+// Dependencies:
+//
+// Revision:
+// Revision 0.02 - Modified as a publishable document
 // Revision 0.01 - File Created
-// Additional Comments: 
+// Additional Comments:
 //
 //////////////////////////////////////////////////////////////////////////////////
-module pufMapping(CHALLENGE, RESPONSE, trigger, reset, a, b);
+module pdl_test_bench(
+	input clk,
+	input challenge_top,
+	input challenge_bottom,
+	input trigger,
+	output response,);
 
 output [15:0] RESPONSE;
 input [127:0] CHALLENGE;
@@ -49,8 +57,8 @@ end
 
 //Commented logic for future improvement
 (* KEEP="TRUE" *)
-assign c1 = (trigger==1)?(a1+b1):0;//((oBeforeTrig==1)?(~(a1+b1)):(a1+b1)):0;
-assign c2 = (trigger==1)?(a2+b2):0;//((oBeforeTrig==1)?(~(a2+b2)):(a2+b2)):0;
+assign c1 = (trigger==1)?(a1+b1):0;
+assign c2 = (trigger==1)?(a2+b2):0;
 
 (* KEEP_HIERARCHY="TRUE" *)
 PDL_PUF puf1 (.s_tp(CHALLENGE[63:0]), .s_btm(CHALLENGE[127:64]), .s1(c1[0]), .s2(c2[0]), .reset(reset), .o(RESPONSE[0]));
@@ -99,6 +107,6 @@ endmodule
 //  inout [35 : 0] CONTROL;
 //  output [129 : 0] CHALLENGE;
 //  input [15 : 0] RESPONSE;
-//  
+//
 //endmodule
-  
+

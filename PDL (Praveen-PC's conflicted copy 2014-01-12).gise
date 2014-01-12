@@ -100,7 +100,7 @@
     <transform xil_pn:end_ts="1389441225" xil_pn:in_ck="-5675903414667147918" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="6491147738804843233" xil_pn:start_ts="1389441084">
       <status xil_pn:value="FailedRun"/>
       <status xil_pn:value="WarningsGenerated"/>
-      <status xil_pn:value="NotReadyToRun"/>
+      <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForProperties"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
