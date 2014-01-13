@@ -23,7 +23,11 @@
 
   <files xmlns="http://www.xilinx.com/XMLSchema">
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="mapping.bld"/>
     <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="mapping.cmd_log"/>
@@ -37,77 +41,181 @@
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="mapping_ngdbuild.xrpt"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="mapping_summary.html"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="mapping_xst.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="pdl_test_bench.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="pdl_test_bench.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="pdl_test_bench.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="pdl_test_bench.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="pdl_test_bench.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="pdl_test_bench.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="pdl_test_bench.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="pdl_test_bench.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="pdl_test_bench.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="pdl_test_bench.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="pdl_test_bench.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="pdl_test_bench.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="pdl_test_bench.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="pdl_test_bench.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="pdl_test_bench.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="pdl_test_bench.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="pdl_test_bench.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="pdl_test_bench.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="pdl_test_bench.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="pdl_test_bench.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="pdl_test_bench.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="pdl_test_bench.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="pdl_test_bench.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="pdl_test_bench_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="pdl_test_bench_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="pdl_test_bench_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="pdl_test_bench_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="pdl_test_bench_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="pdl_test_bench_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="pdl_test_bench_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="pdl_test_bench_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="pdl_test_bench_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="pdl_test_bench_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="pdl_test_bench_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="pdl_test_bench_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="pdl_test_bench_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="pdl_test_bench_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="pdl_test_bench_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_1"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_2"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
-    <transform xil_pn:end_ts="1389441038" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1389441038">
+    <transform xil_pn:end_ts="1389558688" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1389558688">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1389441038" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-2722079397350775983" xil_pn:start_ts="1389441038">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
-    </transform>
-    <transform xil_pn:end_ts="1389441038" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="6591258105801305400" xil_pn:start_ts="1389441038">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
-    </transform>
-    <transform xil_pn:end_ts="1389441038" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1389441038">
+    <transform xil_pn:end_ts="1389558688" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-3410397054794733757" xil_pn:start_ts="1389558688">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1389441038" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="5876625587266541155" xil_pn:start_ts="1389441038">
+    <transform xil_pn:end_ts="1389558688" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-7138753200004738710" xil_pn:start_ts="1389558688">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
     </transform>
-    <transform xil_pn:end_ts="1389441038" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-8458126479482839362" xil_pn:start_ts="1389441038">
+    <transform xil_pn:end_ts="1389558689" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1389558688">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
     </transform>
-    <transform xil_pn:end_ts="1389441038" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="8534476220878129730" xil_pn:start_ts="1389441038">
+    <transform xil_pn:end_ts="1389558689" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-3111956342942961131" xil_pn:start_ts="1389558689">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
     </transform>
-    <transform xil_pn:end_ts="1389441084" xil_pn:in_ck="5801176663341294701" xil_pn:name="TRANEXT_xstsynthesize_virtex5" xil_pn:prop_ck="-4499445908402004066" xil_pn:start_ts="1389441038">
+    <transform xil_pn:end_ts="1389558689" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-8458126479482839362" xil_pn:start_ts="1389558689">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputAdded"/>
-      <status xil_pn:value="InputChanged"/>
-      <status xil_pn:value="InputRemoved"/>
-      <status xil_pn:value="OutputRemoved"/>
     </transform>
-    <transform xil_pn:end_ts="1389441084" xil_pn:in_ck="7940613248576775456" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="1262981274648241294" xil_pn:start_ts="1389441084">
+    <transform xil_pn:end_ts="1389558689" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="2085450043207884596" xil_pn:start_ts="1389558689">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="InputChanged"/>
     </transform>
-    <transform xil_pn:end_ts="1389441225" xil_pn:in_ck="-5675903414667147918" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="6491147738804843233" xil_pn:start_ts="1389441084">
-      <status xil_pn:value="FailedRun"/>
+    <transform xil_pn:end_ts="1389601655" xil_pn:in_ck="-9165401582809164271" xil_pn:name="TRANEXT_xstsynthesize_virtex5" xil_pn:prop_ck="8155597747852184283" xil_pn:start_ts="1389601600">
+      <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
-      <status xil_pn:value="NotReadyToRun"/>
+      <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="pdl_test_bench.lso"/>
+      <outfile xil_pn:name="pdl_test_bench.ngc"/>
+      <outfile xil_pn:name="pdl_test_bench.ngr"/>
+      <outfile xil_pn:name="pdl_test_bench.prj"/>
+      <outfile xil_pn:name="pdl_test_bench.stx"/>
+      <outfile xil_pn:name="pdl_test_bench.syr"/>
+      <outfile xil_pn:name="pdl_test_bench.xst"/>
+      <outfile xil_pn:name="pdl_test_bench_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1389601655" xil_pn:in_ck="2797501316790511018" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-8062399597098352320" xil_pn:start_ts="1389601655">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
+    </transform>
+    <transform xil_pn:end_ts="1389601686" xil_pn:in_ck="-8290366477155300608" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="9015438210651138675" xil_pn:start_ts="1389601655">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="pdl_test_bench.bld"/>
+      <outfile xil_pn:name="pdl_test_bench.ngd"/>
+      <outfile xil_pn:name="pdl_test_bench_ngdbuild.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1389601740" xil_pn:in_ck="-2341677407935372177" xil_pn:name="TRANEXT_map_virtex5" xil_pn:prop_ck="6733564432430981316" xil_pn:start_ts="1389601686">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="InputChanged"/>
-      <status xil_pn:value="InputRemoved"/>
-      <status xil_pn:value="OutputRemoved"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+      <outfile xil_pn:name="pdl_test_bench.pcf"/>
+      <outfile xil_pn:name="pdl_test_bench_map.map"/>
+      <outfile xil_pn:name="pdl_test_bench_map.mrp"/>
+      <outfile xil_pn:name="pdl_test_bench_map.ncd"/>
+      <outfile xil_pn:name="pdl_test_bench_map.ngm"/>
+      <outfile xil_pn:name="pdl_test_bench_map.xrpt"/>
+      <outfile xil_pn:name="pdl_test_bench_summary.xml"/>
+      <outfile xil_pn:name="pdl_test_bench_usage.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1389601805" xil_pn:in_ck="2226538493024391944" xil_pn:name="TRANEXT_par_virtex5" xil_pn:prop_ck="-4097515898943074650" xil_pn:start_ts="1389601740">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+      <outfile xil_pn:name="pdl_test_bench.ncd"/>
+      <outfile xil_pn:name="pdl_test_bench.pad"/>
+      <outfile xil_pn:name="pdl_test_bench.par"/>
+      <outfile xil_pn:name="pdl_test_bench.ptwx"/>
+      <outfile xil_pn:name="pdl_test_bench.unroutes"/>
+      <outfile xil_pn:name="pdl_test_bench.xpi"/>
+      <outfile xil_pn:name="pdl_test_bench_pad.csv"/>
+      <outfile xil_pn:name="pdl_test_bench_pad.txt"/>
+      <outfile xil_pn:name="pdl_test_bench_par.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1389601858" xil_pn:in_ck="8738914441113425857" xil_pn:name="TRANEXT_bitFile_virtex5" xil_pn:prop_ck="-4008143788065839743" xil_pn:start_ts="1389601805">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="pdl_test_bench.bgn"/>
+      <outfile xil_pn:name="pdl_test_bench.bit"/>
+      <outfile xil_pn:name="pdl_test_bench.drc"/>
+      <outfile xil_pn:name="pdl_test_bench.ut"/>
+      <outfile xil_pn:name="usage_statistics_webtalk.html"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1389601805" xil_pn:in_ck="-2341677407935372309" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416183" xil_pn:start_ts="1389601785">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+      <outfile xil_pn:name="pdl_test_bench.twr"/>
+      <outfile xil_pn:name="pdl_test_bench.twx"/>
     </transform>
   </transforms>
 

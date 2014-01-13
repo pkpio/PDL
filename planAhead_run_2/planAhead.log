@@ -1,0 +1,274 @@
+#-----------------------------------------------------------
+# PlanAhead v13.3 (64-bit)
+# Build 147507 by hdbuild on Tue Oct  4 19:13:50 MDT 2011
+# Start of session at: Sun Jan 12 21:54:12 2014
+# Process ID: 6328
+# Log file: E:/Dropbox/Works and collections/Elec/Rice/PDL/planAhead_run_2/planAhead.log
+# Journal file: E:/Dropbox/Works and collections/Elec/Rice/PDL/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common-78] Attempting to get a license: PlanAhead
+INFO: [Common-82] Got a license: PlanAhead
+INFO: [Device-25] Loading parts and site information from C:/Xilinx/13.3/ISE_DS/PlanAhead\parts\arch.xmlParsing RTL primitives file [C:/Xilinx/13.3/ISE_DS/PlanAhead\parts\xilinx\rtl\prims\rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/13.3/ISE_DS/PlanAhead\parts\xilinx\rtl\prims\rtl_prims.xml]
+start_gui
+source {E:/Dropbox/Works and collections/Elec/Rice/PDL/pa.fromNetlist.tcl}
+# create_project -name PDL -dir "E:/Dropbox/Works and collections/Elec/Rice/PDL/planAhead_run_2" -part xc5vlx110tff1136-1
+Parsing template File [C:/Xilinx/13.3/ISE_DS/ISE\data\projnav\templates\verilog.xml].
+Finished parsing template File [C:/Xilinx/13.3/ISE_DS/ISE\data\projnav\templates\verilog.xml].
+Parsing template File [C:/Xilinx/13.3/ISE_DS/ISE\data\projnav\templates\vhdl.xml].
+Finished parsing template File [C:/Xilinx/13.3/ISE_DS/ISE\data\projnav\templates\vhdl.xml].
+Parsing template File [C:/Xilinx/13.3/ISE_DS/ISE\data\projnav\templates\ucf.xml].
+Finished parsing template File [C:/Xilinx/13.3/ISE_DS/ISE\data\projnav\templates\ucf.xml].
+create_project: Time (s): 8.892w.  Memory (MB): 525.031p 18.332g
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "E:/Dropbox/Works and collections/Elec/Rice/PDL/pdl_test_bench.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {E:/Dropbox/Works and collections/Elec/Rice/PDL} }
+# set_property target_constrs_file "E:/Dropbox/Works and collections/Elec/Rice/PDL/constraints/XUPV5system.ucf" [current_fileset -constrset]
+Adding file 'E:\Dropbox\Works and collections\Elec\Rice\PDL\constraints\XUPV5system.ucf' to fileset 'constrs_1'
+# add_files [list {E:/Dropbox/Works and collections/Elec/Rice/PDL/constraints/XUPV5system.ucf}] -fileset [get_property constrset [current_run]]
+# open_netlist_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to part: xc5vlx110tff1136-1
+Release 13.3 - ngc2edif O.76xd (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design pdl_test_bench.ngc ...
+WARNING:NetListWriters:298 - No output is written to pdl_test_bench.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file pdl_test_bench.edif ...
+ngc2edif: Total memory usage is 100244 kilobytes
+
+Parsing EDIF File [.\planAhead_run_2\PDL.data\cache\pdl_test_bench_ngc_854d43fa.edif]
+Finished Parsing EDIF File [.\planAhead_run_2\PDL.data\cache\pdl_test_bench_ngc_854d43fa.edif]
+INFO: [PlanAhead-430] Reading macro library C:/Xilinx/13.3/ISE_DS/PlanAhead\./parts/xilinx/virtex5/virtex5lx/hd_int_macros.edn
+Parsing EDIF File [C:/Xilinx/13.3/ISE_DS/PlanAhead\./parts/xilinx/virtex5/virtex5lx/hd_int_macros.edn]
+Finished Parsing EDIF File [C:/Xilinx/13.3/ISE_DS/PlanAhead\./parts/xilinx/virtex5/virtex5lx/hd_int_macros.edn]
+INFO: [Device-21] Reading bus macro file C:/Xilinx/13.3/ISE_DS/PlanAhead\./parts/xilinx/virtex5/pr_bus_macros.xmlLoading clock regions from C:/Xilinx/13.3/ISE_DS/PlanAhead\parts/xilinx/virtex5/virtex5lxt/xc5vlx110t/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/13.3/ISE_DS/PlanAhead\parts/xilinx/virtex5/virtex5lxt/xc5vlx110t/ClockBuffers.xml
+Loading package from C:/Xilinx/13.3/ISE_DS/PlanAhead\parts/xilinx/virtex5/virtex5lxt/xc5vlx110t/ff1136/Package.xml
+Loading io standards from C:/Xilinx/13.3/ISE_DS/PlanAhead\./parts/xilinx/virtex5/IOStandards.xml
+INFO: [Device-19] Loading pkg sso from C:/Xilinx/13.3/ISE_DS/PlanAhead\parts/xilinx/virtex5/virtex5lxt/xc5vlx110t/ff1136/SSORules.xml
+Loading list of drcs for the architecture : C:/Xilinx/13.3/ISE_DS/PlanAhead\./parts/xilinx/virtex5/drc.xml
+Parsing UCF File [E:\Dropbox\Works and collections\Elec\Rice\PDL\constraints\XUPV5system.ucf]
+INFO: [Designutils-22] PART constraint ignored, using PlanAhead selected device [E:\Dropbox\Works and collections\Elec\Rice\PDL\constraints\XUPV5system.ucf:5]
+Finished Parsing UCF File [E:\Dropbox\Works and collections\Elec\Rice\PDL\constraints\XUPV5system.ucf]
+INFO: [PlanAhead-566] Unisim Transformation Summary:
+No Unisim elements were transformed.open_netlist_design: Time (s): 29.686w.  Memory (MB): 750.168p 225.137g
+startgroup
+set_property loc SLICE_X0Y144 [get_cells {puf1/sarray[0]/pdl_bottom/LUT6_inst_0}]
+set_property loc SLICE_X0Y144 [get_cells {puf1/sarray[0]/pdl_bottom/LUT6_inst_0}]
+set_property bel D6LUT [get_cells {puf1/sarray[0]/pdl_bottom/LUT6_inst_0}]
+set_property bel D6LUT [get_cells {puf1/sarray[0]/pdl_bottom/LUT6_inst_0}]
+endgroup
+startgroup 
+startgroup 
+set_property loc "" [get_cells [list  {puf1/sarray[0]/pdl_bottom/LUT6_inst_0}] -filter {((is_primitive==true && primitive_level!="INTERNAL")  && (loc!=""))}]
+set_property loc "" [get_cells [list  {puf1/sarray[0]/pdl_bottom/LUT6_inst_0}] -filter {((is_primitive==true && primitive_level!="INTERNAL")  && (loc!=""))}]
+set_property bel "" [get_cells [list  {puf1/sarray[0]/pdl_bottom/LUT6_inst_0}] -filter {((is_primitive==true && primitive_level!="INTERNAL")  && (bel!=""))}]
+set_property bel "" [get_cells [list  {puf1/sarray[0]/pdl_bottom/LUT6_inst_0}] -filter {((is_primitive==true && primitive_level!="INTERNAL")  && (bel!=""))}]
+endgroup
+endgroup
+startgroup
+set_property loc SLICE_X0Y149 [get_cells {puf1/sarray[0]/pdl_bottom/LUT6_inst_0}]
+set_property loc SLICE_X0Y149 [get_cells {puf1/sarray[0]/pdl_bottom/LUT6_inst_0}]
+set_property bel D6LUT [get_cells {puf1/sarray[0]/pdl_bottom/LUT6_inst_0}]
+set_property bel D6LUT [get_cells {puf1/sarray[0]/pdl_bottom/LUT6_inst_0}]
+endgroup
+startgroup
+set_property loc SLICE_X0Y148 [get_cells {puf1/sarray[0]/pdl_bottom/LUT6_inst_1}]
+set_property loc SLICE_X0Y148 [get_cells {puf1/sarray[0]/pdl_bottom/LUT6_inst_1}]
+set_property bel D6LUT [get_cells {puf1/sarray[0]/pdl_bottom/LUT6_inst_1}]
+set_property bel D6LUT [get_cells {puf1/sarray[0]/pdl_bottom/LUT6_inst_1}]
+endgroup
+startgroup
+set_property loc SLICE_X2Y149 [get_cells {puf1/sarray[0]/pdl_top/LUT6_inst_0}]
+set_property loc SLICE_X2Y149 [get_cells {puf1/sarray[0]/pdl_top/LUT6_inst_0}]
+set_property bel D6LUT [get_cells {puf1/sarray[0]/pdl_top/LUT6_inst_0}]
+set_property bel D6LUT [get_cells {puf1/sarray[0]/pdl_top/LUT6_inst_0}]
+endgroup
+startgroup
+set_property loc SLICE_X2Y148 [get_cells {puf1/sarray[0]/pdl_top/LUT6_inst_1}]
+set_property loc SLICE_X2Y148 [get_cells {puf1/sarray[0]/pdl_top/LUT6_inst_1}]
+set_property bel D6LUT [get_cells {puf1/sarray[0]/pdl_top/LUT6_inst_1}]
+set_property bel D6LUT [get_cells {puf1/sarray[0]/pdl_top/LUT6_inst_1}]
+endgroup
+startgroup
+set_property loc SLICE_X0Y147 [get_cells {puf1/sarray[1]/pdl_bottom/LUT6_inst_0}]
+set_property loc SLICE_X0Y147 [get_cells {puf1/sarray[1]/pdl_bottom/LUT6_inst_0}]
+set_property bel D6LUT [get_cells {puf1/sarray[1]/pdl_bottom/LUT6_inst_0}]
+set_property bel D6LUT [get_cells {puf1/sarray[1]/pdl_bottom/LUT6_inst_0}]
+endgroup
+startgroup
+set_property loc SLICE_X0Y146 [get_cells {puf1/sarray[1]/pdl_bottom/LUT6_inst_1}]
+set_property loc SLICE_X0Y146 [get_cells {puf1/sarray[1]/pdl_bottom/LUT6_inst_1}]
+set_property bel D6LUT [get_cells {puf1/sarray[1]/pdl_bottom/LUT6_inst_1}]
+set_property bel D6LUT [get_cells {puf1/sarray[1]/pdl_bottom/LUT6_inst_1}]
+endgroup
+startgroup
+set_property loc SLICE_X4Y149 [get_cells {puf2/sarray[0]/pdl_top/LUT6_inst_0}]
+set_property loc SLICE_X4Y149 [get_cells {puf2/sarray[0]/pdl_top/LUT6_inst_0}]
+set_property bel D6LUT [get_cells {puf2/sarray[0]/pdl_top/LUT6_inst_0}]
+set_property bel D6LUT [get_cells {puf2/sarray[0]/pdl_top/LUT6_inst_0}]
+endgroup
+startgroup
+set_property loc SLICE_X4Y148 [get_cells {puf2/sarray[0]/pdl_top/LUT6_inst_1}]
+set_property loc SLICE_X4Y148 [get_cells {puf2/sarray[0]/pdl_top/LUT6_inst_1}]
+set_property bel D6LUT [get_cells {puf2/sarray[0]/pdl_top/LUT6_inst_1}]
+set_property bel D6LUT [get_cells {puf2/sarray[0]/pdl_top/LUT6_inst_1}]
+endgroup
+startgroup
+set_property loc "" [get_cells [list  {puf2/sarray[0]/pdl_top/LUT6_inst_1}] -filter {((is_primitive==true && primitive_level!="INTERNAL")  && (loc!=""))}]
+set_property loc "" [get_cells [list  {puf2/sarray[0]/pdl_top/LUT6_inst_1}] -filter {((is_primitive==true && primitive_level!="INTERNAL")  && (loc!=""))}]
+set_property bel "" [get_cells [list  {puf2/sarray[0]/pdl_top/LUT6_inst_1}] -filter {((is_primitive==true && primitive_level!="INTERNAL")  && (bel!=""))}]
+set_property bel "" [get_cells [list  {puf2/sarray[0]/pdl_top/LUT6_inst_1}] -filter {((is_primitive==true && primitive_level!="INTERNAL")  && (bel!=""))}]
+place_cell {puf2/sarray[0]/pdl_top/LUT6_inst_0} SLICE_X6Y148/D6LUT
+place_cell {puf2/sarray[0]/pdl_top/LUT6_inst_0} SLICE_X6Y148/D6LUT
+set_property loc SLICE_X6Y147 [get_cells {puf2/sarray[0]/pdl_top/LUT6_inst_1}]
+set_property loc SLICE_X6Y147 [get_cells {puf2/sarray[0]/pdl_top/LUT6_inst_1}]
+set_property bel D6LUT [get_cells {puf2/sarray[0]/pdl_top/LUT6_inst_1}]
+set_property bel D6LUT [get_cells {puf2/sarray[0]/pdl_top/LUT6_inst_1}]
+endgroup
+startgroup
+set_property loc "" [get_cells [list  {puf2/sarray[0]/pdl_top/LUT6_inst_1}] -filter {((is_primitive==true && primitive_level!="INTERNAL")  && (loc!=""))}]
+set_property loc "" [get_cells [list  {puf2/sarray[0]/pdl_top/LUT6_inst_1}] -filter {((is_primitive==true && primitive_level!="INTERNAL")  && (loc!=""))}]
+set_property bel "" [get_cells [list  {puf2/sarray[0]/pdl_top/LUT6_inst_1}] -filter {((is_primitive==true && primitive_level!="INTERNAL")  && (bel!=""))}]
+set_property bel "" [get_cells [list  {puf2/sarray[0]/pdl_top/LUT6_inst_1}] -filter {((is_primitive==true && primitive_level!="INTERNAL")  && (bel!=""))}]
+place_cell {puf2/sarray[0]/pdl_top/LUT6_inst_0} SLICE_X6Y149/D6LUT
+place_cell {puf2/sarray[0]/pdl_top/LUT6_inst_0} SLICE_X6Y149/D6LUT
+set_property loc SLICE_X6Y148 [get_cells {puf2/sarray[0]/pdl_top/LUT6_inst_1}]
+set_property loc SLICE_X6Y148 [get_cells {puf2/sarray[0]/pdl_top/LUT6_inst_1}]
+set_property bel D6LUT [get_cells {puf2/sarray[0]/pdl_top/LUT6_inst_1}]
+set_property bel D6LUT [get_cells {puf2/sarray[0]/pdl_top/LUT6_inst_1}]
+endgroup
+startgroup
+set_property loc SLICE_X4Y149 [get_cells {puf2/sarray[0]/pdl_bottom/LUT6_inst_0}]
+set_property loc SLICE_X4Y149 [get_cells {puf2/sarray[0]/pdl_bottom/LUT6_inst_0}]
+set_property bel D6LUT [get_cells {puf2/sarray[0]/pdl_bottom/LUT6_inst_0}]
+set_property bel D6LUT [get_cells {puf2/sarray[0]/pdl_bottom/LUT6_inst_0}]
+endgroup
+startgroup
+set_property loc SLICE_X4Y148 [get_cells {puf2/sarray[0]/pdl_bottom/LUT6_inst_1}]
+set_property loc SLICE_X4Y148 [get_cells {puf2/sarray[0]/pdl_bottom/LUT6_inst_1}]
+set_property bel D6LUT [get_cells {puf2/sarray[0]/pdl_bottom/LUT6_inst_1}]
+set_property bel D6LUT [get_cells {puf2/sarray[0]/pdl_bottom/LUT6_inst_1}]
+endgroup
+save_design
+refresh_design
+Release 13.3 - ngc2edif O.76xd (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design pdl_test_bench.ngc ...
+WARNING:NetListWriters:298 - No output is written to pdl_test_bench.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file pdl_test_bench.edif ...
+ngc2edif: Total memory usage is 88156 kilobytes
+
+Parsing EDIF File [.\planAhead_run_2\PDL.data\cache\pdl_test_bench_ngc_854d43fa.edif]
+Finished Parsing EDIF File [.\planAhead_run_2\PDL.data\cache\pdl_test_bench_ngc_854d43fa.edif]
+INFO: [PlanAhead-430] Reading macro library C:/Xilinx/13.3/ISE_DS/PlanAhead\./parts/xilinx/virtex5/virtex5lx/hd_int_macros.edn
+Parsing EDIF File [C:/Xilinx/13.3/ISE_DS/PlanAhead\./parts/xilinx/virtex5/virtex5lx/hd_int_macros.edn]
+Finished Parsing EDIF File [C:/Xilinx/13.3/ISE_DS/PlanAhead\./parts/xilinx/virtex5/virtex5lx/hd_int_macros.edn]
+INFO: [Device-21] Reading bus macro file C:/Xilinx/13.3/ISE_DS/PlanAhead\./parts/xilinx/virtex5/pr_bus_macros.xmlLoading clock regions from C:/Xilinx/13.3/ISE_DS/PlanAhead\parts/xilinx/virtex5/virtex5lxt/xc5vlx110t/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/13.3/ISE_DS/PlanAhead\parts/xilinx/virtex5/virtex5lxt/xc5vlx110t/ClockBuffers.xml
+Loading package from C:/Xilinx/13.3/ISE_DS/PlanAhead\parts/xilinx/virtex5/virtex5lxt/xc5vlx110t/ff1136/Package.xml
+Loading io standards from C:/Xilinx/13.3/ISE_DS/PlanAhead\./parts/xilinx/virtex5/IOStandards.xml
+INFO: [Device-19] Loading pkg sso from C:/Xilinx/13.3/ISE_DS/PlanAhead\parts/xilinx/virtex5/virtex5lxt/xc5vlx110t/ff1136/SSORules.xml
+Loading list of drcs for the architecture : C:/Xilinx/13.3/ISE_DS/PlanAhead\./parts/xilinx/virtex5/drc.xml
+Parsing UCF File [E:\Dropbox\Works and collections\Elec\Rice\PDL\constraints\XUPV5system.ucf]
+INFO: [Designutils-22] PART constraint ignored, using PlanAhead selected device [E:\Dropbox\Works and collections\Elec\Rice\PDL\constraints\XUPV5system.ucf:5]
+Finished Parsing UCF File [E:\Dropbox\Works and collections\Elec\Rice\PDL\constraints\XUPV5system.ucf]
+refresh_design: Time (s): 17.137w.  Memory (MB): 870.086p 0.000g
+startgroup
+set_property loc SLICE_X5Y149 [get_cells c1<0>1]
+set_property loc SLICE_X5Y149 [get_cells c1<0>1]
+set_property bel A6LUT [get_cells c1<0>1]
+set_property bel A6LUT [get_cells c1<0>1]
+endgroup
+startgroup
+set_property loc SLICE_X4Y149 [get_cells sig_0]
+set_property loc SLICE_X4Y149 [get_cells sig_0]
+set_property bel DFF [get_cells sig_0]
+set_property bel DFF [get_cells sig_0]
+endgroup
+undo
+INFO: [Common-17] undo 'endgroup'
+INFO: [Common-17] undo 'set_property bel DFF [get_cells sig_0]'
+INFO: [Common-17] undo 'set_property loc SLICE_X4Y149 [get_cells sig_0]'
+INFO: [Common-17] undo 'startgroup'
+undo
+INFO: [Common-17] undo 'endgroup'
+INFO: [Common-17] undo 'set_property bel A6LUT [get_cells c1<0>1]'
+INFO: [Common-17] undo 'set_property loc SLICE_X5Y149 [get_cells c1<0>1]'
+INFO: [Common-17] undo 'startgroup'
+save_design -force
+refresh_design
+Release 13.3 - ngc2edif O.76xd (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design pdl_test_bench.ngc ...
+WARNING:NetListWriters:298 - No output is written to pdl_test_bench.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file pdl_test_bench.edif ...
+ngc2edif: Total memory usage is 87380 kilobytes
+
+Parsing EDIF File [.\planAhead_run_2\PDL.data\cache\pdl_test_bench_ngc_854d43fa.edif]
+Finished Parsing EDIF File [.\planAhead_run_2\PDL.data\cache\pdl_test_bench_ngc_854d43fa.edif]
+INFO: [PlanAhead-430] Reading macro library C:/Xilinx/13.3/ISE_DS/PlanAhead\./parts/xilinx/virtex5/virtex5lx/hd_int_macros.edn
+Parsing EDIF File [C:/Xilinx/13.3/ISE_DS/PlanAhead\./parts/xilinx/virtex5/virtex5lx/hd_int_macros.edn]
+Finished Parsing EDIF File [C:/Xilinx/13.3/ISE_DS/PlanAhead\./parts/xilinx/virtex5/virtex5lx/hd_int_macros.edn]
+INFO: [Device-21] Reading bus macro file C:/Xilinx/13.3/ISE_DS/PlanAhead\./parts/xilinx/virtex5/pr_bus_macros.xmlLoading clock regions from C:/Xilinx/13.3/ISE_DS/PlanAhead\parts/xilinx/virtex5/virtex5lxt/xc5vlx110t/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/13.3/ISE_DS/PlanAhead\parts/xilinx/virtex5/virtex5lxt/xc5vlx110t/ClockBuffers.xml
+Loading package from C:/Xilinx/13.3/ISE_DS/PlanAhead\parts/xilinx/virtex5/virtex5lxt/xc5vlx110t/ff1136/Package.xml
+Loading io standards from C:/Xilinx/13.3/ISE_DS/PlanAhead\./parts/xilinx/virtex5/IOStandards.xml
+INFO: [Device-19] Loading pkg sso from C:/Xilinx/13.3/ISE_DS/PlanAhead\parts/xilinx/virtex5/virtex5lxt/xc5vlx110t/ff1136/SSORules.xml
+Loading list of drcs for the architecture : C:/Xilinx/13.3/ISE_DS/PlanAhead\./parts/xilinx/virtex5/drc.xml
+Parsing UCF File [E:\Dropbox\Works and collections\Elec\Rice\PDL\constraints\XUPV5system.ucf]
+INFO: [Designutils-22] PART constraint ignored, using PlanAhead selected device [E:\Dropbox\Works and collections\Elec\Rice\PDL\constraints\XUPV5system.ucf:5]
+Finished Parsing UCF File [E:\Dropbox\Works and collections\Elec\Rice\PDL\constraints\XUPV5system.ucf]
+refresh_design: Time (s): 11.532w.  Memory (MB): 870.086p 0.000g
+refresh_design
+Release 13.3 - ngc2edif O.76xd (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design pdl_test_bench.ngc ...
+WARNING:NetListWriters:298 - No output is written to pdl_test_bench.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file pdl_test_bench.edif ...
+ngc2edif: Total memory usage is 100252 kilobytes
+
+Parsing EDIF File [.\planAhead_run_2\PDL.data\cache\pdl_test_bench_ngc_854d43fa.edif]
+Finished Parsing EDIF File [.\planAhead_run_2\PDL.data\cache\pdl_test_bench_ngc_854d43fa.edif]
+INFO: [PlanAhead-430] Reading macro library C:/Xilinx/13.3/ISE_DS/PlanAhead\./parts/xilinx/virtex5/virtex5lx/hd_int_macros.edn
+Parsing EDIF File [C:/Xilinx/13.3/ISE_DS/PlanAhead\./parts/xilinx/virtex5/virtex5lx/hd_int_macros.edn]
+Finished Parsing EDIF File [C:/Xilinx/13.3/ISE_DS/PlanAhead\./parts/xilinx/virtex5/virtex5lx/hd_int_macros.edn]
+INFO: [Device-21] Reading bus macro file C:/Xilinx/13.3/ISE_DS/PlanAhead\./parts/xilinx/virtex5/pr_bus_macros.xmlLoading clock regions from C:/Xilinx/13.3/ISE_DS/PlanAhead\parts/xilinx/virtex5/virtex5lxt/xc5vlx110t/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/13.3/ISE_DS/PlanAhead\parts/xilinx/virtex5/virtex5lxt/xc5vlx110t/ClockBuffers.xml
+Loading package from C:/Xilinx/13.3/ISE_DS/PlanAhead\parts/xilinx/virtex5/virtex5lxt/xc5vlx110t/ff1136/Package.xml
+Loading io standards from C:/Xilinx/13.3/ISE_DS/PlanAhead\./parts/xilinx/virtex5/IOStandards.xml
+INFO: [Device-19] Loading pkg sso from C:/Xilinx/13.3/ISE_DS/PlanAhead\parts/xilinx/virtex5/virtex5lxt/xc5vlx110t/ff1136/SSORules.xml
+Loading list of drcs for the architecture : C:/Xilinx/13.3/ISE_DS/PlanAhead\./parts/xilinx/virtex5/drc.xml
+Parsing UCF File [E:\Dropbox\Works and collections\Elec\Rice\PDL\constraints\XUPV5system.ucf]
+INFO: [Designutils-22] PART constraint ignored, using PlanAhead selected device [E:\Dropbox\Works and collections\Elec\Rice\PDL\constraints\XUPV5system.ucf:5]
+Finished Parsing UCF File [E:\Dropbox\Works and collections\Elec\Rice\PDL\constraints\XUPV5system.ucf]
+refresh_design: Time (s): 35.829w.  Memory (MB): 870.086p 0.000g
+refresh_design
+Parsing UCF File [E:\Dropbox\Works and collections\Elec\Rice\PDL\constraints\XUPV5system.ucf]
+INFO: [Designutils-22] PART constraint ignored, using PlanAhead selected device [E:\Dropbox\Works and collections\Elec\Rice\PDL\constraints\XUPV5system.ucf:5]
+Finished Parsing UCF File [E:\Dropbox\Works and collections\Elec\Rice\PDL\constraints\XUPV5system.ucf]
+exit
+stop_gui
+INFO: [PlanAhead-261] Exiting PlanAhead...
+INFO: [Common-83] Releasing license: PlanAhead

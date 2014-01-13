@@ -23,11 +23,15 @@
 // switches on FPGA and displays output on LED. However, a better use case version
 // can be found at https://github.com/praveendath92/dual_core_PUF_with_PDL_and_ethernet_SW
 //
+// Only one instance is being tested currently. You may include others with proper pin connections
+//
 //////////////////////////////////////////////////////////////////////////////////
 
+
+//////////// DONT FORGET TO WRITE ABOUT EQUIVALENT REGISTER REMOVAL 
+
 module pdl_test_bench #(
-    parameter PDL_SWITCH_LENGTH = 63, // Number of PDL based switchs in a PUF. Actual value is param_value + 1
-    parameter TESTING_PUF = 1         // Which PUF you want to debug. That will be connected to LED output. Alternatively, Chipscope pro modules may be used.
+    parameter PDL_SWITCH_LENGTH = 63 // Number of PDL based switchs in a PUF. Actual value is param_value + 1
 )(
     input reset,               // For system reset
     input challenge_top,       // Configuration bit for top pdl line
@@ -44,72 +48,51 @@ wire [63:0] CHALLENGE_DOWN;    // An array of bits filled with the bit value of 
 (* KEEP = "TRUE" *)
 reg [15:0] sig;                 // The signal value will be stored in 15 local registers close to the respective PUF lines of issuing trigger.
 
-wire [15:0] c1;                 // for connecting sig with pdl line when trigger is one or else ground.
-wire [15:0] c2;                 // for connecting sig with pdl line when trigger is one or else ground.
+(* KEEP = "TRUE" *)wire [15:0] c1;                 // for connecting sig with pdl line when trigger is one or else ground.
+(* KEEP = "TRUE" *)wire [15:0] c2;                 // for connecting sig with pdl line when trigger is one or else ground.
 
 // Build 64-bit challenges per pdl line. In this test bench we will be using same value for all bits in a line.
-assign CHALLENGE_UP = 64b'(challenge_top);
-assign CHALLENGE_DOWN = 64b'(challenge_bottom);
+assign CHALLENGE_UP = (challenge_top==1)?64'hffff:64'h0000;
+assign CHALLENGE_DOWN = (challenge_bottom==1)?64'hffff:64'h0000;
 
 // Testing over LED
-response_bit = RESPONSE[TESTING_PUF];
+assign response_bit = RESPONSE[0]; // Only one instance is being used.
 
 always @ (posedge trigger) begin
-	sig <= 15b'(signal);
+	sig <= (signal==1)?16'hF:16'h0;
 end
 
-//Commented logic for future improvement
+//Make two lines from same signal for racing along pdl lines.
 (* KEEP="TRUE" *)
 assign c1 = (trigger==1)?sig:0;
 assign c2 = (trigger==1)?sig:0;
 
 (* KEEP_HIERARCHY="TRUE" *)
-PDL_PUF puf1 (.s_tp(CHALLENGE_UP[63:0]), .s_btm(CHALLENGE_DOWN[63:0]), .s1(c1[0]), .s2(c2[0]), .reset(reset), .o(RESPONSE[0]));
-PDL_PUF puf2 (.s_tp(CHALLENGE_UP[63:0]), .s_btm(CHALLENGE_DOWN[63:0]), .s1(c1[1]), .s2(c2[1]), .reset(reset), .o(RESPONSE[1]));
-PDL_PUF puf3 (.s_tp(CHALLENGE_UP[63:0]), .s_btm(CHALLENGE_DOWN[63:0]), .s1(c1[2]), .s2(c2[2]), .reset(reset), .o(RESPONSE[2]));
-PDL_PUF puf4 (.s_tp(CHALLENGE_UP[63:0]), .s_btm(CHALLENGE_DOWN[63:0]), .s1(c1[3]), .s2(c2[3]), .reset(reset), .o(RESPONSE[3]));
-PDL_PUF puf5 (.s_tp(CHALLENGE_UP[63:0]), .s_btm(CHALLENGE_DOWN[63:0]), .s1(c1[4]), .s2(c2[4]), .reset(reset), .o(RESPONSE[4]));
-PDL_PUF puf6 (.s_tp(CHALLENGE_UP[63:0]), .s_btm(CHALLENGE_DOWN[63:0]), .s1(c1[5]), .s2(c2[5]), .reset(reset), .o(RESPONSE[5]));
-PDL_PUF puf7 (.s_tp(CHALLENGE_UP[63:0]), .s_btm(CHALLENGE_DOWN[63:0]), .s1(c1[6]), .s2(c2[6]), .reset(reset), .o(RESPONSE[6]));
-PDL_PUF puf8 (.s_tp(CHALLENGE_UP[63:0]), .s_btm(CHALLENGE_DOWN[63:0]), .s1(c1[7]), .s2(c2[7]), .reset(reset), .o(RESPONSE[7]));
-PDL_PUF puf9 (.s_tp(CHALLENGE_UP[63:0]), .s_btm(CHALLENGE_DOWN[63:0]), .s1(c1[8]), .s2(c2[8]), .reset(reset), .o(RESPONSE[8]));
-PDL_PUF puf10 (.s_tp(CHALLENGE_UP[63:0]), .s_btm(CHALLENGE_DOWN[63:0]), .s1(c1[9]), .s2(c2[9]), .reset(reset), .o(RESPONSE[9]));
-PDL_PUF puf11 (.s_tp(CHALLENGE_UP[63:0]), .s_btm(CHALLENGE_DOWN[63:0]), .s1(c1[10]), .s2(c2[10]), .reset(reset), .o(RESPONSE[10]));
-PDL_PUF puf12 (.s_tp(CHALLENGE_UP[63:0]), .s_btm(CHALLENGE_DOWN[63:0]), .s1(c1[11]), .s2(c2[11]), .reset(reset), .o(RESPONSE[11]));
-PDL_PUF puf13 (.s_tp(CHALLENGE_UP[63:0]), .s_btm(CHALLENGE_DOWN[63:0]), .s1(c1[12]), .s2(c2[12]), .reset(reset), .o(RESPONSE[12]));
-PDL_PUF puf14 (.s_tp(CHALLENGE_UP[63:0]), .s_btm(CHALLENGE_DOWN[63:0]), .s1(c1[13]), .s2(c2[13]), .reset(reset), .o(RESPONSE[13]));
-PDL_PUF puf15 (.s_tp(CHALLENGE_UP[63:0]), .s_btm(CHALLENGE_DOWN[63:0]), .s1(c1[14]), .s2(c2[14]), .reset(reset), .o(RESPONSE[14]));
-PDL_PUF puf16 (.s_tp(CHALLENGE_UP[63:0]), .s_btm(CHALLENGE_DOWN[63:0]), .s1(c1[15]), .s2(c2[15]), .reset(reset), .o(RESPONSE[15]));
+pdl_puf puf1 (
+	.s_tp(CHALLENGE_UP[63:0]),
+	.s_btm(CHALLENGE_DOWN[63:0]),
+	.s1(c1[0]),
+	.s2(c2[0]),
+	.reset(reset),
+	.o(RESPONSE[0])
+	);
 
-
-//(* KEEP_HIERARCHY="TRUE" *)
-//icon my_icon_core (
-//    .CONTROL0(CONTROL) // INOUT BUS [35:0]
-//);
-
-//(* KEEP_HIERARCHY="TRUE" *)
-//vio my_vio_core (
-//    .CONTROL(CONTROL), // INOUT BUS [35:0]
-//    .RESPONSE(RESPONSE), // IN BUS [1:0]
-//    .CHALLENGE(CHALLENGE) // OUT BUS [65:0]
-//);
-
+// Only one instance of the PUF is being using to demonstrate. The rest are just to show placement and are not being tested.
+pdl_puf puf2 (.s_tp(CHALLENGE_UP[63:0]), .s_btm(CHALLENGE_DOWN[63:0]), .s1(c1[1]), .s2(c2[1]), .reset(reset), .o(RESPONSE[1]));
+pdl_puf puf3 (.s_tp(CHALLENGE_UP[63:0]), .s_btm(CHALLENGE_DOWN[63:0]), .s1(c1[2]), .s2(c2[2]), .reset(reset), .o(RESPONSE[2]));
+pdl_puf puf4 (.s_tp(CHALLENGE_UP[63:0]), .s_btm(CHALLENGE_DOWN[63:0]), .s1(c1[3]), .s2(c2[3]), .reset(reset), .o(RESPONSE[3]));
+pdl_puf puf5 (.s_tp(CHALLENGE_UP[63:0]), .s_btm(CHALLENGE_DOWN[63:0]), .s1(c1[4]), .s2(c2[4]), .reset(reset), .o(RESPONSE[4]));
+pdl_puf puf6 (.s_tp(CHALLENGE_UP[63:0]), .s_btm(CHALLENGE_DOWN[63:0]), .s1(c1[5]), .s2(c2[5]), .reset(reset), .o(RESPONSE[5]));
+pdl_puf puf7 (.s_tp(CHALLENGE_UP[63:0]), .s_btm(CHALLENGE_DOWN[63:0]), .s1(c1[6]), .s2(c2[6]), .reset(reset), .o(RESPONSE[6]));
+pdl_puf puf8 (.s_tp(CHALLENGE_UP[63:0]), .s_btm(CHALLENGE_DOWN[63:0]), .s1(c1[7]), .s2(c2[7]), .reset(reset), .o(RESPONSE[7]));
+pdl_puf puf9 (.s_tp(CHALLENGE_UP[63:0]), .s_btm(CHALLENGE_DOWN[63:0]), .s1(c1[8]), .s2(c2[8]), .reset(reset), .o(RESPONSE[8]));
+pdl_puf puf10 (.s_tp(CHALLENGE_UP[63:0]), .s_btm(CHALLENGE_DOWN[63:0]), .s1(c1[9]), .s2(c2[9]), .reset(reset), .o(RESPONSE[9]));
+pdl_puf puf11 (.s_tp(CHALLENGE_UP[63:0]), .s_btm(CHALLENGE_DOWN[63:0]), .s1(c1[10]), .s2(c2[10]), .reset(reset), .o(RESPONSE[10]));
+pdl_puf puf12 (.s_tp(CHALLENGE_UP[63:0]), .s_btm(CHALLENGE_DOWN[63:0]), .s1(c1[11]), .s2(c2[11]), .reset(reset), .o(RESPONSE[11]));
+pdl_puf puf13 (.s_tp(CHALLENGE_UP[63:0]), .s_btm(CHALLENGE_DOWN[63:0]), .s1(c1[12]), .s2(c2[12]), .reset(reset), .o(RESPONSE[12]));
+pdl_puf puf14 (.s_tp(CHALLENGE_UP[63:0]), .s_btm(CHALLENGE_DOWN[63:0]), .s1(c1[13]), .s2(c2[13]), .reset(reset), .o(RESPONSE[13]));
+pdl_puf puf15 (.s_tp(CHALLENGE_UP[63:0]), .s_btm(CHALLENGE_DOWN[63:0]), .s1(c1[14]), .s2(c2[14]), .reset(reset), .o(RESPONSE[14]));
+pdl_puf puf16 (.s_tp(CHALLENGE_UP[63:0]), .s_btm(CHALLENGE_DOWN[63:0]), .s1(c1[15]), .s2(c2[15]), .reset(reset), .o(RESPONSE[15]));
 
 endmodule
-
-//module icon (
-//CONTROL0
-//);
-//  inout [35 : 0] CONTROL0;
-//endmodule
-//
-//
-//module vio (
-//CONTROL, CHALLENGE, RESPONSE
-//);
-//  inout [35 : 0] CONTROL;
-//  output [129 : 0] CHALLENGE;
-//  input [15 : 0] RESPONSE;
-//
-//endmodule
 

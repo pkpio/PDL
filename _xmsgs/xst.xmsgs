@@ -5,19 +5,70 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">sum</arg>&gt; in unit &lt;<arg fmt="%s" index="2">mapping</arg>&gt; has a constant value of <arg fmt="%s" index="3">0000000000000000</arg> during circuit operation. The register is replaced by logic.
+<msg type="warning" file="Xst" num="852" delta="new" >&quot;<arg fmt="%s" index="1">source/pdl_test_bench.v</arg>&quot; line <arg fmt="%d" index="2">73</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">in</arg>&apos; of instance &apos;<arg fmt="%s" index="4">puf1</arg>&apos; is tied to GND.
 </msg>
 
-<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">sum</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="852" delta="new" >&quot;<arg fmt="%s" index="1">source/pdl_test_bench.v</arg>&quot; line <arg fmt="%d" index="2">83</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">in</arg>&apos; of instance &apos;<arg fmt="%s" index="4">puf2</arg>&apos; is tied to GND.
 </msg>
 
-<msg type="warning" file="Xst" num="1872" delta="new" >Variable &lt;<arg fmt="%s" index="1">ind</arg>&gt; is used but never assigned.
+<msg type="warning" file="Xst" num="852" delta="new" >&quot;<arg fmt="%s" index="1">source/pdl_test_bench.v</arg>&quot; line <arg fmt="%d" index="2">84</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">in</arg>&apos; of instance &apos;<arg fmt="%s" index="4">puf3</arg>&apos; is tied to GND.
 </msg>
 
-<msg type="info" file="Xst" num="2774" delta="new" >HDL ADVISOR - <arg fmt="%s" index="1">KEEP</arg> <arg fmt="%s" index="2">property</arg> attached to signal <arg fmt="%s" index="3">a1</arg> may hinder XST clustering optimizations.
+<msg type="warning" file="Xst" num="852" delta="new" >&quot;<arg fmt="%s" index="1">source/pdl_test_bench.v</arg>&quot; line <arg fmt="%d" index="2">85</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">in</arg>&apos; of instance &apos;<arg fmt="%s" index="4">puf4</arg>&apos; is tied to GND.
 </msg>
 
-<msg type="info" file="Xst" num="2169" delta="new" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+<msg type="warning" file="Xst" num="852" delta="new" >&quot;<arg fmt="%s" index="1">source/pdl_test_bench.v</arg>&quot; line <arg fmt="%d" index="2">86</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">in</arg>&apos; of instance &apos;<arg fmt="%s" index="4">puf5</arg>&apos; is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="852" delta="new" >&quot;<arg fmt="%s" index="1">source/pdl_test_bench.v</arg>&quot; line <arg fmt="%d" index="2">87</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">in</arg>&apos; of instance &apos;<arg fmt="%s" index="4">puf6</arg>&apos; is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="852" delta="new" >&quot;<arg fmt="%s" index="1">source/pdl_test_bench.v</arg>&quot; line <arg fmt="%d" index="2">88</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">in</arg>&apos; of instance &apos;<arg fmt="%s" index="4">puf7</arg>&apos; is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="852" delta="new" >&quot;<arg fmt="%s" index="1">source/pdl_test_bench.v</arg>&quot; line <arg fmt="%d" index="2">89</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">in</arg>&apos; of instance &apos;<arg fmt="%s" index="4">puf8</arg>&apos; is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="852" delta="new" >&quot;<arg fmt="%s" index="1">source/pdl_test_bench.v</arg>&quot; line <arg fmt="%d" index="2">90</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">in</arg>&apos; of instance &apos;<arg fmt="%s" index="4">puf9</arg>&apos; is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="852" delta="new" >&quot;<arg fmt="%s" index="1">source/pdl_test_bench.v</arg>&quot; line <arg fmt="%d" index="2">91</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">in</arg>&apos; of instance &apos;<arg fmt="%s" index="4">puf10</arg>&apos; is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="852" delta="new" >&quot;<arg fmt="%s" index="1">source/pdl_test_bench.v</arg>&quot; line <arg fmt="%d" index="2">92</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">in</arg>&apos; of instance &apos;<arg fmt="%s" index="4">puf11</arg>&apos; is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="852" delta="new" >&quot;<arg fmt="%s" index="1">source/pdl_test_bench.v</arg>&quot; line <arg fmt="%d" index="2">93</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">in</arg>&apos; of instance &apos;<arg fmt="%s" index="4">puf12</arg>&apos; is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="852" delta="new" >&quot;<arg fmt="%s" index="1">source/pdl_test_bench.v</arg>&quot; line <arg fmt="%d" index="2">94</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">in</arg>&apos; of instance &apos;<arg fmt="%s" index="4">puf13</arg>&apos; is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="852" delta="new" >&quot;<arg fmt="%s" index="1">source/pdl_test_bench.v</arg>&quot; line <arg fmt="%d" index="2">95</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">in</arg>&apos; of instance &apos;<arg fmt="%s" index="4">puf14</arg>&apos; is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="852" delta="new" >&quot;<arg fmt="%s" index="1">source/pdl_test_bench.v</arg>&quot; line <arg fmt="%d" index="2">96</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">in</arg>&apos; of instance &apos;<arg fmt="%s" index="4">puf15</arg>&apos; is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="852" delta="new" >&quot;<arg fmt="%s" index="1">source/pdl_test_bench.v</arg>&quot; line <arg fmt="%d" index="2">97</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">in</arg>&apos; of instance &apos;<arg fmt="%s" index="4">puf16</arg>&apos; is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">in</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">in</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">RESPONSE&lt;15:1&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">sig_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">pdl_test_bench</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">11 FFs/Latches</arg> : <arg fmt="%s" index="4">&lt;sig_5&gt; &lt;sig_6&gt; &lt;sig_7&gt; &lt;sig_8&gt; &lt;sig_9&gt; &lt;sig_10&gt; &lt;sig_11&gt; &lt;sig_12&gt; &lt;sig_13&gt; &lt;sig_14&gt; &lt;sig_15&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">sig_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">pdl_test_bench</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg> : <arg fmt="%s" index="4">&lt;sig_1&gt; &lt;sig_2&gt; &lt;sig_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="old" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
 </msg>
 
 </messages>
