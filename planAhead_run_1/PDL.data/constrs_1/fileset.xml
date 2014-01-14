@@ -5,16 +5,6 @@
 			Type="Constrs"
 			RelSrcDir="$PSRCDIR/constrs_1">
 		<Filter Type="Constrs"/>
-		<File Path="$PPRDIR/../constraints/pdl_constraints.ucf">
-			<FileInfo>
-				<Attr Name="UsedInSynthesis"
-						Val="1"/>
-				<Attr Name="UsedInImplementation"
-						Val="1"/>
-				<Attr Name="UsedInSimulation"
-						Val="1"/>
-			</FileInfo>
-		</File>
 		<File Path="$PPRDIR/../constraints/XUPV5system.ucf">
 			<FileInfo>
 				<Attr Name="UsedInSynthesis"
@@ -25,18 +15,8 @@
 						Val="1"/>
 			</FileInfo>
 		</File>
-		<File Path="$PDATADIR/constrs_1/designprops.xml">
-			<FileInfo SFType="CompatPartsDb">
-				<Attr Name="UsedInSynthesis"
-						Val="1"/>
-				<Attr Name="UsedInImplementation"
-						Val="1"/>
-				<Attr Name="UsedInSimulation"
-						Val="1"/>
-			</FileInfo>
-		</File>
-		<File Path="$PDATADIR/constrs_1/usercols.xml">
-			<FileInfo SFType="UserColsDb">
+		<File Path="$PPRDIR/../constraints/pdl_constraints.ucf">
+			<FileInfo>
 				<Attr Name="UsedInSynthesis"
 						Val="1"/>
 				<Attr Name="UsedInImplementation"
@@ -47,7 +27,7 @@
 		</File>
 		<Config>
 			<Option Name="TargetConstrsFile"
-					Val="$PPRDIR/../constraints/pdl_constraints.ucf"/>
+					Val="$PPRDIR/../constraints/XUPV5system.ucf"/>
 			<Option Name="ConstrsType"
 					Val="UCF"/>
 		</Config>

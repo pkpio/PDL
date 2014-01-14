@@ -17,12 +17,12 @@ Parsing template File [C:/Xilinx/13.3/ISE_DS/ISE\data\projnav\templates\vhdl.xml
 Finished parsing template File [C:/Xilinx/13.3/ISE_DS/ISE\data\projnav\templates\vhdl.xml].
 Parsing template File [C:/Xilinx/13.3/ISE_DS/ISE\data\projnav\templates\ucf.xml].
 Finished parsing template File [C:/Xilinx/13.3/ISE_DS/ISE\data\projnav\templates\ucf.xml].
-create_project: Time (s): 5.601w.  Memory (MB): 524.777p 13.945g
+create_project: Time (s): 9.184w.  Memory (MB): 528.762p 7.797g
 # set_property design_mode GateLvl [get_property srcset [current_run -impl]]
 # set_property edif_top_file "E:/Dropbox/Works and collections/Elec/Rice/PDL/pdl_test_bench.ngc" [ get_property srcset [ current_run ] ]
 # add_files -norecurse { {E:/Dropbox/Works and collections/Elec/Rice/PDL} }
-# set_property target_constrs_file "E:/Dropbox/Works and collections/Elec/Rice/PDL/constraints/pdl_constraints.ucf" [current_fileset -constrset]
-Adding file 'E:\Dropbox\Works and collections\Elec\Rice\PDL\constraints\pdl_constraints.ucf' to fileset 'constrs_1'
+# set_property target_constrs_file "E:/Dropbox/Works and collections/Elec/Rice/PDL/constraints/XUPV5system.ucf" [current_fileset -constrset]
+Adding file 'E:\Dropbox\Works and collections\Elec\Rice\PDL\constraints\XUPV5system.ucf' to fileset 'constrs_1'
 # add_files [list {E:/Dropbox/Works and collections/Elec/Rice/PDL/constraints/XUPV5system.ucf}] -fileset [get_property constrset [current_run]]
 # add_files [list {E:/Dropbox/Works and collections/Elec/Rice/PDL/constraints/pdl_constraints.ucf}] -fileset [get_property constrset [current_run]]
 # open_netlist_design
@@ -39,7 +39,7 @@ Processing design ...
    Preping design's macros ...
   finished :Prep
 Writing EDIF netlist file pdl_test_bench.edif ...
-ngc2edif: Total memory usage is 100244 kilobytes
+ngc2edif: Total memory usage is 87964 kilobytes
 
 Parsing EDIF File [.\planAhead_run_1\PDL.data\cache\pdl_test_bench_ngc_854d43fa.edif]
 Finished Parsing EDIF File [.\planAhead_run_1\PDL.data\cache\pdl_test_bench_ngc_854d43fa.edif]
@@ -52,359 +52,14 @@ Loading package from C:/Xilinx/13.3/ISE_DS/PlanAhead\parts/xilinx/virtex5/virtex
 Loading io standards from C:/Xilinx/13.3/ISE_DS/PlanAhead\./parts/xilinx/virtex5/IOStandards.xml
 INFO: [Device-19] Loading pkg sso from C:/Xilinx/13.3/ISE_DS/PlanAhead\parts/xilinx/virtex5/virtex5lxt/xc5vlx110t/ff1136/SSORules.xml
 Loading list of drcs for the architecture : C:/Xilinx/13.3/ISE_DS/PlanAhead\./parts/xilinx/virtex5/drc.xml
-Parsing UCF File [E:\Dropbox\Works and collections\Elec\Rice\PDL\constraints\pdl_constraints.ucf]
-INFO: [Designutils-22] PART constraint ignored, using PlanAhead selected device [E:\Dropbox\Works and collections\Elec\Rice\PDL\constraints\pdl_constraints.ucf:5]
-Finished Parsing UCF File [E:\Dropbox\Works and collections\Elec\Rice\PDL\constraints\pdl_constraints.ucf]
 Parsing UCF File [E:\Dropbox\Works and collections\Elec\Rice\PDL\constraints\XUPV5system.ucf]
 INFO: [Designutils-22] PART constraint ignored, using PlanAhead selected device [E:\Dropbox\Works and collections\Elec\Rice\PDL\constraints\XUPV5system.ucf:5]
 Finished Parsing UCF File [E:\Dropbox\Works and collections\Elec\Rice\PDL\constraints\XUPV5system.ucf]
+Parsing UCF File [E:\Dropbox\Works and collections\Elec\Rice\PDL\constraints\pdl_constraints.ucf]
+INFO: [Designutils-22] PART constraint ignored, using PlanAhead selected device [E:\Dropbox\Works and collections\Elec\Rice\PDL\constraints\pdl_constraints.ucf:5]
+Finished Parsing UCF File [E:\Dropbox\Works and collections\Elec\Rice\PDL\constraints\pdl_constraints.ucf]
 INFO: [PlanAhead-566] Unisim Transformation Summary:
-No Unisim elements were transformed.open_netlist_design: Time (s): 25.002w.  Memory (MB): 750.070p 223.625g
-refresh_design
-Parsing UCF File [E:\Dropbox\Works and collections\Elec\Rice\PDL\constraints\pdl_constraints.ucf]
-INFO: [Designutils-22] PART constraint ignored, using PlanAhead selected device [E:\Dropbox\Works and collections\Elec\Rice\PDL\constraints\pdl_constraints.ucf:5]
-Finished Parsing UCF File [E:\Dropbox\Works and collections\Elec\Rice\PDL\constraints\pdl_constraints.ucf]
-Parsing UCF File [E:\Dropbox\Works and collections\Elec\Rice\PDL\constraints\XUPV5system.ucf]
-INFO: [Designutils-22] PART constraint ignored, using PlanAhead selected device [E:\Dropbox\Works and collections\Elec\Rice\PDL\constraints\XUPV5system.ucf:5]
-Finished Parsing UCF File [E:\Dropbox\Works and collections\Elec\Rice\PDL\constraints\XUPV5system.ucf]
-refresh_design: Time (s): 5.578w.  Memory (MB): 798.730p 1.203g
-startgroup
-set_property loc SLICE_X5Y149 [get_cells c1<0>1]
-set_property loc SLICE_X5Y149 [get_cells c1<0>1]
-set_property bel D6LUT [get_cells c1<0>1]
-set_property bel D6LUT [get_cells c1<0>1]
-endgroup
-startgroup
-set_property loc SLICE_X7Y149 [get_cells c2<0>1]
-set_property loc SLICE_X7Y149 [get_cells c2<0>1]
-set_property bel D6LUT [get_cells c2<0>1]
-set_property bel D6LUT [get_cells c2<0>1]
-endgroup
-startgroup
-set_property loc SLICE_X9Y149 [get_cells c1<1>1]
-set_property loc SLICE_X9Y149 [get_cells c1<1>1]
-set_property bel D6LUT [get_cells c1<1>1]
-set_property bel D6LUT [get_cells c1<1>1]
-endgroup
-startgroup
-set_property loc SLICE_X11Y149 [get_cells c2<1>1]
-set_property loc SLICE_X11Y149 [get_cells c2<1>1]
-set_property bel D6LUT [get_cells c2<1>1]
-set_property bel D6LUT [get_cells c2<1>1]
-endgroup
-startgroup
-set_property loc SLICE_X13Y149 [get_cells c1<2>1]
-set_property loc SLICE_X13Y149 [get_cells c1<2>1]
-set_property bel D6LUT [get_cells c1<2>1]
-set_property bel D6LUT [get_cells c1<2>1]
-endgroup
-startgroup
-set_property loc SLICE_X15Y149 [get_cells c2<2>1]
-set_property loc SLICE_X15Y149 [get_cells c2<2>1]
-set_property bel D6LUT [get_cells c2<2>1]
-set_property bel D6LUT [get_cells c2<2>1]
-endgroup
-startgroup
-place_cell c2<2>1 SLICE_X15Y149/D5LUT
-place_cell c2<2>1 SLICE_X15Y149/D5LUT
-endgroup
-undo
-INFO: [Common-17] undo 'endgroup'
-INFO: [Common-17] undo 'place_cell c2<2>1 SLICE_X15Y149/D5LUT'
-INFO: [Common-17] undo 'startgroup'
-startgroup
-set_property loc SLICE_X17Y149 [get_cells c1<3>1]
-set_property loc SLICE_X17Y149 [get_cells c1<3>1]
-set_property bel D6LUT [get_cells c1<3>1]
-set_property bel D6LUT [get_cells c1<3>1]
-endgroup
-startgroup
-set_property loc SLICE_X19Y149 [get_cells c2<3>1]
-set_property loc SLICE_X19Y149 [get_cells c2<3>1]
-set_property bel D6LUT [get_cells c2<3>1]
-set_property bel D6LUT [get_cells c2<3>1]
-endgroup
-startgroup
-set_property loc SLICE_X21Y149 [get_cells c1<4>1]
-set_property loc SLICE_X21Y149 [get_cells c1<4>1]
-set_property bel D6LUT [get_cells c1<4>1]
-set_property bel D6LUT [get_cells c1<4>1]
-endgroup
-startgroup
-set_property loc SLICE_X23Y149 [get_cells c2<4>1]
-set_property loc SLICE_X23Y149 [get_cells c2<4>1]
-set_property bel D6LUT [get_cells c2<4>1]
-set_property bel D6LUT [get_cells c2<4>1]
-endgroup
-startgroup
-set_property loc SLICE_X25Y149 [get_cells c1<5>1]
-set_property loc SLICE_X25Y149 [get_cells c1<5>1]
-set_property bel D6LUT [get_cells c1<5>1]
-set_property bel D6LUT [get_cells c1<5>1]
-endgroup
-startgroup
-set_property loc SLICE_X27Y149 [get_cells c2<5>1]
-set_property loc SLICE_X27Y149 [get_cells c2<5>1]
-set_property bel D6LUT [get_cells c2<5>1]
-set_property bel D6LUT [get_cells c2<5>1]
-endgroup
-startgroup
-place_cell c1<1>1 SLICE_X9Y149/A6LUT
-place_cell c1<1>1 SLICE_X9Y149/A6LUT
-endgroup
-undo
-INFO: [Common-17] undo 'endgroup'
-INFO: [Common-17] undo 'place_cell c1<1>1 SLICE_X9Y149/A6LUT'
-INFO: [Common-17] undo 'startgroup'
-startgroup
-set_property loc SLICE_X8Y149 [get_cells sig_0]
-set_property loc SLICE_X8Y149 [get_cells sig_0]
-set_property bel DFF [get_cells sig_0]
-set_property bel DFF [get_cells sig_0]
-endgroup
-startgroup
-place_cell c1<1>1 SLICE_X9Y149/D5LUT
-place_cell c1<1>1 SLICE_X9Y149/D5LUT
-endgroup
-undo
-INFO: [Common-17] undo 'endgroup'
-INFO: [Common-17] undo 'place_cell c1<1>1 SLICE_X9Y149/D5LUT'
-INFO: [Common-17] undo 'startgroup'
-startgroup 
-startgroup 
-set_property loc "" [get_cells [list  sig_0] -filter {((is_primitive==true && primitive_level!="INTERNAL")  && (loc!=""))}]
-set_property loc "" [get_cells [list  sig_0] -filter {((is_primitive==true && primitive_level!="INTERNAL")  && (loc!=""))}]
-set_property bel "" [get_cells [list  sig_0] -filter {((is_primitive==true && primitive_level!="INTERNAL")  && (bel!=""))}]
-set_property bel "" [get_cells [list  sig_0] -filter {((is_primitive==true && primitive_level!="INTERNAL")  && (bel!=""))}]
-endgroup
-endgroup
-startgroup
-set_property loc SLICE_X5Y150 [get_cells sig_0]
-set_property loc SLICE_X5Y150 [get_cells sig_0]
-set_property bel AFF [get_cells sig_0]
-set_property bel AFF [get_cells sig_0]
-endgroup
-startgroup
-set_property loc SLICE_X9Y150 [get_cells sig_1]
-set_property loc SLICE_X9Y150 [get_cells sig_1]
-set_property bel AFF [get_cells sig_1]
-set_property bel AFF [get_cells sig_1]
-endgroup
-startgroup
-set_property loc SLICE_X13Y150 [get_cells sig_2]
-set_property loc SLICE_X13Y150 [get_cells sig_2]
-set_property bel AFF [get_cells sig_2]
-set_property bel AFF [get_cells sig_2]
-endgroup
-startgroup
-set_property loc SLICE_X17Y150 [get_cells sig_3]
-set_property loc SLICE_X17Y150 [get_cells sig_3]
-set_property bel AFF [get_cells sig_3]
-set_property bel AFF [get_cells sig_3]
-endgroup
-startgroup
-set_property loc SLICE_X21Y150 [get_cells sig_4]
-set_property loc SLICE_X21Y150 [get_cells sig_4]
-set_property bel AFF [get_cells sig_4]
-set_property bel AFF [get_cells sig_4]
-endgroup
-startgroup
-set_property loc SLICE_X25Y150 [get_cells sig_5]
-set_property loc SLICE_X25Y150 [get_cells sig_5]
-set_property bel AFF [get_cells sig_5]
-set_property bel AFF [get_cells sig_5]
-endgroup
-startgroup
-set_property loc SLICE_X29Y149 [get_cells c1<6>1]
-set_property loc SLICE_X29Y149 [get_cells c1<6>1]
-set_property bel D6LUT [get_cells c1<6>1]
-set_property bel D6LUT [get_cells c1<6>1]
-endgroup
-startgroup
-set_property loc SLICE_X31Y149 [get_cells c2<6>1]
-set_property loc SLICE_X31Y149 [get_cells c2<6>1]
-set_property bel D6LUT [get_cells c2<6>1]
-set_property bel D6LUT [get_cells c2<6>1]
-endgroup
-startgroup
-set_property loc SLICE_X35Y149 [get_cells c2<7>1]
-set_property loc SLICE_X35Y149 [get_cells c2<7>1]
-set_property bel D6LUT [get_cells c2<7>1]
-set_property bel D6LUT [get_cells c2<7>1]
-endgroup
-startgroup
-set_property loc SLICE_X33Y149 [get_cells c1<7>1]
-set_property loc SLICE_X33Y149 [get_cells c1<7>1]
-set_property bel D6LUT [get_cells c1<7>1]
-set_property bel D6LUT [get_cells c1<7>1]
-endgroup
-startgroup
-set_property loc SLICE_X37Y149 [get_cells c1<8>1]
-set_property loc SLICE_X37Y149 [get_cells c1<8>1]
-set_property bel D6LUT [get_cells c1<8>1]
-set_property bel D6LUT [get_cells c1<8>1]
-endgroup
-startgroup
-set_property loc SLICE_X39Y149 [get_cells c2<8>1]
-set_property loc SLICE_X39Y149 [get_cells c2<8>1]
-set_property bel D6LUT [get_cells c2<8>1]
-set_property bel D6LUT [get_cells c2<8>1]
-endgroup
-startgroup
-set_property loc SLICE_X41Y149 [get_cells c1<9>1]
-set_property loc SLICE_X41Y149 [get_cells c1<9>1]
-set_property bel D6LUT [get_cells c1<9>1]
-set_property bel D6LUT [get_cells c1<9>1]
-endgroup
-startgroup
-set_property loc SLICE_X43Y149 [get_cells c2<9>1]
-set_property loc SLICE_X43Y149 [get_cells c2<9>1]
-set_property bel D6LUT [get_cells c2<9>1]
-set_property bel D6LUT [get_cells c2<9>1]
-endgroup
-startgroup
-set_property loc SLICE_X45Y149 [get_cells c1<10>1]
-set_property loc SLICE_X45Y149 [get_cells c1<10>1]
-set_property bel D6LUT [get_cells c1<10>1]
-set_property bel D6LUT [get_cells c1<10>1]
-endgroup
-startgroup
-set_property loc SLICE_X47Y149 [get_cells c2<10>1]
-set_property loc SLICE_X47Y149 [get_cells c2<10>1]
-set_property bel D6LUT [get_cells c2<10>1]
-set_property bel D6LUT [get_cells c2<10>1]
-endgroup
-startgroup
-set_property loc SLICE_X49Y149 [get_cells c1<11>1]
-set_property loc SLICE_X49Y149 [get_cells c1<11>1]
-set_property bel D6LUT [get_cells c1<11>1]
-set_property bel D6LUT [get_cells c1<11>1]
-endgroup
-startgroup
-set_property loc SLICE_X51Y149 [get_cells c2<11>1]
-set_property loc SLICE_X51Y149 [get_cells c2<11>1]
-set_property bel D6LUT [get_cells c2<11>1]
-set_property bel D6LUT [get_cells c2<11>1]
-endgroup
-startgroup
-set_property loc SLICE_X53Y149 [get_cells c1<12>1]
-set_property loc SLICE_X53Y149 [get_cells c1<12>1]
-set_property bel D6LUT [get_cells c1<12>1]
-set_property bel D6LUT [get_cells c1<12>1]
-endgroup
-startgroup
-set_property loc SLICE_X55Y149 [get_cells c2<12>1]
-set_property loc SLICE_X55Y149 [get_cells c2<12>1]
-set_property bel D6LUT [get_cells c2<12>1]
-set_property bel D6LUT [get_cells c2<12>1]
-endgroup
-startgroup
-set_property loc SLICE_X57Y149 [get_cells c1<13>1]
-set_property loc SLICE_X57Y149 [get_cells c1<13>1]
-set_property bel D6LUT [get_cells c1<13>1]
-set_property bel D6LUT [get_cells c1<13>1]
-endgroup
-startgroup
-set_property loc SLICE_X59Y149 [get_cells c2<13>1]
-set_property loc SLICE_X59Y149 [get_cells c2<13>1]
-set_property bel D6LUT [get_cells c2<13>1]
-set_property bel D6LUT [get_cells c2<13>1]
-endgroup
-startgroup
-set_property loc SLICE_X61Y149 [get_cells c1<14>1]
-set_property loc SLICE_X61Y149 [get_cells c1<14>1]
-set_property bel D6LUT [get_cells c1<14>1]
-set_property bel D6LUT [get_cells c1<14>1]
-endgroup
-startgroup
-set_property loc SLICE_X63Y149 [get_cells c2<14>1]
-set_property loc SLICE_X63Y149 [get_cells c2<14>1]
-set_property bel D6LUT [get_cells c2<14>1]
-set_property bel D6LUT [get_cells c2<14>1]
-endgroup
-startgroup
-set_property loc SLICE_X65Y149 [get_cells c1<15>1]
-set_property loc SLICE_X65Y149 [get_cells c1<15>1]
-set_property bel D6LUT [get_cells c1<15>1]
-set_property bel D6LUT [get_cells c1<15>1]
-endgroup
-startgroup
-set_property loc SLICE_X67Y149 [get_cells c2<15>1]
-set_property loc SLICE_X67Y149 [get_cells c2<15>1]
-set_property bel D6LUT [get_cells c2<15>1]
-set_property bel D6LUT [get_cells c2<15>1]
-endgroup
-startgroup
-set_property loc SLICE_X65Y150 [get_cells sig_15]
-set_property loc SLICE_X65Y150 [get_cells sig_15]
-set_property bel AFF [get_cells sig_15]
-set_property bel AFF [get_cells sig_15]
-endgroup
-startgroup
-set_property loc SLICE_X61Y150 [get_cells sig_14]
-set_property loc SLICE_X61Y150 [get_cells sig_14]
-set_property bel AFF [get_cells sig_14]
-set_property bel AFF [get_cells sig_14]
-endgroup
-startgroup
-set_property loc SLICE_X57Y150 [get_cells sig_13]
-set_property loc SLICE_X57Y150 [get_cells sig_13]
-set_property bel AFF [get_cells sig_13]
-set_property bel AFF [get_cells sig_13]
-endgroup
-startgroup
-set_property loc SLICE_X53Y150 [get_cells sig_12]
-set_property loc SLICE_X53Y150 [get_cells sig_12]
-set_property bel AFF [get_cells sig_12]
-set_property bel AFF [get_cells sig_12]
-endgroup
-startgroup
-set_property loc SLICE_X49Y150 [get_cells sig_11]
-set_property loc SLICE_X49Y150 [get_cells sig_11]
-set_property bel AFF [get_cells sig_11]
-set_property bel AFF [get_cells sig_11]
-endgroup
-startgroup
-set_property loc SLICE_X45Y150 [get_cells sig_10]
-set_property loc SLICE_X45Y150 [get_cells sig_10]
-set_property bel AFF [get_cells sig_10]
-set_property bel AFF [get_cells sig_10]
-endgroup
-startgroup
-set_property loc SLICE_X41Y150 [get_cells sig_9]
-set_property loc SLICE_X41Y150 [get_cells sig_9]
-set_property bel AFF [get_cells sig_9]
-set_property bel AFF [get_cells sig_9]
-endgroup
-startgroup
-set_property loc SLICE_X37Y150 [get_cells sig_8]
-set_property loc SLICE_X37Y150 [get_cells sig_8]
-set_property bel AFF [get_cells sig_8]
-set_property bel AFF [get_cells sig_8]
-endgroup
-startgroup
-set_property loc SLICE_X33Y150 [get_cells sig_7]
-set_property loc SLICE_X33Y150 [get_cells sig_7]
-set_property bel AFF [get_cells sig_7]
-set_property bel AFF [get_cells sig_7]
-endgroup
-startgroup
-set_property loc SLICE_X29Y150 [get_cells sig_6]
-set_property loc SLICE_X29Y150 [get_cells sig_6]
-set_property bel AFF [get_cells sig_6]
-set_property bel AFF [get_cells sig_6]
-endgroup
-startgroup
-set_property loc SLICE_X29Y150 [get_cells signal_inv1_INV_0]
-set_property loc SLICE_X29Y150 [get_cells signal_inv1_INV_0]
-set_property bel A5LUT [get_cells signal_inv1_INV_0]
-set_property bel A5LUT [get_cells signal_inv1_INV_0]
-endgroup
-startgroup
-place_cell signal_inv1_INV_0 SLICE_X29Y151/B6LUT
-place_cell signal_inv1_INV_0 SLICE_X29Y151/B6LUT
-endgroup
-save_design -force
+No Unisim elements were transformed.open_netlist_design: Time (s): 28.417w.  Memory (MB): 715.770p 185.934g
 refresh_design
 Release 13.3 - ngc2edif O.76xd (nt64)
 Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
@@ -416,7 +71,7 @@ Processing design ...
    Preping design's macros ...
   finished :Prep
 Writing EDIF netlist file pdl_test_bench.edif ...
-ngc2edif: Total memory usage is 100508 kilobytes
+ngc2edif: Total memory usage is 87964 kilobytes
 
 Parsing EDIF File [.\planAhead_run_1\PDL.data\cache\pdl_test_bench_ngc_854d43fa.edif]
 Finished Parsing EDIF File [.\planAhead_run_1\PDL.data\cache\pdl_test_bench_ngc_854d43fa.edif]
@@ -429,22 +84,13 @@ Loading package from C:/Xilinx/13.3/ISE_DS/PlanAhead\parts/xilinx/virtex5/virtex
 Loading io standards from C:/Xilinx/13.3/ISE_DS/PlanAhead\./parts/xilinx/virtex5/IOStandards.xml
 INFO: [Device-19] Loading pkg sso from C:/Xilinx/13.3/ISE_DS/PlanAhead\parts/xilinx/virtex5/virtex5lxt/xc5vlx110t/ff1136/SSORules.xml
 Loading list of drcs for the architecture : C:/Xilinx/13.3/ISE_DS/PlanAhead\./parts/xilinx/virtex5/drc.xml
-Parsing UCF File [E:\Dropbox\Works and collections\Elec\Rice\PDL\constraints\pdl_constraints.ucf]
-INFO: [Designutils-22] PART constraint ignored, using PlanAhead selected device [E:\Dropbox\Works and collections\Elec\Rice\PDL\constraints\pdl_constraints.ucf:5]
-Finished Parsing UCF File [E:\Dropbox\Works and collections\Elec\Rice\PDL\constraints\pdl_constraints.ucf]
 Parsing UCF File [E:\Dropbox\Works and collections\Elec\Rice\PDL\constraints\XUPV5system.ucf]
 INFO: [Designutils-22] PART constraint ignored, using PlanAhead selected device [E:\Dropbox\Works and collections\Elec\Rice\PDL\constraints\XUPV5system.ucf:5]
 Finished Parsing UCF File [E:\Dropbox\Works and collections\Elec\Rice\PDL\constraints\XUPV5system.ucf]
-refresh_design: Time (s): 17.821w.  Memory (MB): 997.102p 5.098g
-startgroup
-place_cell signal_inv1_INV_0 SLICE_X34Y130/D6LUT
-place_cell signal_inv1_INV_0 SLICE_X34Y130/D6LUT
-endgroup
-undo
-INFO: [Common-17] undo 'endgroup'
-INFO: [Common-17] undo 'place_cell signal_inv1_INV_0 SLICE_X34Y130/D6LUT'
-INFO: [Common-17] undo 'startgroup'
-save_design
+Parsing UCF File [E:\Dropbox\Works and collections\Elec\Rice\PDL\constraints\pdl_constraints.ucf]
+INFO: [Designutils-22] PART constraint ignored, using PlanAhead selected device [E:\Dropbox\Works and collections\Elec\Rice\PDL\constraints\pdl_constraints.ucf:5]
+Finished Parsing UCF File [E:\Dropbox\Works and collections\Elec\Rice\PDL\constraints\pdl_constraints.ucf]
+refresh_design: Time (s): 28.896w.  Memory (MB): 867.297p 20.457g
 exit
 stop_gui
 INFO: [PlanAhead-261] Exiting PlanAhead...

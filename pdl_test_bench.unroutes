@@ -1,42 +1,9 @@
 Release 13.3 - par O.76xd (nt64)
 Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
 
-Mon Jan 13 13:59:41 2014
+Wed Jan 15 03:35:03 2014
 
 All signals are completely routed.
 
-WARNING:ParHelpers:361 - There are 30 loadless signals in this design. This design will cause Bitgen to issue DRC
-   warnings.
-
-   puf10/sarray[0]/o1
-   puf10/sarray[0]/o2
-   puf11/sarray[0]/o1
-   puf11/sarray[0]/o2
-   puf12/sarray[0]/o1
-   puf12/sarray[0]/o2
-   puf13/sarray[0]/o1
-   puf13/sarray[0]/o2
-   puf14/sarray[0]/o1
-   puf14/sarray[0]/o2
-   puf15/sarray[0]/o1
-   puf15/sarray[0]/o2
-   puf16/sarray[0]/o1
-   puf16/sarray[0]/o2
-   puf2/sarray[0]/o1
-   puf2/sarray[0]/o2
-   puf3/sarray[0]/o1
-   puf3/sarray[0]/o2
-   puf4/sarray[0]/o1
-   puf4/sarray[0]/o2
-   puf5/sarray[0]/o1
-   puf5/sarray[0]/o2
-   puf6/sarray[0]/o1
-   puf6/sarray[0]/o2
-   puf7/sarray[0]/o1
-   puf7/sarray[0]/o2
-   puf8/sarray[0]/o1
-   puf8/sarray[0]/o2
-   puf9/sarray[0]/o1
-   puf9/sarray[0]/o2
 
 

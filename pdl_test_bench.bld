@@ -2,8 +2,8 @@ Release 13.3 ngdbuild O.76xd (nt64)
 Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
 
 Command Line: C:\Xilinx\13.3\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe
--intstyle ise -dd _ngo -nt timestamp -uc constraints/XUPV5system.ucf -uc
-constraints/pdl_constraints.ucf -p xc5vlx110t-ff1136-1 pdl_test_bench.ngc
+-intstyle ise -dd _ngo -nt timestamp -uc constraints/pdl_constraints.ucf -uc
+constraints/XUPV5system.ucf -p xc5vlx110t-ff1136-1 pdl_test_bench.ngc
 pdl_test_bench.ngd
 
 Reading NGO file "E:/Dropbox/Works and
@@ -11,110 +11,14 @@ collections/Elec/Rice/PDL/pdl_test_bench.ngc" ...
 Gathering constraint information from source properties...
 Done.
 
-Annotating constraints to design from ucf file "constraints/XUPV5system.ucf" ...
 Annotating constraints to design from ucf file "constraints/pdl_constraints.ucf"
 ...
+Annotating constraints to design from ucf file "constraints/XUPV5system.ucf" ...
 Resolving constraint associations...
 Checking Constraint Associations...
 Done...
 
 Checking expanded design ...
-WARNING:NgdBuild:483 - Attribute "BEL" on "c1<0>" is on the wrong type of
-   object.  Please see the Constraints Guide for more information on this
-   attribute.
-WARNING:NgdBuild:483 - Attribute "BEL" on "c1<10>" is on the wrong type of
-   object.  Please see the Constraints Guide for more information on this
-   attribute.
-WARNING:NgdBuild:483 - Attribute "BEL" on "c1<11>" is on the wrong type of
-   object.  Please see the Constraints Guide for more information on this
-   attribute.
-WARNING:NgdBuild:483 - Attribute "BEL" on "c1<12>" is on the wrong type of
-   object.  Please see the Constraints Guide for more information on this
-   attribute.
-WARNING:NgdBuild:483 - Attribute "BEL" on "c1<13>" is on the wrong type of
-   object.  Please see the Constraints Guide for more information on this
-   attribute.
-WARNING:NgdBuild:483 - Attribute "BEL" on "c1<14>" is on the wrong type of
-   object.  Please see the Constraints Guide for more information on this
-   attribute.
-WARNING:NgdBuild:483 - Attribute "BEL" on "c1<15>" is on the wrong type of
-   object.  Please see the Constraints Guide for more information on this
-   attribute.
-WARNING:NgdBuild:483 - Attribute "BEL" on "c1<1>" is on the wrong type of
-   object.  Please see the Constraints Guide for more information on this
-   attribute.
-WARNING:NgdBuild:483 - Attribute "BEL" on "c1<2>" is on the wrong type of
-   object.  Please see the Constraints Guide for more information on this
-   attribute.
-WARNING:NgdBuild:483 - Attribute "BEL" on "c1<3>" is on the wrong type of
-   object.  Please see the Constraints Guide for more information on this
-   attribute.
-WARNING:NgdBuild:483 - Attribute "BEL" on "c1<4>" is on the wrong type of
-   object.  Please see the Constraints Guide for more information on this
-   attribute.
-WARNING:NgdBuild:483 - Attribute "BEL" on "c1<5>" is on the wrong type of
-   object.  Please see the Constraints Guide for more information on this
-   attribute.
-WARNING:NgdBuild:483 - Attribute "BEL" on "c1<6>" is on the wrong type of
-   object.  Please see the Constraints Guide for more information on this
-   attribute.
-WARNING:NgdBuild:483 - Attribute "BEL" on "c1<7>" is on the wrong type of
-   object.  Please see the Constraints Guide for more information on this
-   attribute.
-WARNING:NgdBuild:483 - Attribute "BEL" on "c1<8>" is on the wrong type of
-   object.  Please see the Constraints Guide for more information on this
-   attribute.
-WARNING:NgdBuild:483 - Attribute "BEL" on "c1<9>" is on the wrong type of
-   object.  Please see the Constraints Guide for more information on this
-   attribute.
-WARNING:NgdBuild:483 - Attribute "BEL" on "c2<0>" is on the wrong type of
-   object.  Please see the Constraints Guide for more information on this
-   attribute.
-WARNING:NgdBuild:483 - Attribute "BEL" on "c2<10>" is on the wrong type of
-   object.  Please see the Constraints Guide for more information on this
-   attribute.
-WARNING:NgdBuild:483 - Attribute "BEL" on "c2<11>" is on the wrong type of
-   object.  Please see the Constraints Guide for more information on this
-   attribute.
-WARNING:NgdBuild:483 - Attribute "BEL" on "c2<12>" is on the wrong type of
-   object.  Please see the Constraints Guide for more information on this
-   attribute.
-WARNING:NgdBuild:483 - Attribute "BEL" on "c2<13>" is on the wrong type of
-   object.  Please see the Constraints Guide for more information on this
-   attribute.
-WARNING:NgdBuild:483 - Attribute "BEL" on "c2<14>" is on the wrong type of
-   object.  Please see the Constraints Guide for more information on this
-   attribute.
-WARNING:NgdBuild:483 - Attribute "BEL" on "c2<15>" is on the wrong type of
-   object.  Please see the Constraints Guide for more information on this
-   attribute.
-WARNING:NgdBuild:483 - Attribute "BEL" on "c2<1>" is on the wrong type of
-   object.  Please see the Constraints Guide for more information on this
-   attribute.
-WARNING:NgdBuild:483 - Attribute "BEL" on "c2<2>" is on the wrong type of
-   object.  Please see the Constraints Guide for more information on this
-   attribute.
-WARNING:NgdBuild:483 - Attribute "BEL" on "c2<3>" is on the wrong type of
-   object.  Please see the Constraints Guide for more information on this
-   attribute.
-WARNING:NgdBuild:483 - Attribute "BEL" on "c2<4>" is on the wrong type of
-   object.  Please see the Constraints Guide for more information on this
-   attribute.
-WARNING:NgdBuild:483 - Attribute "BEL" on "c2<5>" is on the wrong type of
-   object.  Please see the Constraints Guide for more information on this
-   attribute.
-WARNING:NgdBuild:483 - Attribute "BEL" on "c2<6>" is on the wrong type of
-   object.  Please see the Constraints Guide for more information on this
-   attribute.
-WARNING:NgdBuild:483 - Attribute "BEL" on "c2<7>" is on the wrong type of
-   object.  Please see the Constraints Guide for more information on this
-   attribute.
-WARNING:NgdBuild:483 - Attribute "BEL" on "c2<8>" is on the wrong type of
-   object.  Please see the Constraints Guide for more information on this
-   attribute.
-WARNING:NgdBuild:483 - Attribute "BEL" on "c2<9>" is on the wrong type of
-   object.  Please see the Constraints Guide for more information on this
-   attribute.
 
 Partition Implementation Status
 -------------------------------
@@ -125,12 +29,12 @@ Partition Implementation Status
 
 NGDBUILD Design Results Summary:
   Number of errors:     0
-  Number of warnings:  32
+  Number of warnings:   0
 
-Total memory usage is 231864 kilobytes
+Total memory usage is 188096 kilobytes
 
 Writing NGD file "pdl_test_bench.ngd" ...
-Total REAL time to NGDBUILD completion:  22 sec
-Total CPU time to NGDBUILD completion:   21 sec
+Total REAL time to NGDBUILD completion:  12 sec
+Total CPU time to NGDBUILD completion:   11 sec
 
 Writing NGDBUILD log file "pdl_test_bench.bld"...

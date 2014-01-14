@@ -21,12 +21,11 @@
 
 module pdl_puf #(
     parameter PDL_SWITCH_LENGTH = 63 // Number of PDL based switchs in a PUF. Actual value is param_value + 1
-)(
-	input in,	
+)(	
    input [PDL_SWITCH_LENGTH:0] s_tp, s_btm,
    input  s1, s2, reset,
-    output o
-    );
+   output o
+   );
 
 
 	 wire [PDL_SWITCH_LENGTH:0] i1,i2;

@@ -21,7 +21,7 @@ NET "challenge_bottom" LOC = V8;
 #SW12 East
 NET "trigger" LOC = AJ7;
 #SW13 West
-NET "signal" LOC = AK7;
+#NET "signal" LOC = AK7;
 NET "trigger" CLOCK_DEDICATED_ROUTE = FALSE;
 # To override clock placement error. Not recommended though.
 

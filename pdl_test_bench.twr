@@ -36,7 +36,7 @@ Setup/Hold to clock challenge_bottom
              |Max Setup to|Max Hold to |                  | Clock  |
 Source       | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
 -------------+------------+------------+------------------+--------+
-challenge_top|   34.574(R)|   34.481(R)|puf1/i2<0>        |   0.000|
+challenge_top|   34.574(R)|   34.463(R)|puf1/i2<0>        |   0.000|
 -------------+------------+------------+------------------+--------+
 
 Setup/Hold to clock trigger
@@ -44,8 +44,7 @@ Setup/Hold to clock trigger
              |Max Setup to|Max Hold to |                  | Clock  |
 Source       | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
 -------------+------------+------------+------------------+--------+
-challenge_top|  -96.559(R)|  143.045(R)|puf1/i2<0>        |   0.000|
-signal       |   -0.633(R)|    3.196(R)|trigger_IBUF      |   0.000|
+challenge_top|  -95.548(R)|  141.924(R)|puf1/i2<0>        |   0.000|
 -------------+------------+------------+------------------+--------+
 
 Clock challenge_bottom to Pad
@@ -53,7 +52,7 @@ Clock challenge_bottom to Pad
             | clk (edge) |                  | Clock  |
 Destination |   to PAD   |Internal Clock(s) | Phase  |
 ------------+------------+------------------+--------+
-response_bit|   44.233(R)|puf1/i2<0>        |   0.000|
+response_bit|   44.132(R)|puf1/i2<0>        |   0.000|
 ------------+------------+------------------+--------+
 
 Clock trigger to Pad
@@ -61,7 +60,7 @@ Clock trigger to Pad
             | clk (edge) |                  | Clock  |
 Destination |   to PAD   |Internal Clock(s) | Phase  |
 ------------+------------+------------------+--------+
-response_bit|  152.797(R)|puf1/i2<0>        |   0.000|
+response_bit|  151.593(R)|puf1/i2<0>        |   0.000|
 ------------+------------+------------------+--------+
 
 Clock to Setup on destination clock challenge_bottom
@@ -69,7 +68,7 @@ Clock to Setup on destination clock challenge_bottom
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-trigger        |  142.576|  142.576|         |         |
+trigger        |  141.492|  141.492|         |         |
 ---------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock trigger
@@ -77,18 +76,18 @@ Clock to Setup on destination clock trigger
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-trigger        |   13.648|   11.443|         |         |
+trigger        |   11.370|   11.370|         |         |
 ---------------+---------+---------+---------+---------+
 
 
-Analysis completed Mon Jan 13 14:00:03 2014 
+Analysis completed Wed Jan 15 03:35:33 2014 
 --------------------------------------------------------------------------------
 
 Trace Settings:
 -------------------------
 Trace Settings 
 
-Peak Memory Usage: 501 MB
+Peak Memory Usage: 443 MB
 
 
 
