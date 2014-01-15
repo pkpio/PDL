@@ -5,220 +5,220 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;source/ethernetController.v&quot; line 1989 </arg>Connection to input port &apos;<arg fmt="%s" index="2">writeData</arg>&apos; does not match port size
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;source/sirc_files/ethernetController.v&quot; line 1989 </arg>Connection to input port &apos;<arg fmt="%s" index="2">writeData</arg>&apos; does not match port size
 </msg>
 
-<msg type="warning" file="HDLCompilers" num="261" delta="old" ><arg fmt="%s" index="1">&quot;source/ethernetController.v&quot; line 1993 </arg>Connection to output port &apos;<arg fmt="%s" index="2">readData</arg>&apos; does not match port size
+<msg type="warning" file="HDLCompilers" num="261" delta="old" ><arg fmt="%s" index="1">&quot;source/sirc_files/ethernetController.v&quot; line 1993 </arg>Connection to output port &apos;<arg fmt="%s" index="2">readData</arg>&apos; does not match port size
 </msg>
 
-<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;source/ethernetController.v&quot; line 2001 </arg>Connection to input port &apos;<arg fmt="%s" index="2">writeData</arg>&apos; does not match port size
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;source/sirc_files/ethernetController.v&quot; line 2001 </arg>Connection to input port &apos;<arg fmt="%s" index="2">writeData</arg>&apos; does not match port size
 </msg>
 
-<msg type="warning" file="HDLCompilers" num="261" delta="old" ><arg fmt="%s" index="1">&quot;source/ethernetController.v&quot; line 2005 </arg>Connection to output port &apos;<arg fmt="%s" index="2">readData</arg>&apos; does not match port size
+<msg type="warning" file="HDLCompilers" num="261" delta="old" ><arg fmt="%s" index="1">&quot;source/sirc_files/ethernetController.v&quot; line 2005 </arg>Connection to output port &apos;<arg fmt="%s" index="2">readData</arg>&apos; does not match port size
 </msg>
 
-<msg type="warning" file="Xst" num="2591" delta="new" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/physical/gmii_if.v&quot; line 158:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">IOBDELAY_TYPE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
+<msg type="warning" file="Xst" num="2591" delta="old" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/physical/gmii_if.v&quot; line 158:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">IOBDELAY_TYPE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
 </msg>
 
-<msg type="warning" file="Xst" num="2591" delta="new" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/physical/gmii_if.v&quot; line 158:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">IOBDELAY_VALUE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
+<msg type="warning" file="Xst" num="2591" delta="old" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/physical/gmii_if.v&quot; line 158:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">IOBDELAY_VALUE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
 </msg>
 
-<msg type="warning" file="Xst" num="2591" delta="new" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/physical/gmii_if.v&quot; line 164:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">IOBDELAY_TYPE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
+<msg type="warning" file="Xst" num="2591" delta="old" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/physical/gmii_if.v&quot; line 164:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">IOBDELAY_TYPE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
 </msg>
 
-<msg type="warning" file="Xst" num="2591" delta="new" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/physical/gmii_if.v&quot; line 164:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">IOBDELAY_VALUE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
+<msg type="warning" file="Xst" num="2591" delta="old" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/physical/gmii_if.v&quot; line 164:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">IOBDELAY_VALUE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
 </msg>
 
-<msg type="warning" file="Xst" num="2591" delta="new" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/physical/gmii_if.v&quot; line 170:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">IOBDELAY_TYPE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
+<msg type="warning" file="Xst" num="2591" delta="old" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/physical/gmii_if.v&quot; line 170:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">IOBDELAY_TYPE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
 </msg>
 
-<msg type="warning" file="Xst" num="2591" delta="new" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/physical/gmii_if.v&quot; line 170:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">IOBDELAY_VALUE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
+<msg type="warning" file="Xst" num="2591" delta="old" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/physical/gmii_if.v&quot; line 170:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">IOBDELAY_VALUE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
 </msg>
 
-<msg type="warning" file="Xst" num="2591" delta="new" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/physical/gmii_if.v&quot; line 176:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">IOBDELAY_TYPE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
+<msg type="warning" file="Xst" num="2591" delta="old" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/physical/gmii_if.v&quot; line 176:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">IOBDELAY_TYPE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
 </msg>
 
-<msg type="warning" file="Xst" num="2591" delta="new" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/physical/gmii_if.v&quot; line 176:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">IOBDELAY_VALUE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
+<msg type="warning" file="Xst" num="2591" delta="old" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/physical/gmii_if.v&quot; line 176:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">IOBDELAY_VALUE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
 </msg>
 
-<msg type="warning" file="Xst" num="2591" delta="new" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/physical/gmii_if.v&quot; line 182:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">IOBDELAY_TYPE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
+<msg type="warning" file="Xst" num="2591" delta="old" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/physical/gmii_if.v&quot; line 182:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">IOBDELAY_TYPE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
 </msg>
 
-<msg type="warning" file="Xst" num="2591" delta="new" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/physical/gmii_if.v&quot; line 182:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">IOBDELAY_VALUE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
+<msg type="warning" file="Xst" num="2591" delta="old" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/physical/gmii_if.v&quot; line 182:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">IOBDELAY_VALUE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
 </msg>
 
-<msg type="warning" file="Xst" num="2591" delta="new" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/physical/gmii_if.v&quot; line 188:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">IOBDELAY_TYPE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
+<msg type="warning" file="Xst" num="2591" delta="old" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/physical/gmii_if.v&quot; line 188:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">IOBDELAY_TYPE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
 </msg>
 
-<msg type="warning" file="Xst" num="2591" delta="new" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/physical/gmii_if.v&quot; line 188:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">IOBDELAY_VALUE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
+<msg type="warning" file="Xst" num="2591" delta="old" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/physical/gmii_if.v&quot; line 188:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">IOBDELAY_VALUE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
 </msg>
 
-<msg type="warning" file="Xst" num="2591" delta="new" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/physical/gmii_if.v&quot; line 194:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">IOBDELAY_TYPE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
+<msg type="warning" file="Xst" num="2591" delta="old" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/physical/gmii_if.v&quot; line 194:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">IOBDELAY_TYPE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
 </msg>
 
-<msg type="warning" file="Xst" num="2591" delta="new" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/physical/gmii_if.v&quot; line 194:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">IOBDELAY_VALUE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
+<msg type="warning" file="Xst" num="2591" delta="old" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/physical/gmii_if.v&quot; line 194:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">IOBDELAY_VALUE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
 </msg>
 
-<msg type="warning" file="Xst" num="2591" delta="new" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/physical/gmii_if.v&quot; line 200:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">IOBDELAY_TYPE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
+<msg type="warning" file="Xst" num="2591" delta="old" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/physical/gmii_if.v&quot; line 200:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">IOBDELAY_TYPE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
 </msg>
 
-<msg type="warning" file="Xst" num="2591" delta="new" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/physical/gmii_if.v&quot; line 200:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">IOBDELAY_VALUE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
+<msg type="warning" file="Xst" num="2591" delta="old" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/physical/gmii_if.v&quot; line 200:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">IOBDELAY_VALUE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
 </msg>
 
-<msg type="warning" file="Xst" num="2591" delta="new" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/physical/gmii_if.v&quot; line 206:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">IOBDELAY_TYPE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
+<msg type="warning" file="Xst" num="2591" delta="old" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/physical/gmii_if.v&quot; line 206:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">IOBDELAY_TYPE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
 </msg>
 
-<msg type="warning" file="Xst" num="2591" delta="new" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/physical/gmii_if.v&quot; line 206:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">IOBDELAY_VALUE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
+<msg type="warning" file="Xst" num="2591" delta="old" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/physical/gmii_if.v&quot; line 206:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">IOBDELAY_VALUE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
 </msg>
 
-<msg type="warning" file="Xst" num="2591" delta="new" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/physical/gmii_if.v&quot; line 212:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">IOBDELAY_TYPE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
+<msg type="warning" file="Xst" num="2591" delta="old" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/physical/gmii_if.v&quot; line 212:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">IOBDELAY_TYPE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
 </msg>
 
-<msg type="warning" file="Xst" num="2591" delta="new" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/physical/gmii_if.v&quot; line 212:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">IOBDELAY_VALUE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
+<msg type="warning" file="Xst" num="2591" delta="old" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/physical/gmii_if.v&quot; line 212:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">IOBDELAY_VALUE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
 </msg>
 
-<msg type="warning" file="Xst" num="2591" delta="new" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/client/fifo/tx_client_fifo_8.v&quot; line 1242:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">WRITE_MODE_A</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
+<msg type="warning" file="Xst" num="2591" delta="old" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/client/fifo/tx_client_fifo_8.v&quot; line 1242:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">WRITE_MODE_A</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
 </msg>
 
-<msg type="warning" file="Xst" num="2591" delta="new" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/client/fifo/tx_client_fifo_8.v&quot; line 1242:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">WRITE_MODE_B</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
+<msg type="warning" file="Xst" num="2591" delta="old" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/client/fifo/tx_client_fifo_8.v&quot; line 1242:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">WRITE_MODE_B</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
 </msg>
 
-<msg type="warning" file="Xst" num="2591" delta="new" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/client/fifo/tx_client_fifo_8.v&quot; line 1265:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">WRITE_MODE_A</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
+<msg type="warning" file="Xst" num="2591" delta="old" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/client/fifo/tx_client_fifo_8.v&quot; line 1265:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">WRITE_MODE_A</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
 </msg>
 
-<msg type="warning" file="Xst" num="2591" delta="new" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/client/fifo/tx_client_fifo_8.v&quot; line 1265:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">WRITE_MODE_B</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
+<msg type="warning" file="Xst" num="2591" delta="old" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/client/fifo/tx_client_fifo_8.v&quot; line 1265:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">WRITE_MODE_B</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
 </msg>
 
-<msg type="warning" file="Xst" num="2591" delta="new" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_1000BASEX_ENABLE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
+<msg type="warning" file="Xst" num="2591" delta="old" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_1000BASEX_ENABLE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
 </msg>
 
-<msg type="warning" file="Xst" num="2591" delta="new" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_ADDRFILTER_ENABLE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
+<msg type="warning" file="Xst" num="2591" delta="old" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_ADDRFILTER_ENABLE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
 </msg>
 
-<msg type="warning" file="Xst" num="2591" delta="new" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_BYTEPHY</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
+<msg type="warning" file="Xst" num="2591" delta="old" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_BYTEPHY</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
 </msg>
 
-<msg type="warning" file="Xst" num="2591" delta="new" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_CONFIGVEC_79</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
+<msg type="warning" file="Xst" num="2591" delta="old" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_CONFIGVEC_79</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
 </msg>
 
-<msg type="warning" file="Xst" num="2591" delta="new" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_DCRBASEADDR</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
+<msg type="warning" file="Xst" num="2591" delta="old" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_DCRBASEADDR</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
 </msg>
 
-<msg type="warning" file="Xst" num="2591" delta="new" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_GTLOOPBACK</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
+<msg type="warning" file="Xst" num="2591" delta="old" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_GTLOOPBACK</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
 </msg>
 
-<msg type="warning" file="Xst" num="2591" delta="new" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_HOST_ENABLE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
+<msg type="warning" file="Xst" num="2591" delta="old" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_HOST_ENABLE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
 </msg>
 
-<msg type="warning" file="Xst" num="2591" delta="new" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_LINKTIMERVAL</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
+<msg type="warning" file="Xst" num="2591" delta="old" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_LINKTIMERVAL</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
 </msg>
 
-<msg type="warning" file="Xst" num="2591" delta="new" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_LTCHECK_DISABLE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
+<msg type="warning" file="Xst" num="2591" delta="old" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_LTCHECK_DISABLE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
 </msg>
 
-<msg type="warning" file="Xst" num="2591" delta="new" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_MDIO_ENABLE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
+<msg type="warning" file="Xst" num="2591" delta="old" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_MDIO_ENABLE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
 </msg>
 
-<msg type="warning" file="Xst" num="2591" delta="new" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_PAUSEADDR</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
+<msg type="warning" file="Xst" num="2591" delta="old" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_PAUSEADDR</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
 </msg>
 
-<msg type="warning" file="Xst" num="2591" delta="new" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_PHYINITAUTONEG_ENABLE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
+<msg type="warning" file="Xst" num="2591" delta="old" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_PHYINITAUTONEG_ENABLE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
 </msg>
 
-<msg type="warning" file="Xst" num="2591" delta="new" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_PHYISOLATE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
+<msg type="warning" file="Xst" num="2591" delta="old" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_PHYISOLATE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
 </msg>
 
-<msg type="warning" file="Xst" num="2591" delta="new" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_PHYLOOPBACKMSB</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
+<msg type="warning" file="Xst" num="2591" delta="old" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_PHYLOOPBACKMSB</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
 </msg>
 
-<msg type="warning" file="Xst" num="2591" delta="new" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_PHYPOWERDOWN</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
+<msg type="warning" file="Xst" num="2591" delta="old" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_PHYPOWERDOWN</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
 </msg>
 
-<msg type="warning" file="Xst" num="2591" delta="new" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_PHYRESET</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
+<msg type="warning" file="Xst" num="2591" delta="old" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_PHYRESET</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
 </msg>
 
-<msg type="warning" file="Xst" num="2591" delta="new" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_RGMII_ENABLE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
+<msg type="warning" file="Xst" num="2591" delta="old" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_RGMII_ENABLE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
 </msg>
 
-<msg type="warning" file="Xst" num="2591" delta="new" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_RX16BITCLIENT_ENABLE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
+<msg type="warning" file="Xst" num="2591" delta="old" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_RX16BITCLIENT_ENABLE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
 </msg>
 
-<msg type="warning" file="Xst" num="2591" delta="new" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_RXFLOWCTRL_ENABLE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
+<msg type="warning" file="Xst" num="2591" delta="old" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_RXFLOWCTRL_ENABLE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
 </msg>
 
-<msg type="warning" file="Xst" num="2591" delta="new" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_RXHALFDUPLEX</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
+<msg type="warning" file="Xst" num="2591" delta="old" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_RXHALFDUPLEX</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
 </msg>
 
-<msg type="warning" file="Xst" num="2591" delta="new" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_RXINBANDFCS_ENABLE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
+<msg type="warning" file="Xst" num="2591" delta="old" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_RXINBANDFCS_ENABLE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
 </msg>
 
-<msg type="warning" file="Xst" num="2591" delta="new" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_RXJUMBOFRAME_ENABLE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
+<msg type="warning" file="Xst" num="2591" delta="old" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_RXJUMBOFRAME_ENABLE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
 </msg>
 
-<msg type="warning" file="Xst" num="2591" delta="new" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_RXRESET</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
+<msg type="warning" file="Xst" num="2591" delta="old" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_RXRESET</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
 </msg>
 
-<msg type="warning" file="Xst" num="2591" delta="new" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_RXVLAN_ENABLE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
+<msg type="warning" file="Xst" num="2591" delta="old" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_RXVLAN_ENABLE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
 </msg>
 
-<msg type="warning" file="Xst" num="2591" delta="new" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_RX_ENABLE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
+<msg type="warning" file="Xst" num="2591" delta="old" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_RX_ENABLE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
 </msg>
 
-<msg type="warning" file="Xst" num="2591" delta="new" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_SGMII_ENABLE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
+<msg type="warning" file="Xst" num="2591" delta="old" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_SGMII_ENABLE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
 </msg>
 
-<msg type="warning" file="Xst" num="2591" delta="new" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_SPEED_LSB</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
+<msg type="warning" file="Xst" num="2591" delta="old" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_SPEED_LSB</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
 </msg>
 
-<msg type="warning" file="Xst" num="2591" delta="new" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_SPEED_MSB</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
+<msg type="warning" file="Xst" num="2591" delta="old" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_SPEED_MSB</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
 </msg>
 
-<msg type="warning" file="Xst" num="2591" delta="new" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_TX16BITCLIENT_ENABLE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
+<msg type="warning" file="Xst" num="2591" delta="old" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_TX16BITCLIENT_ENABLE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
 </msg>
 
-<msg type="warning" file="Xst" num="2591" delta="new" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_TXFLOWCTRL_ENABLE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
+<msg type="warning" file="Xst" num="2591" delta="old" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_TXFLOWCTRL_ENABLE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
 </msg>
 
-<msg type="warning" file="Xst" num="2591" delta="new" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_TXHALFDUPLEX</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
+<msg type="warning" file="Xst" num="2591" delta="old" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_TXHALFDUPLEX</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
 </msg>
 
-<msg type="warning" file="Xst" num="2591" delta="new" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_TXIFGADJUST_ENABLE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
+<msg type="warning" file="Xst" num="2591" delta="old" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_TXIFGADJUST_ENABLE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
 </msg>
 
-<msg type="warning" file="Xst" num="2591" delta="new" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_TXINBANDFCS_ENABLE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
+<msg type="warning" file="Xst" num="2591" delta="old" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_TXINBANDFCS_ENABLE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
 </msg>
 
-<msg type="warning" file="Xst" num="2591" delta="new" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_TXJUMBOFRAME_ENABLE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
+<msg type="warning" file="Xst" num="2591" delta="old" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_TXJUMBOFRAME_ENABLE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
 </msg>
 
-<msg type="warning" file="Xst" num="2591" delta="new" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_TXRESET</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
+<msg type="warning" file="Xst" num="2591" delta="old" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_TXRESET</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
 </msg>
 
-<msg type="warning" file="Xst" num="2591" delta="new" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_TXVLAN_ENABLE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
+<msg type="warning" file="Xst" num="2591" delta="old" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_TXVLAN_ENABLE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
 </msg>
 
-<msg type="warning" file="Xst" num="2591" delta="new" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_TX_ENABLE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
+<msg type="warning" file="Xst" num="2591" delta="old" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_TX_ENABLE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
 </msg>
 
-<msg type="warning" file="Xst" num="2591" delta="new" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_UNICASTADDR</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
+<msg type="warning" file="Xst" num="2591" delta="old" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_UNICASTADDR</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
 </msg>
 
-<msg type="warning" file="Xst" num="2591" delta="new" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_UNIDIRECTION_ENABLE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
+<msg type="warning" file="Xst" num="2591" delta="old" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_UNIDIRECTION_ENABLE</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
 </msg>
 
-<msg type="warning" file="Xst" num="2591" delta="new" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_USECLKEN</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
+<msg type="warning" file="Xst" num="2591" delta="old" ><arg fmt="%s" index="1">&quot;ipcore_dir/emac_single/example_design/emac_single.v&quot; line 228:</arg> <arg fmt="%s" index="2">attribute on instance</arg> &lt;<arg fmt="%s" index="3">EMAC0_USECLKEN</arg>&gt; overrides <arg fmt="%s" index="4">generic/parameter on entity</arg>. It is possible that simulator will not take this attribute into account.
 </msg>
 
-<msg type="warning" file="Xst" num="1464" delta="new" >&quot;<arg fmt="%s" index="1">ipcore_dir/emac_single/example_design/emac_single_locallink.v</arg>&quot; line <arg fmt="%d" index="2">362</arg>: Exactly equal expression will be synthesized as an equal expression, simulation mismatch is possible.
+<msg type="warning" file="Xst" num="1464" delta="old" >&quot;<arg fmt="%s" index="1">ipcore_dir/emac_single/example_design/emac_single_locallink.v</arg>&quot; line <arg fmt="%d" index="2">362</arg>: Exactly equal expression will be synthesized as an equal expression, simulation mismatch is possible.
 </msg>
 
-<msg type="warning" file="Xst" num="1464" delta="new" >&quot;<arg fmt="%s" index="1">ipcore_dir/emac_single/example_design/emac_single_locallink.v</arg>&quot; line <arg fmt="%d" index="2">377</arg>: Exactly equal expression will be synthesized as an equal expression, simulation mismatch is possible.
+<msg type="warning" file="Xst" num="1464" delta="old" >&quot;<arg fmt="%s" index="1">ipcore_dir/emac_single/example_design/emac_single_locallink.v</arg>&quot; line <arg fmt="%d" index="2">377</arg>: Exactly equal expression will be synthesized as an equal expression, simulation mismatch is possible.
 </msg>
 
-<msg type="warning" file="Xst" num="916" delta="new" >&quot;<arg fmt="%s" index="1">ipcore_dir/emac_single/example_design/emac_single.v</arg>&quot; line <arg fmt="%d" index="2">220</arg>: Delay is ignored for synthesis.
+<msg type="warning" file="Xst" num="916" delta="old" >&quot;<arg fmt="%s" index="1">ipcore_dir/emac_single/example_design/emac_single.v</arg>&quot; line <arg fmt="%d" index="2">220</arg>: Delay is ignored for synthesis.
 </msg>
 
-<msg type="warning" file="Xst" num="905" delta="new" >&quot;<arg fmt="%s" index="1">ipcore_dir/emac_single/example_design/client/fifo/rx_client_fifo_8.v</arg>&quot; line <arg fmt="%d" index="2">307</arg>: One or more signals are missing in the sensitivity list of always block. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+<msg type="warning" file="Xst" num="905" delta="old" >&quot;<arg fmt="%s" index="1">ipcore_dir/emac_single/example_design/client/fifo/rx_client_fifo_8.v</arg>&quot; line <arg fmt="%d" index="2">307</arg>: One or more signals are missing in the sensitivity list of always block. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
 <arg fmt="%s" index="3">&lt;rd_valid_pipe&gt;</arg>
 </msg>
 
@@ -261,9 +261,6 @@
 <msg type="info" file="Xst" num="2679" delta="old" >Register &lt;<arg fmt="%s" index="1">bitCount</arg>&gt; in unit &lt;<arg fmt="%s" index="2">simpleTestModuleOne</arg>&gt; has a constant value of <arg fmt="%s" index="3">00000000</arg> during circuit operation. The register is replaced by logic.
 </msg>
 
-<msg type="info" file="Xst" num="2679" delta="old" >Register &lt;<arg fmt="%s" index="1">oBeforeTrig</arg>&gt; in unit &lt;<arg fmt="%s" index="2">simpleTestModuleOne</arg>&gt; has a constant value of <arg fmt="%s" index="3">0</arg> during circuit operation. The register is replaced by logic.
-</msg>
-
 <msg type="info" file="Xst" num="2679" delta="old" >Register &lt;<arg fmt="%s" index="1">sum</arg>&gt; in unit &lt;<arg fmt="%s" index="2">mapping</arg>&gt; has a constant value of <arg fmt="%s" index="3">0000000000000000</arg> during circuit operation. The register is replaced by logic.
 </msg>
 
@@ -298,9 +295,6 @@
 </msg>
 
 <msg type="warning" file="Xst" num="1780" delta="old" >Signal &lt;<arg fmt="%s" index="1">responseRegBuffer</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">oBeforeTrig</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 </msg>
 
 <msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">bitCount</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.

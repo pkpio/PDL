@@ -1,5 +1,5 @@
 //! **************************************************************************
-// Written by: Map O.76xd on Wed Jan 15 23:04:13 2014
+// Written by: Map O.76xd on Thu Jan 16 01:10:51 2014
 //! **************************************************************************
 
 SCHEMATIC START;
@@ -1250,394 +1250,8 @@ COMP "tm/mp/pufCore/puf3/sarray[63]/pdl_bottom/w" LOCATE = SITE
         "SLICE_X15Y148" LEVEL 1;
 COMP "tm/mp/pufCore/a2<2>" LOCATE = SITE "SLICE_X15Y149" LEVEL 1;
 COMP "tm/mp/pufCore/c2<2>" LOCATE = SITE "SLICE_X15Y150" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i1<0>" LOCATE = SITE "SLICE_X17Y21" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[0]/pdl_top/w" LOCATE = SITE "SLICE_X17Y22"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i1<1>" LOCATE = SITE "SLICE_X17Y23" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[1]/pdl_top/w" LOCATE = SITE "SLICE_X17Y24"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i1<2>" LOCATE = SITE "SLICE_X17Y25" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[2]/pdl_top/w" LOCATE = SITE "SLICE_X17Y26"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i1<3>" LOCATE = SITE "SLICE_X17Y27" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[3]/pdl_top/w" LOCATE = SITE "SLICE_X17Y28"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i1<4>" LOCATE = SITE "SLICE_X17Y29" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[4]/pdl_top/w" LOCATE = SITE "SLICE_X17Y30"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i1<5>" LOCATE = SITE "SLICE_X17Y31" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[5]/pdl_top/w" LOCATE = SITE "SLICE_X17Y32"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i1<6>" LOCATE = SITE "SLICE_X17Y33" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[6]/pdl_top/w" LOCATE = SITE "SLICE_X17Y34"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i1<7>" LOCATE = SITE "SLICE_X17Y35" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[7]/pdl_top/w" LOCATE = SITE "SLICE_X17Y36"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i1<8>" LOCATE = SITE "SLICE_X17Y37" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[8]/pdl_top/w" LOCATE = SITE "SLICE_X17Y38"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i1<9>" LOCATE = SITE "SLICE_X17Y39" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[9]/pdl_top/w" LOCATE = SITE "SLICE_X17Y40"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i1<10>" LOCATE = SITE "SLICE_X17Y41" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[10]/pdl_top/w" LOCATE = SITE "SLICE_X17Y42"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i1<11>" LOCATE = SITE "SLICE_X17Y43" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[11]/pdl_top/w" LOCATE = SITE "SLICE_X17Y44"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i1<12>" LOCATE = SITE "SLICE_X17Y45" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[12]/pdl_top/w" LOCATE = SITE "SLICE_X17Y46"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i1<13>" LOCATE = SITE "SLICE_X17Y47" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[13]/pdl_top/w" LOCATE = SITE "SLICE_X17Y48"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i1<14>" LOCATE = SITE "SLICE_X17Y49" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[14]/pdl_top/w" LOCATE = SITE "SLICE_X17Y50"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i1<15>" LOCATE = SITE "SLICE_X17Y51" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[15]/pdl_top/w" LOCATE = SITE "SLICE_X17Y52"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i1<16>" LOCATE = SITE "SLICE_X17Y53" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[16]/pdl_top/w" LOCATE = SITE "SLICE_X17Y54"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i1<17>" LOCATE = SITE "SLICE_X17Y55" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[17]/pdl_top/w" LOCATE = SITE "SLICE_X17Y56"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i1<18>" LOCATE = SITE "SLICE_X17Y57" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[18]/pdl_top/w" LOCATE = SITE "SLICE_X17Y58"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i1<19>" LOCATE = SITE "SLICE_X17Y59" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[19]/pdl_top/w" LOCATE = SITE "SLICE_X17Y60"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i1<20>" LOCATE = SITE "SLICE_X17Y61" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[20]/pdl_top/w" LOCATE = SITE "SLICE_X17Y62"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i1<21>" LOCATE = SITE "SLICE_X17Y63" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[21]/pdl_top/w" LOCATE = SITE "SLICE_X17Y64"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i1<22>" LOCATE = SITE "SLICE_X17Y65" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[22]/pdl_top/w" LOCATE = SITE "SLICE_X17Y66"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i1<23>" LOCATE = SITE "SLICE_X17Y67" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[23]/pdl_top/w" LOCATE = SITE "SLICE_X17Y68"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i1<24>" LOCATE = SITE "SLICE_X17Y69" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[24]/pdl_top/w" LOCATE = SITE "SLICE_X17Y70"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i1<25>" LOCATE = SITE "SLICE_X17Y71" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[25]/pdl_top/w" LOCATE = SITE "SLICE_X17Y72"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i1<26>" LOCATE = SITE "SLICE_X17Y73" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[26]/pdl_top/w" LOCATE = SITE "SLICE_X17Y74"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i1<27>" LOCATE = SITE "SLICE_X17Y75" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[27]/pdl_top/w" LOCATE = SITE "SLICE_X17Y76"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i1<28>" LOCATE = SITE "SLICE_X17Y77" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[28]/pdl_top/w" LOCATE = SITE "SLICE_X17Y78"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i1<29>" LOCATE = SITE "SLICE_X17Y79" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[29]/pdl_top/w" LOCATE = SITE "SLICE_X17Y80"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i1<30>" LOCATE = SITE "SLICE_X17Y81" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[30]/pdl_top/w" LOCATE = SITE "SLICE_X17Y82"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i1<31>" LOCATE = SITE "SLICE_X17Y83" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[31]/pdl_top/w" LOCATE = SITE "SLICE_X17Y84"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i1<32>" LOCATE = SITE "SLICE_X17Y85" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[32]/pdl_top/w" LOCATE = SITE "SLICE_X17Y86"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i1<33>" LOCATE = SITE "SLICE_X17Y87" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[33]/pdl_top/w" LOCATE = SITE "SLICE_X17Y88"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i1<34>" LOCATE = SITE "SLICE_X17Y89" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[34]/pdl_top/w" LOCATE = SITE "SLICE_X17Y90"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i1<35>" LOCATE = SITE "SLICE_X17Y91" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[35]/pdl_top/w" LOCATE = SITE "SLICE_X17Y92"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i1<36>" LOCATE = SITE "SLICE_X17Y93" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[36]/pdl_top/w" LOCATE = SITE "SLICE_X17Y94"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i1<37>" LOCATE = SITE "SLICE_X17Y95" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[37]/pdl_top/w" LOCATE = SITE "SLICE_X17Y96"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i1<38>" LOCATE = SITE "SLICE_X17Y97" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[38]/pdl_top/w" LOCATE = SITE "SLICE_X17Y98"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i1<39>" LOCATE = SITE "SLICE_X17Y99" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[39]/pdl_top/w" LOCATE = SITE "SLICE_X17Y100"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i1<40>" LOCATE = SITE "SLICE_X17Y101" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[40]/pdl_top/w" LOCATE = SITE "SLICE_X17Y102"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i1<41>" LOCATE = SITE "SLICE_X17Y103" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[41]/pdl_top/w" LOCATE = SITE "SLICE_X17Y104"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i1<42>" LOCATE = SITE "SLICE_X17Y105" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[42]/pdl_top/w" LOCATE = SITE "SLICE_X17Y106"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i1<43>" LOCATE = SITE "SLICE_X17Y107" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[43]/pdl_top/w" LOCATE = SITE "SLICE_X17Y108"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i1<44>" LOCATE = SITE "SLICE_X17Y109" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[44]/pdl_top/w" LOCATE = SITE "SLICE_X17Y110"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i1<45>" LOCATE = SITE "SLICE_X17Y111" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[45]/pdl_top/w" LOCATE = SITE "SLICE_X17Y112"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i1<46>" LOCATE = SITE "SLICE_X17Y113" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[46]/pdl_top/w" LOCATE = SITE "SLICE_X17Y114"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i1<47>" LOCATE = SITE "SLICE_X17Y115" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[47]/pdl_top/w" LOCATE = SITE "SLICE_X17Y116"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i1<48>" LOCATE = SITE "SLICE_X17Y117" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[48]/pdl_top/w" LOCATE = SITE "SLICE_X17Y118"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i1<49>" LOCATE = SITE "SLICE_X17Y119" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[49]/pdl_top/w" LOCATE = SITE "SLICE_X17Y120"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i1<50>" LOCATE = SITE "SLICE_X17Y121" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[50]/pdl_top/w" LOCATE = SITE "SLICE_X17Y122"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i1<51>" LOCATE = SITE "SLICE_X17Y123" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[51]/pdl_top/w" LOCATE = SITE "SLICE_X17Y124"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i1<52>" LOCATE = SITE "SLICE_X17Y125" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[52]/pdl_top/w" LOCATE = SITE "SLICE_X17Y126"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i1<53>" LOCATE = SITE "SLICE_X17Y127" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[53]/pdl_top/w" LOCATE = SITE "SLICE_X17Y128"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i1<54>" LOCATE = SITE "SLICE_X17Y129" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[54]/pdl_top/w" LOCATE = SITE "SLICE_X17Y130"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i1<55>" LOCATE = SITE "SLICE_X17Y131" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[55]/pdl_top/w" LOCATE = SITE "SLICE_X17Y132"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i1<56>" LOCATE = SITE "SLICE_X17Y133" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[56]/pdl_top/w" LOCATE = SITE "SLICE_X17Y134"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i1<57>" LOCATE = SITE "SLICE_X17Y135" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[57]/pdl_top/w" LOCATE = SITE "SLICE_X17Y136"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i1<58>" LOCATE = SITE "SLICE_X17Y137" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[58]/pdl_top/w" LOCATE = SITE "SLICE_X17Y138"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i1<59>" LOCATE = SITE "SLICE_X17Y139" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[59]/pdl_top/w" LOCATE = SITE "SLICE_X17Y140"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i1<60>" LOCATE = SITE "SLICE_X17Y141" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[60]/pdl_top/w" LOCATE = SITE "SLICE_X17Y142"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i1<61>" LOCATE = SITE "SLICE_X17Y143" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[61]/pdl_top/w" LOCATE = SITE "SLICE_X17Y144"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i1<62>" LOCATE = SITE "SLICE_X17Y145" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[62]/pdl_top/w" LOCATE = SITE "SLICE_X17Y146"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i1<63>" LOCATE = SITE "SLICE_X17Y147" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[63]/pdl_top/w" LOCATE = SITE "SLICE_X17Y148"
-        LEVEL 1;
 COMP "tm/mp/pufCore/a1<3>" LOCATE = SITE "SLICE_X17Y149" LEVEL 1;
 COMP "tm/mp/pufCore/c1<3>" LOCATE = SITE "SLICE_X17Y150" LEVEL 1;
-COMP "tm/mp/dataOut<3>" LOCATE = SITE "SLICE_X19Y19" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/puf_out" LOCATE = SITE "SLICE_X19Y20" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i2<0>" LOCATE = SITE "SLICE_X19Y21" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[0]/pdl_bottom/w" LOCATE = SITE "SLICE_X19Y22"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i2<1>" LOCATE = SITE "SLICE_X19Y23" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[1]/pdl_bottom/w" LOCATE = SITE "SLICE_X19Y24"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i2<2>" LOCATE = SITE "SLICE_X19Y25" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[2]/pdl_bottom/w" LOCATE = SITE "SLICE_X19Y26"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i2<3>" LOCATE = SITE "SLICE_X19Y27" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[3]/pdl_bottom/w" LOCATE = SITE "SLICE_X19Y28"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i2<4>" LOCATE = SITE "SLICE_X19Y29" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[4]/pdl_bottom/w" LOCATE = SITE "SLICE_X19Y30"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i2<5>" LOCATE = SITE "SLICE_X19Y31" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[5]/pdl_bottom/w" LOCATE = SITE "SLICE_X19Y32"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i2<6>" LOCATE = SITE "SLICE_X19Y33" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[6]/pdl_bottom/w" LOCATE = SITE "SLICE_X19Y34"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i2<7>" LOCATE = SITE "SLICE_X19Y35" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[7]/pdl_bottom/w" LOCATE = SITE "SLICE_X19Y36"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i2<8>" LOCATE = SITE "SLICE_X19Y37" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[8]/pdl_bottom/w" LOCATE = SITE "SLICE_X19Y38"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i2<9>" LOCATE = SITE "SLICE_X19Y39" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[9]/pdl_bottom/w" LOCATE = SITE "SLICE_X19Y40"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i2<10>" LOCATE = SITE "SLICE_X19Y41" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[10]/pdl_bottom/w" LOCATE = SITE "SLICE_X19Y42"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i2<11>" LOCATE = SITE "SLICE_X19Y43" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[11]/pdl_bottom/w" LOCATE = SITE "SLICE_X19Y44"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i2<12>" LOCATE = SITE "SLICE_X19Y45" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[12]/pdl_bottom/w" LOCATE = SITE "SLICE_X19Y46"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i2<13>" LOCATE = SITE "SLICE_X19Y47" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[13]/pdl_bottom/w" LOCATE = SITE "SLICE_X19Y48"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i2<14>" LOCATE = SITE "SLICE_X19Y49" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[14]/pdl_bottom/w" LOCATE = SITE "SLICE_X19Y50"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i2<15>" LOCATE = SITE "SLICE_X19Y51" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[15]/pdl_bottom/w" LOCATE = SITE "SLICE_X19Y52"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i2<16>" LOCATE = SITE "SLICE_X19Y53" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[16]/pdl_bottom/w" LOCATE = SITE "SLICE_X19Y54"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i2<17>" LOCATE = SITE "SLICE_X19Y55" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[17]/pdl_bottom/w" LOCATE = SITE "SLICE_X19Y56"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i2<18>" LOCATE = SITE "SLICE_X19Y57" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[18]/pdl_bottom/w" LOCATE = SITE "SLICE_X19Y58"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i2<19>" LOCATE = SITE "SLICE_X19Y59" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[19]/pdl_bottom/w" LOCATE = SITE "SLICE_X19Y60"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i2<20>" LOCATE = SITE "SLICE_X19Y61" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[20]/pdl_bottom/w" LOCATE = SITE "SLICE_X19Y62"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i2<21>" LOCATE = SITE "SLICE_X19Y63" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[21]/pdl_bottom/w" LOCATE = SITE "SLICE_X19Y64"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i2<22>" LOCATE = SITE "SLICE_X19Y65" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[22]/pdl_bottom/w" LOCATE = SITE "SLICE_X19Y66"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i2<23>" LOCATE = SITE "SLICE_X19Y67" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[23]/pdl_bottom/w" LOCATE = SITE "SLICE_X19Y68"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i2<24>" LOCATE = SITE "SLICE_X19Y69" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[24]/pdl_bottom/w" LOCATE = SITE "SLICE_X19Y70"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i2<25>" LOCATE = SITE "SLICE_X19Y71" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[25]/pdl_bottom/w" LOCATE = SITE "SLICE_X19Y72"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i2<26>" LOCATE = SITE "SLICE_X19Y73" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[26]/pdl_bottom/w" LOCATE = SITE "SLICE_X19Y74"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i2<27>" LOCATE = SITE "SLICE_X19Y75" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[27]/pdl_bottom/w" LOCATE = SITE "SLICE_X19Y76"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i2<28>" LOCATE = SITE "SLICE_X19Y77" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[28]/pdl_bottom/w" LOCATE = SITE "SLICE_X19Y78"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i2<29>" LOCATE = SITE "SLICE_X19Y79" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[29]/pdl_bottom/w" LOCATE = SITE "SLICE_X19Y80"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i2<30>" LOCATE = SITE "SLICE_X19Y81" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[30]/pdl_bottom/w" LOCATE = SITE "SLICE_X19Y82"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i2<31>" LOCATE = SITE "SLICE_X19Y83" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[31]/pdl_bottom/w" LOCATE = SITE "SLICE_X19Y84"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i2<32>" LOCATE = SITE "SLICE_X19Y85" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[32]/pdl_bottom/w" LOCATE = SITE "SLICE_X19Y86"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i2<33>" LOCATE = SITE "SLICE_X19Y87" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[33]/pdl_bottom/w" LOCATE = SITE "SLICE_X19Y88"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i2<34>" LOCATE = SITE "SLICE_X19Y89" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[34]/pdl_bottom/w" LOCATE = SITE "SLICE_X19Y90"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i2<35>" LOCATE = SITE "SLICE_X19Y91" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[35]/pdl_bottom/w" LOCATE = SITE "SLICE_X19Y92"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i2<36>" LOCATE = SITE "SLICE_X19Y93" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[36]/pdl_bottom/w" LOCATE = SITE "SLICE_X19Y94"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i2<37>" LOCATE = SITE "SLICE_X19Y95" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[37]/pdl_bottom/w" LOCATE = SITE "SLICE_X19Y96"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i2<38>" LOCATE = SITE "SLICE_X19Y97" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[38]/pdl_bottom/w" LOCATE = SITE "SLICE_X19Y98"
-        LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i2<39>" LOCATE = SITE "SLICE_X19Y99" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[39]/pdl_bottom/w" LOCATE = SITE
-        "SLICE_X19Y100" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i2<40>" LOCATE = SITE "SLICE_X19Y101" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[40]/pdl_bottom/w" LOCATE = SITE
-        "SLICE_X19Y102" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i2<41>" LOCATE = SITE "SLICE_X19Y103" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[41]/pdl_bottom/w" LOCATE = SITE
-        "SLICE_X19Y104" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i2<42>" LOCATE = SITE "SLICE_X19Y105" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[42]/pdl_bottom/w" LOCATE = SITE
-        "SLICE_X19Y106" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i2<43>" LOCATE = SITE "SLICE_X19Y107" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[43]/pdl_bottom/w" LOCATE = SITE
-        "SLICE_X19Y108" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i2<44>" LOCATE = SITE "SLICE_X19Y109" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[44]/pdl_bottom/w" LOCATE = SITE
-        "SLICE_X19Y110" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i2<45>" LOCATE = SITE "SLICE_X19Y111" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[45]/pdl_bottom/w" LOCATE = SITE
-        "SLICE_X19Y112" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i2<46>" LOCATE = SITE "SLICE_X19Y113" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[46]/pdl_bottom/w" LOCATE = SITE
-        "SLICE_X19Y114" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i2<47>" LOCATE = SITE "SLICE_X19Y115" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[47]/pdl_bottom/w" LOCATE = SITE
-        "SLICE_X19Y116" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i2<48>" LOCATE = SITE "SLICE_X19Y117" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[48]/pdl_bottom/w" LOCATE = SITE
-        "SLICE_X19Y118" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i2<49>" LOCATE = SITE "SLICE_X19Y119" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[49]/pdl_bottom/w" LOCATE = SITE
-        "SLICE_X19Y120" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i2<50>" LOCATE = SITE "SLICE_X19Y121" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[50]/pdl_bottom/w" LOCATE = SITE
-        "SLICE_X19Y122" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i2<51>" LOCATE = SITE "SLICE_X19Y123" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[51]/pdl_bottom/w" LOCATE = SITE
-        "SLICE_X19Y124" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i2<52>" LOCATE = SITE "SLICE_X19Y125" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[52]/pdl_bottom/w" LOCATE = SITE
-        "SLICE_X19Y126" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i2<53>" LOCATE = SITE "SLICE_X19Y127" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[53]/pdl_bottom/w" LOCATE = SITE
-        "SLICE_X19Y128" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i2<54>" LOCATE = SITE "SLICE_X19Y129" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[54]/pdl_bottom/w" LOCATE = SITE
-        "SLICE_X19Y130" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i2<55>" LOCATE = SITE "SLICE_X19Y131" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[55]/pdl_bottom/w" LOCATE = SITE
-        "SLICE_X19Y132" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i2<56>" LOCATE = SITE "SLICE_X19Y133" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[56]/pdl_bottom/w" LOCATE = SITE
-        "SLICE_X19Y134" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i2<57>" LOCATE = SITE "SLICE_X19Y135" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[57]/pdl_bottom/w" LOCATE = SITE
-        "SLICE_X19Y136" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i2<58>" LOCATE = SITE "SLICE_X19Y137" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[58]/pdl_bottom/w" LOCATE = SITE
-        "SLICE_X19Y138" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i2<59>" LOCATE = SITE "SLICE_X19Y139" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[59]/pdl_bottom/w" LOCATE = SITE
-        "SLICE_X19Y140" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i2<60>" LOCATE = SITE "SLICE_X19Y141" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[60]/pdl_bottom/w" LOCATE = SITE
-        "SLICE_X19Y142" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i2<61>" LOCATE = SITE "SLICE_X19Y143" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[61]/pdl_bottom/w" LOCATE = SITE
-        "SLICE_X19Y144" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i2<62>" LOCATE = SITE "SLICE_X19Y145" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[62]/pdl_bottom/w" LOCATE = SITE
-        "SLICE_X19Y146" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/i2<63>" LOCATE = SITE "SLICE_X19Y147" LEVEL 1;
-COMP "tm/mp/pufCore/puf4/sarray[63]/pdl_bottom/w" LOCATE = SITE
-        "SLICE_X19Y148" LEVEL 1;
 COMP "tm/mp/pufCore/a2<3>" LOCATE = SITE "SLICE_X19Y149" LEVEL 1;
 COMP "tm/mp/pufCore/c2<3>" LOCATE = SITE "SLICE_X19Y150" LEVEL 1;
 COMP "tm/mp/pufCore/puf5/i1<0>" LOCATE = SITE "SLICE_X21Y21" LEVEL 1;
@@ -6335,34 +5949,34 @@ PIN E2M/EC/SysACEToEthFifo/FIFO18_inst_pins<63> = BEL
         "E2M/EC/SysACEToEthFifo/FIFO18_inst" PINNAME RDRCLK;
 PIN E2M/EC/EthToSysACEFifo/FIFO18_inst_pins<73> = BEL
         "E2M/EC/EthToSysACEFifo/FIFO18_inst" PINNAME WRCLK;
-PIN E2M/emac_ll/client_side_FIFO_emac0/rx_fifo_i/ramgen_l_pins<25> = BEL
-        "E2M/emac_ll/client_side_FIFO_emac0/rx_fifo_i/ramgen_l" PINNAME CLKBL;
-PIN E2M/emac_ll/client_side_FIFO_emac0/rx_fifo_i/ramgen_l_pins<58> = BEL
+PIN E2M/emac_ll/client_side_FIFO_emac0/rx_fifo_i/ramgen_l_pins<31> = BEL
+        "E2M/emac_ll/client_side_FIFO_emac0/rx_fifo_i/ramgen_l" PINNAME CLKBU;
+PIN E2M/emac_ll/client_side_FIFO_emac0/rx_fifo_i/ramgen_l_pins<109> = BEL
         "E2M/emac_ll/client_side_FIFO_emac0/rx_fifo_i/ramgen_l" PINNAME
-        REGCLKBL;
-PIN E2M/emac_ll/client_side_FIFO_emac0/rx_fifo_i/ramgen_u_pins<25> = BEL
+        REGCLKBU;
+PIN E2M/emac_ll/client_side_FIFO_emac0/rx_fifo_i/ramgen_u_pins<33> = BEL
         "E2M/emac_ll/client_side_FIFO_emac0/rx_fifo_i/ramgen_u" PINNAME CLKBL;
-PIN E2M/emac_ll/client_side_FIFO_emac0/rx_fifo_i/ramgen_u_pins<58> = BEL
+PIN E2M/emac_ll/client_side_FIFO_emac0/rx_fifo_i/ramgen_u_pins<111> = BEL
         "E2M/emac_ll/client_side_FIFO_emac0/rx_fifo_i/ramgen_u" PINNAME
         REGCLKBL;
-PIN E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/ramgen_l_pins<30> = BEL
-        "E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/ramgen_l" PINNAME CLKAU;
-PIN E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/ramgen_l_pins<31> = BEL
-        "E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/ramgen_l" PINNAME CLKBU;
-PIN E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/ramgen_l_pins<108> = BEL
+PIN E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/ramgen_l_pins<24> = BEL
+        "E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/ramgen_l" PINNAME CLKAL;
+PIN E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/ramgen_l_pins<25> = BEL
+        "E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/ramgen_l" PINNAME CLKBL;
+PIN E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/ramgen_l_pins<57> = BEL
         "E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/ramgen_l" PINNAME
-        REGCLKAU;
-PIN E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/ramgen_l_pins<109> = BEL
+        REGCLKAL;
+PIN E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/ramgen_l_pins<58> = BEL
         "E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/ramgen_l" PINNAME
-        REGCLKBU;
-PIN E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/ramgen_u_pins<32> = BEL
+        REGCLKBL;
+PIN E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/ramgen_u_pins<24> = BEL
         "E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/ramgen_u" PINNAME CLKAL;
-PIN E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/ramgen_u_pins<33> = BEL
+PIN E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/ramgen_u_pins<25> = BEL
         "E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/ramgen_u" PINNAME CLKBL;
-PIN E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/ramgen_u_pins<110> = BEL
+PIN E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/ramgen_u_pins<57> = BEL
         "E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/ramgen_u" PINNAME
         REGCLKAL;
-PIN E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/ramgen_u_pins<111> = BEL
+PIN E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/ramgen_u_pins<58> = BEL
         "E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/ramgen_u" PINNAME
         REGCLKBL;
 PIN
@@ -7520,26 +7134,26 @@ TIMEGRP clk_125_eth = BEL "E2M/emac_ll/tx_pre_reset_0_i_0" BEL
         "E2M/EC/EthToSysACEFifo/FIFO18_inst_pins<73>" BEL
         "E2M/emac_ll/client_side_FIFO_emac0/rx_fifo_i/Mshreg_rd_valid_pipe_1"
         BEL "E2M/emac_ll/client_side_FIFO_emac0/rx_fifo_i/rd_valid_pipe_1" PIN
-        "E2M/emac_ll/client_side_FIFO_emac0/rx_fifo_i/ramgen_l_pins<25>" PIN
-        "E2M/emac_ll/client_side_FIFO_emac0/rx_fifo_i/ramgen_l_pins<58>" PIN
-        "E2M/emac_ll/client_side_FIFO_emac0/rx_fifo_i/ramgen_u_pins<25>" PIN
-        "E2M/emac_ll/client_side_FIFO_emac0/rx_fifo_i/ramgen_u_pins<58>" PIN
-        "E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/ramgen_l_pins<30>" PIN
-        "E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/ramgen_l_pins<31>" PIN
-        "E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/ramgen_l_pins<108>" PIN
-        "E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/ramgen_l_pins<109>" PIN
-        "E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/ramgen_l_pins<30>" PIN
-        "E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/ramgen_l_pins<31>" PIN
-        "E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/ramgen_l_pins<108>" PIN
-        "E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/ramgen_l_pins<109>" PIN
-        "E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/ramgen_u_pins<32>" PIN
-        "E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/ramgen_u_pins<33>" PIN
-        "E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/ramgen_u_pins<110>" PIN
-        "E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/ramgen_u_pins<111>" PIN
-        "E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/ramgen_u_pins<32>" PIN
-        "E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/ramgen_u_pins<33>" PIN
-        "E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/ramgen_u_pins<110>" PIN
-        "E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/ramgen_u_pins<111>" PIN
+        "E2M/emac_ll/client_side_FIFO_emac0/rx_fifo_i/ramgen_l_pins<31>" PIN
+        "E2M/emac_ll/client_side_FIFO_emac0/rx_fifo_i/ramgen_l_pins<109>" PIN
+        "E2M/emac_ll/client_side_FIFO_emac0/rx_fifo_i/ramgen_u_pins<33>" PIN
+        "E2M/emac_ll/client_side_FIFO_emac0/rx_fifo_i/ramgen_u_pins<111>" PIN
+        "E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/ramgen_l_pins<24>" PIN
+        "E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/ramgen_l_pins<25>" PIN
+        "E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/ramgen_l_pins<57>" PIN
+        "E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/ramgen_l_pins<58>" PIN
+        "E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/ramgen_l_pins<24>" PIN
+        "E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/ramgen_l_pins<25>" PIN
+        "E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/ramgen_l_pins<57>" PIN
+        "E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/ramgen_l_pins<58>" PIN
+        "E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/ramgen_u_pins<24>" PIN
+        "E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/ramgen_u_pins<25>" PIN
+        "E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/ramgen_u_pins<57>" PIN
+        "E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/ramgen_u_pins<58>" PIN
+        "E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/ramgen_u_pins<24>" PIN
+        "E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/ramgen_u_pins<25>" PIN
+        "E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/ramgen_u_pins<57>" PIN
+        "E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/ramgen_u_pins<58>" PIN
         "E2M/EC/memInputData/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.CASCADED_PRIM36.TDP_B_pins<66>"
         PIN
         "E2M/EC/memInputData/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.CASCADED_PRIM36.TDP_B_pins<67>"
@@ -8020,32 +7634,32 @@ TIMEGRP hard_reset = BEL "E2M/emac_ll/tx_pre_reset_0_i_0" BEL
         "E2M/delayCtrl0Reset_2" BEL "E2M/delayCtrl0Reset_1" BEL
         "E2M/delayCtrl0_MapLib_replicate13" BEL
         "E2M/delayCtrl0_MapLib_replicate1" PIN
-        "E2M/emac_ll/client_side_FIFO_emac0/rx_fifo_i/ramgen_l_pins<25>" PIN
-        "E2M/emac_ll/client_side_FIFO_emac0/rx_fifo_i/ramgen_l_pins<58>" PIN
-        "E2M/emac_ll/client_side_FIFO_emac0/rx_fifo_i/ramgen_u_pins<25>" PIN
-        "E2M/emac_ll/client_side_FIFO_emac0/rx_fifo_i/ramgen_u_pins<58>" PIN
-        "E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/ramgen_l_pins<30>" PIN
-        "E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/ramgen_l_pins<31>" PIN
-        "E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/ramgen_l_pins<108>" PIN
-        "E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/ramgen_l_pins<109>" PIN
-        "E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/ramgen_u_pins<32>" PIN
-        "E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/ramgen_u_pins<33>" PIN
-        "E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/ramgen_u_pins<110>" PIN
-        "E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/ramgen_u_pins<111>";
+        "E2M/emac_ll/client_side_FIFO_emac0/rx_fifo_i/ramgen_l_pins<31>" PIN
+        "E2M/emac_ll/client_side_FIFO_emac0/rx_fifo_i/ramgen_l_pins<109>" PIN
+        "E2M/emac_ll/client_side_FIFO_emac0/rx_fifo_i/ramgen_u_pins<33>" PIN
+        "E2M/emac_ll/client_side_FIFO_emac0/rx_fifo_i/ramgen_u_pins<111>" PIN
+        "E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/ramgen_l_pins<24>" PIN
+        "E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/ramgen_l_pins<25>" PIN
+        "E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/ramgen_l_pins<57>" PIN
+        "E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/ramgen_l_pins<58>" PIN
+        "E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/ramgen_u_pins<24>" PIN
+        "E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/ramgen_u_pins<25>" PIN
+        "E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/ramgen_u_pins<57>" PIN
+        "E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/ramgen_u_pins<58>";
 PIN E2M/emac_ll/v5_emac_block_inst/v5_emac_wrapper_inst/v5_emac_pins<18> = BEL
         "E2M/emac_ll/v5_emac_block_inst/v5_emac_wrapper_inst/v5_emac" PINNAME
         CLIENTEMAC0RXCLIENTCLKIN;
 PIN E2M/emac_ll/v5_emac_block_inst/v5_emac_wrapper_inst/v5_emac_pins<231> =
         BEL "E2M/emac_ll/v5_emac_block_inst/v5_emac_wrapper_inst/v5_emac"
         PINNAME PHYEMAC0RXCLK;
-PIN E2M/emac_ll/client_side_FIFO_emac0/rx_fifo_i/ramgen_l_pins<24> = BEL
-        "E2M/emac_ll/client_side_FIFO_emac0/rx_fifo_i/ramgen_l" PINNAME CLKAL;
-PIN E2M/emac_ll/client_side_FIFO_emac0/rx_fifo_i/ramgen_l_pins<57> = BEL
+PIN E2M/emac_ll/client_side_FIFO_emac0/rx_fifo_i/ramgen_l_pins<30> = BEL
+        "E2M/emac_ll/client_side_FIFO_emac0/rx_fifo_i/ramgen_l" PINNAME CLKAU;
+PIN E2M/emac_ll/client_side_FIFO_emac0/rx_fifo_i/ramgen_l_pins<108> = BEL
         "E2M/emac_ll/client_side_FIFO_emac0/rx_fifo_i/ramgen_l" PINNAME
-        REGCLKAL;
-PIN E2M/emac_ll/client_side_FIFO_emac0/rx_fifo_i/ramgen_u_pins<24> = BEL
+        REGCLKAU;
+PIN E2M/emac_ll/client_side_FIFO_emac0/rx_fifo_i/ramgen_u_pins<32> = BEL
         "E2M/emac_ll/client_side_FIFO_emac0/rx_fifo_i/ramgen_u" PINNAME CLKAL;
-PIN E2M/emac_ll/client_side_FIFO_emac0/rx_fifo_i/ramgen_u_pins<57> = BEL
+PIN E2M/emac_ll/client_side_FIFO_emac0/rx_fifo_i/ramgen_u_pins<110> = BEL
         "E2M/emac_ll/client_side_FIFO_emac0/rx_fifo_i/ramgen_u" PINNAME
         REGCLKAL;
 TIMEGRP phy_clk_rx0 = BEL "E2M/emac_ll/rx_pre_reset_0_i_0" BEL
@@ -8174,10 +7788,10 @@ TIMEGRP phy_clk_rx0 = BEL "E2M/emac_ll/rx_pre_reset_0_i_0" BEL
         BEL "E2M/emac_ll/client_side_FIFO_emac0/rx_fifo_i/wr_data_bram_0" BEL
         "E2M/emac_ll/client_side_FIFO_emac0/rx_fifo_i/Mshreg_wr_gf_pipe_1" BEL
         "E2M/emac_ll/client_side_FIFO_emac0/rx_fifo_i/wr_gf_pipe_1" PIN
-        "E2M/emac_ll/client_side_FIFO_emac0/rx_fifo_i/ramgen_l_pins<24>" PIN
-        "E2M/emac_ll/client_side_FIFO_emac0/rx_fifo_i/ramgen_l_pins<57>" PIN
-        "E2M/emac_ll/client_side_FIFO_emac0/rx_fifo_i/ramgen_u_pins<24>" PIN
-        "E2M/emac_ll/client_side_FIFO_emac0/rx_fifo_i/ramgen_u_pins<57>";
+        "E2M/emac_ll/client_side_FIFO_emac0/rx_fifo_i/ramgen_l_pins<30>" PIN
+        "E2M/emac_ll/client_side_FIFO_emac0/rx_fifo_i/ramgen_l_pins<108>" PIN
+        "E2M/emac_ll/client_side_FIFO_emac0/rx_fifo_i/ramgen_u_pins<32>" PIN
+        "E2M/emac_ll/client_side_FIFO_emac0/rx_fifo_i/ramgen_u_pins<110>";
 TIMEGRP tx_metastable_0 = BEL
         "E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/wr_col_window_pipe_0"
         BEL "E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/wr_retran_frame_tog"

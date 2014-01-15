@@ -8,59 +8,5 @@
 <!-- Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
-<msg type="info" file="ProjectMgmt" num="1835" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/Dropbox/Works and collections/Elec/Rice/PDL/ipcore_dir/emac_single/example_design/client/fifo/eth_fifo_8.v&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1835" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/Dropbox/Works and collections/Elec/Rice/PDL/ipcore_dir/emac_single/example_design/client/fifo/rx_client_fifo_8.v&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1835" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/Dropbox/Works and collections/Elec/Rice/PDL/ipcore_dir/emac_single/example_design/client/fifo/tx_client_fifo_8.v&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1835" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/Dropbox/Works and collections/Elec/Rice/PDL/ipcore_dir/emac_single/example_design/emac_single.v&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1835" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/Dropbox/Works and collections/Elec/Rice/PDL/ipcore_dir/emac_single/example_design/emac_single_block.v&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1835" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/Dropbox/Works and collections/Elec/Rice/PDL/ipcore_dir/emac_single/example_design/emac_single_locallink.v&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1835" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/Dropbox/Works and collections/Elec/Rice/PDL/ipcore_dir/emac_single/example_design/physical/gmii_if.v&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1835" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/Dropbox/Works and collections/Elec/Rice/PDL/source/PDL_PUF.v&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1835" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/Dropbox/Works and collections/Elec/Rice/PDL/source/ethernet2BlockMem.v&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1835" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/Dropbox/Works and collections/Elec/Rice/PDL/source/ethernetController.v&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1835" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/Dropbox/Works and collections/Elec/Rice/PDL/source/fifo36Wrapper.v&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1835" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/Dropbox/Works and collections/Elec/Rice/PDL/source/iobuf.v&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1835" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/Dropbox/Works and collections/Elec/Rice/PDL/source/mapping3.v&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1835" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/Dropbox/Works and collections/Elec/Rice/PDL/source/pdl_based_switch.v&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1835" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/Dropbox/Works and collections/Elec/Rice/PDL/source/pdl_block.v&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1835" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/Dropbox/Works and collections/Elec/Rice/PDL/source/pufMapping.v&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1835" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/Dropbox/Works and collections/Elec/Rice/PDL/source/simpleTestModuleOne.v&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1835" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/Dropbox/Works and collections/Elec/Rice/PDL/source/system.v&quot; into library work</arg>
-</msg>
-
 </messages>
 

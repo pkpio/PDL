@@ -4,13 +4,13 @@ Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.15 secs
+Total CPU time to Xst completion: 0.14 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.15 secs
+Total CPU time to Xst completion: 0.14 secs
  
 --> Reading design: system.prj
 
@@ -124,14 +124,14 @@ Compiling verilog file "ipcore_dir/emac_single/example_design/client/fifo/tx_cli
 Module <emac_single> compiled
 Compiling verilog file "ipcore_dir/emac_single/example_design/client/fifo/rx_client_fifo_8.v" in library work
 Module <tx_client_fifo_8> compiled
-Compiling verilog file "source/pufMapping.v" in library work
+Compiling verilog file "source/sirc_files/iobuf.v" in library work
 Module <rx_client_fifo_8> compiled
-Compiling verilog file "source/iobuf.v" in library work
-Module <pufMapping> compiled
-Compiling verilog file "source/fifo36Wrapper.v" in library work
+Compiling verilog file "source/sirc_files/fifo36Wrapper.v" in library work
 Module <iobuf16> compiled
-Compiling verilog file "ipcore_dir/emac_single/example_design/emac_single_block.v" in library work
+Compiling verilog file "source/pufMapping.v" in library work
 Module <fifo36Wrapper> compiled
+Compiling verilog file "ipcore_dir/emac_single/example_design/emac_single_block.v" in library work
+Module <pufMapping> compiled
 Compiling verilog file "ipcore_dir/emac_single/example_design/client/fifo/eth_fifo_8.v" in library work
 Module <emac_single_block> compiled
 Compiling verilog file "ipcore_dir/blk_mem_gen_paramReg.v" in library work
@@ -140,18 +140,18 @@ Compiling verilog file "ipcore_dir/blk_mem_gen_outputMem.v" in library work
 Module <blk_mem_gen_paramReg> compiled
 Compiling verilog file "ipcore_dir/blk_mem_gen_inputMem.v" in library work
 Module <blk_mem_gen_outputMem> compiled
-Compiling verilog file "source/mapping3.v" in library work
+Compiling verilog file "source/sirc_files/ethernetController.v" in library work
 Module <blk_mem_gen_inputMem> compiled
-Compiling verilog file "source/ethernetController.v" in library work
-Module <mapping> compiled
-Compiling verilog file "ipcore_dir/emac_single/example_design/emac_single_locallink.v" in library work
+Compiling verilog file "source/mapping3.v" in library work
 Module <ethernetController> compiled
-Compiling verilog file "source/simpleTestModuleOne.v" in library work
+Compiling verilog file "ipcore_dir/emac_single/example_design/emac_single_locallink.v" in library work
+Module <mapping> compiled
+Compiling verilog file "source/sirc_files/ethernet2BlockMem.v" in library work
 Module <emac_single_locallink> compiled
-Compiling verilog file "source/ethernet2BlockMem.v" in library work
-Module <simpleTestModuleOne> compiled
-Compiling verilog file "source/system.v" in library work
+Compiling verilog file "source/simpleTestModuleOne.v" in library work
 Module <ethernet2BlockMem> compiled
+Compiling verilog file "source/sirc_files/system.v" in library work
+Module <simpleTestModuleOne> compiled
 Module <system> compiled
 No errors in compilation
 Analysis of file <"system.prj"> succeeded.
@@ -1815,7 +1815,6 @@ INFO:Xst:2679 - Register <LED<3>> in unit <simpleTestModuleOne> has a constant v
 INFO:Xst:2679 - Register <LED<2>> in unit <simpleTestModuleOne> has a constant value of 0 during circuit operation. The register is replaced by logic.
 INFO:Xst:2679 - Register <LED<1>> in unit <simpleTestModuleOne> has a constant value of 0 during circuit operation. The register is replaced by logic.
 INFO:Xst:2679 - Register <bitCount> in unit <simpleTestModuleOne> has a constant value of 00000000 during circuit operation. The register is replaced by logic.
-INFO:Xst:2679 - Register <oBeforeTrig> in unit <simpleTestModuleOne> has a constant value of 0 during circuit operation. The register is replaced by logic.
 INFO:Xst:2679 - Register <sum> in unit <mapping> has a constant value of 0000000000000000 during circuit operation. The register is replaced by logic.
 
 Synthesizing Unit <gmii_if>.
@@ -2033,12 +2032,12 @@ Unit <rx_client_fifo_8> synthesized.
 
 
 Synthesizing Unit <iobuf16>.
-    Related source file is "source/iobuf.v".
+    Related source file is "source/sirc_files/iobuf.v".
 Unit <iobuf16> synthesized.
 
 
 Synthesizing Unit <fifo36Wrapper>.
-    Related source file is "source/fifo36Wrapper.v".
+    Related source file is "source/sirc_files/fifo36Wrapper.v".
 Unit <fifo36Wrapper> synthesized.
 
 
@@ -2053,7 +2052,7 @@ Unit <pdl_block_2> synthesized.
 
 
 Synthesizing Unit <ethernetController>.
-    Related source file is "source/ethernetController.v".
+    Related source file is "source/sirc_files/ethernetController.v".
     Found finite state machine <FSM_4> for signal <sysACE_state>.
     -----------------------------------------------------------------------
     | States             | 4                                              |
@@ -2524,7 +2523,7 @@ Unit <PDL_PUF_2> synthesized.
 
 
 Synthesizing Unit <ethernet2BlockMem>.
-    Related source file is "source/ethernet2BlockMem.v".
+    Related source file is "source/sirc_files/ethernet2BlockMem.v".
     Found 13-bit register for signal <delayCtrl0Reset>.
     Summary:
 	inferred  13 D-type flip-flop(s).
@@ -2537,8 +2536,8 @@ Synthesizing Unit <pufMapping>.
     Found 16-bit register for signal <a2>.
     Found 16-bit register for signal <b1>.
     Found 16-bit register for signal <b2>.
-    Found 16-bit adder for signal <c1$addsub0000> created at line 52.
-    Found 16-bit adder for signal <c2$addsub0000> created at line 53.
+    Found 16-bit adder for signal <c1$addsub0000> created at line 50.
+    Found 16-bit adder for signal <c2$addsub0000> created at line 51.
     Summary:
 	inferred  64 D-type flip-flop(s).
 	inferred   2 Adder/Subtractor(s).
@@ -2553,7 +2552,7 @@ WARNING:Xst:1872 - Variable <ind> is used but never assigned.
     Found 1-bit register for signal <done>.
     Found 128-bit register for signal <buffer>.
     Found 5-bit register for signal <countWait>.
-    Found 5-bit adder for signal <countWait$addsub0000> created at line 62.
+    Found 5-bit adder for signal <countWait$addsub0000> created at line 56.
     Found 1-bit register for signal <mp_state>.
     Found 1-bit register for signal <PUFreset>.
     Found 1-bit register for signal <startPUF>.
@@ -2566,7 +2565,6 @@ Unit <mapping> synthesized.
 Synthesizing Unit <simpleTestModuleOne>.
     Related source file is "source/simpleTestModuleOne.v".
 WARNING:Xst:1780 - Signal <responseRegBuffer> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
-WARNING:Xst:646 - Signal <oBeforeTrig> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:646 - Signal <bitCount> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:646 - Signal <A<31:16>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
     Using one-hot encoding for signal <regCount>.
@@ -2582,19 +2580,19 @@ WARNING:Xst:646 - Signal <A<31:16>> is assigned but never used. This unconnected
     Found 32-bit register for signal <A>.
     Found 32-bit register for signal <B>.
     Found 128-bit register for signal <challenge>.
-    Found 6-bit comparator greater for signal <challenge_0$cmp_gt0000> created at line 249.
+    Found 6-bit comparator greater for signal <challenge_0$cmp_gt0000> created at line 245.
     Found 1-bit register for signal <challenge_ready>.
     Found 3-bit register for signal <currState>.
-    Found 6-bit comparator lessequal for signal <currState$cmp_le0001> created at line 249.
+    Found 6-bit comparator lessequal for signal <currState$cmp_le0001> created at line 245.
     Found 1-bit register for signal <inputDone>.
-    Found 17-bit adder for signal <inputMemoryReadAdd$addsub0000> created at line 236.
+    Found 17-bit adder for signal <inputMemoryReadAdd$addsub0000> created at line 232.
     Found 6-bit register for signal <memCount>.
-    Found 6-bit adder for signal <memCount$share0000> created at line 179.
-    Found 13-bit adder for signal <outputMemoryWriteAdd$addsub0000> created at line 310.
-    Found 13-bit comparator greater for signal <outputMemoryWriteData$cmp_gt0000> created at line 303.
+    Found 6-bit adder for signal <memCount$share0000> created at line 175.
+    Found 13-bit adder for signal <outputMemoryWriteAdd$addsub0000> created at line 286.
+    Found 13-bit comparator greater for signal <outputMemoryWriteData$cmp_gt0000> created at line 279.
     Found 1-bit register for signal <paramCount>.
     Found 2-bit register for signal <regCount>.
-    Found 8-bit adder for signal <register32Address$addsub0000> created at line 199.
+    Found 8-bit adder for signal <register32Address$addsub0000> created at line 195.
     Summary:
 	inferred 257 D-type flip-flop(s).
 	inferred   4 Adder/Subtractor(s).
@@ -2603,7 +2601,7 @@ Unit <simpleTestModuleOne> synthesized.
 
 
 Synthesizing Unit <system>.
-    Related source file is "source/system.v".
+    Related source file is "source/sirc_files/system.v".
     Found 1-bit register for signal <test2Reg>.
     Summary:
 	inferred   1 D-type flip-flop(s).
@@ -3752,14 +3750,14 @@ Delay:               3.617ns (Levels of Logic = 2)
 =========================================================================
 
 
-Total REAL time to Xst completion: 157.00 secs
-Total CPU time to Xst completion: 156.51 secs
+Total REAL time to Xst completion: 156.00 secs
+Total CPU time to Xst completion: 155.76 secs
  
 --> 
 
-Total memory usage is 554492 kilobytes
+Total memory usage is 554812 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :  175 (   0 filtered)
-Number of infos    :   68 (   0 filtered)
+Number of warnings :  174 (   0 filtered)
+Number of infos    :   67 (   0 filtered)
 

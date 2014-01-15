@@ -10,7 +10,7 @@ Target Device  : xc5vlx110t
 Target Package : ff1136
 Target Speed   : -1
 Mapper Version : virtex5 -- $Revision: 1.55 $
-Mapped Date    : Wed Jan 15 23:02:07 2014
+Mapped Date    : Thu Jan 16 01:09:00 2014
 
 Design Summary
 --------------
@@ -33,11 +33,11 @@ Slice Logic Utilization:
     Number using O5 output only:                 3
 
 Slice Logic Distribution:
-  Number of occupied Slices:                 5,297 out of  17,280   30%
-  Number of LUT Flip Flop pairs used:        7,331
-    Number with an unused Flip Flop:         5,699 out of   7,331   77%
-    Number with an unused LUT:                 683 out of   7,331    9%
-    Number of fully used LUT-FF pairs:         949 out of   7,331   12%
+  Number of occupied Slices:                 5,336 out of  17,280   30%
+  Number of LUT Flip Flop pairs used:        7,353
+    Number with an unused Flip Flop:         5,721 out of   7,353   77%
+    Number with an unused LUT:                 705 out of   7,353    9%
+    Number of fully used LUT-FF pairs:         927 out of   7,353   12%
     Number of unique control sets:             108
     Number of slice register sites lost
       to control set restrictions:             205 out of  69,120    1%
@@ -72,9 +72,9 @@ Specific Feature Utilization:
 
 Average Fanout of Non-Clock Nets:                5.34
 
-Peak Memory Usage:  721 MB
-Total REAL time to MAP completion:  2 mins 9 secs 
-Total CPU time to MAP completion:   2 mins 5 secs 
+Peak Memory Usage:  720 MB
+Total REAL time to MAP completion:  1 mins 54 secs 
+Total CPU time to MAP completion:   1 mins 52 secs 
 
 Table of Contents
 -----------------

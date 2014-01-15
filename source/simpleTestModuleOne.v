@@ -1,20 +1,21 @@
 //////////////////////////////////////////////////////////////////////////////////
 // 
 // Author 			:	Praveen Kumar Pendyala
-// **Modified the code of HW example for SIRC from MSR written bu Ken Eguro
-//
 // Create Date		:  05/27/13
-// Modify Date		:	06/05/13
+// Modify Date		:	15/01/14
 // Module Name		:  simpleTestModuleOne 
 // Project Name	: 	SIRC_HW
 // Target Devices	: 	Xilinx Vertix 5, XUPV5 110T
 // Tool versions	: 	13.2 ISE
 //
 // Description: 
-//	This module receives 128-bit challenge data from PC. Evaluates the PUFs response and sends it back to PC.
+//	This module receives 128-bits of pdl configuration data and 2 32-bit operands from PC.
+// Evaluates the PUFs response for the given configuration and operands.
+// Sends the responses back to PC.
 //
 //	Bugs :
-//	- While writing back to memory the first element is written twice (i.e., to memory addresses 0 and 1). Temporarily fix by writing 1 extra bit and also reading 1 extra but in software.
+//	- While writing back to memory the first element is written twice (i.e., to memory addresses 0 and 1).
+//   Temporarily fix by writing 1 extra bit and also reading 1 extra but in software.
 //////////////////////////////////////////////////////////////////////////////////
 
 `timescale 1ns / 1ps
@@ -79,6 +80,7 @@ module simpleTestModuleOne #(
 	//State registers
 	reg [2:0] currState;
 	
+	//Challenge = configuration bits for PDLs
 	//Challenge and Response holding registers as 2D matrices
 	//SIRC sends each byte as 8-bit long so we are using 2D-arrays
 	reg	[7:0]	challenge [0:15];
@@ -102,13 +104,13 @@ module simpleTestModuleOne #(
 	
 	//Endianness has been adjusted in other modules and/or while building challenge 1D array
 	always @(*) begin
-		{response[0], response[1]} <= responseReg;//responseRegBuffer[15:0] + responseRegBuffer[31:16];
+		{response[0], response[1]} <= responseReg;
 	end
 	
 	//Counter
 	reg paramCount;
 	
-	//Message parameters
+	//Operands
 	reg [31:0] A;
 	reg [31:0] B;
 
@@ -126,12 +128,6 @@ module simpleTestModuleOne #(
 	//PUF execution variables
 	reg challenge_ready;
 	wire response_ready;
-	
-	//Will be used to set the output of adder before issuing trigger so that both pos and neg edges can be detected
-	reg oBeforeTrig;
-	//There will 2 runs on PUF for each execution - 1. For posedge detection, 2. negedge detection
-	//reg pufRunCount;
-
 
 	initial begin
 		currState = IDLE;
@@ -255,8 +251,6 @@ module simpleTestModuleOne #(
 							currState <= COMPUTE;
 							regCount <= 0;
 							bitCount <= 0;
-							oBeforeTrig <= 0; //For detecting posedges on first run
-							//pufRunCount <= 0;
 						end	
 					end				
 				end
@@ -274,25 +268,7 @@ module simpleTestModuleOne #(
 						currState <= WRITE;
 						memCount <= 0;
 						regCount <= 0;
-						outputMemoryWriteAdd <= 0;
-					/* New model to be tried out later
-						if(pufRunCount != 1) begin
-							regCount <= 0;
-							oBeforeTrig <= 1;
-							pufRunCount <= 1;
-							//Do another computation. For negedge detection this time
-							currState <= COMPUTE;
-							responseRegBuffer[15:0] <= responseReg[15:0];
-						end
-						else begin
-							responseRegBuffer[31:16] <= responseReg[15:0];
-							currState <= WRITE;
-							memCount <= 0;
-							regCount <= 0;
-							outputMemoryWriteAdd <= 0;
-						end
-						*/
-						
+						outputMemoryWriteAdd <= 0;						
 					end
 					
 				end
@@ -337,8 +313,6 @@ mapping #(
 		.dataOut(responseReg),
 		.opA(A[15:0]),
 		.opB(B[15:0])
-		//.oBeforeTrig(oBeforeTrig)
-		//.flag(flag5)
 	);
 	
 endmodule

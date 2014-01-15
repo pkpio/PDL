@@ -26,7 +26,6 @@ input trigger;
 input reset;
 input wire [15:0] a;
 input wire [15:0] b;
-//input wire oBeforeTrig;
 
 wire [127:0] CHALLENGE;
 wire [15:0] RESPONSE;
@@ -47,10 +46,9 @@ always @ (posedge trigger) begin
 	b2 <= b;
 end
 
-//Commented logic for future improvement
 (* KEEP="TRUE" *)
-assign c1 = (trigger==1)?(a1+b1):0;//((oBeforeTrig==1)?(~(a1+b1)):(a1+b1)):0;
-assign c2 = (trigger==1)?(a2+b2):0;//((oBeforeTrig==1)?(~(a2+b2)):(a2+b2)):0;
+assign c1 = (trigger==1)?(a1+b1):0;
+assign c2 = (trigger==1)?(a2+b2):0;
 
 (* KEEP_HIERARCHY="TRUE" *)
 PDL_PUF puf1 (.s_tp(CHALLENGE[63:0]), .s_btm(CHALLENGE[127:64]), .s1(c1[0]), .s2(c2[0]), .reset(reset), .o(RESPONSE[0]));
@@ -71,34 +69,5 @@ PDL_PUF puf15 (.s_tp(CHALLENGE[63:0]), .s_btm(CHALLENGE[127:64]), .s1(c1[14]), .
 PDL_PUF puf16 (.s_tp(CHALLENGE[63:0]), .s_btm(CHALLENGE[127:64]), .s1(c1[15]), .s2(c2[15]), .reset(reset), .o(RESPONSE[15]));
 
 
-//(* KEEP_HIERARCHY="TRUE" *)
-//icon my_icon_core (
-//    .CONTROL0(CONTROL) // INOUT BUS [35:0]
-//);
-
-//(* KEEP_HIERARCHY="TRUE" *)
-//vio my_vio_core (
-//    .CONTROL(CONTROL), // INOUT BUS [35:0]
-//    .RESPONSE(RESPONSE), // IN BUS [1:0]
-//    .CHALLENGE(CHALLENGE) // OUT BUS [65:0]
-//);
-
-
 endmodule
-
-//module icon (
-//CONTROL0
-//);
-//  inout [35 : 0] CONTROL0;
-//endmodule
-//
-//
-//module vio (
-//CONTROL, CHALLENGE, RESPONSE
-//);
-//  inout [35 : 0] CONTROL;
-//  output [129 : 0] CHALLENGE;
-//  input [15 : 0] RESPONSE;
-//  
-//endmodule
   
