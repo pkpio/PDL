@@ -1,56 +1,56 @@
 Release 13.3 Drc O.76xd (nt64)
 Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
 
-Thu Jan 16 01:12:50 2014
+Thu Jan 16 03:07:21 2014
 
 drc -z system.ncd system.pcf
 
-WARNING:PhysDesignRules:372 - Gated clock. Clock net tm/mp/pufCore/puf16/i2<0>
-   is sourced by a combinatorial pin. This is not good design practice. Use the
-   CE pin to control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net tm/mp/pufCore/puf15/i2<0>
-   is sourced by a combinatorial pin. This is not good design practice. Use the
-   CE pin to control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net tm/mp/pufCore/puf14/i2<0>
-   is sourced by a combinatorial pin. This is not good design practice. Use the
-   CE pin to control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net tm/mp/pufCore/puf13/i2<0>
-   is sourced by a combinatorial pin. This is not good design practice. Use the
-   CE pin to control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net tm/mp/pufCore/puf12/i2<0>
-   is sourced by a combinatorial pin. This is not good design practice. Use the
-   CE pin to control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net tm/mp/pufCore/puf11/i2<0>
-   is sourced by a combinatorial pin. This is not good design practice. Use the
-   CE pin to control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net tm/mp/pufCore/puf10/i2<0>
-   is sourced by a combinatorial pin. This is not good design practice. Use the
-   CE pin to control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net tm/mp/pufCore/puf9/i2<0> is
+WARNING:PhysDesignRules:372 - Gated clock. Clock net sh/mp/alupuf/puf16/i2<0> is
    sourced by a combinatorial pin. This is not good design practice. Use the CE
    pin to control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net tm/mp/pufCore/puf8/i2<0> is
+WARNING:PhysDesignRules:372 - Gated clock. Clock net sh/mp/alupuf/puf15/i2<0> is
    sourced by a combinatorial pin. This is not good design practice. Use the CE
    pin to control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net tm/mp/pufCore/puf7/i2<0> is
+WARNING:PhysDesignRules:372 - Gated clock. Clock net sh/mp/alupuf/puf14/i2<0> is
    sourced by a combinatorial pin. This is not good design practice. Use the CE
    pin to control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net tm/mp/pufCore/puf6/i2<0> is
+WARNING:PhysDesignRules:372 - Gated clock. Clock net sh/mp/alupuf/puf13/i2<0> is
    sourced by a combinatorial pin. This is not good design practice. Use the CE
    pin to control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net tm/mp/pufCore/puf5/i2<0> is
+WARNING:PhysDesignRules:372 - Gated clock. Clock net sh/mp/alupuf/puf12/i2<0> is
    sourced by a combinatorial pin. This is not good design practice. Use the CE
    pin to control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net tm/mp/pufCore/puf4/i2<0> is
+WARNING:PhysDesignRules:372 - Gated clock. Clock net sh/mp/alupuf/puf11/i2<0> is
    sourced by a combinatorial pin. This is not good design practice. Use the CE
    pin to control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net tm/mp/pufCore/puf3/i2<0> is
+WARNING:PhysDesignRules:372 - Gated clock. Clock net sh/mp/alupuf/puf10/i2<0> is
    sourced by a combinatorial pin. This is not good design practice. Use the CE
    pin to control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net tm/mp/pufCore/puf2/i2<0> is
+WARNING:PhysDesignRules:372 - Gated clock. Clock net sh/mp/alupuf/puf9/i2<0> is
    sourced by a combinatorial pin. This is not good design practice. Use the CE
    pin to control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net tm/mp/pufCore/puf1/i2<0> is
+WARNING:PhysDesignRules:372 - Gated clock. Clock net sh/mp/alupuf/puf8/i2<0> is
+   sourced by a combinatorial pin. This is not good design practice. Use the CE
+   pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net sh/mp/alupuf/puf7/i2<0> is
+   sourced by a combinatorial pin. This is not good design practice. Use the CE
+   pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net sh/mp/alupuf/puf6/i2<0> is
+   sourced by a combinatorial pin. This is not good design practice. Use the CE
+   pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net sh/mp/alupuf/puf5/i2<0> is
+   sourced by a combinatorial pin. This is not good design practice. Use the CE
+   pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net sh/mp/alupuf/puf4/i2<0> is
+   sourced by a combinatorial pin. This is not good design practice. Use the CE
+   pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net sh/mp/alupuf/puf3/i2<0> is
+   sourced by a combinatorial pin. This is not good design practice. Use the CE
+   pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net sh/mp/alupuf/puf2/i2<0> is
+   sourced by a combinatorial pin. This is not good design practice. Use the CE
+   pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net sh/mp/alupuf/puf1/i2<0> is
    sourced by a combinatorial pin. This is not good design practice. Use the CE
    pin to control the loading of data into the flip-flop.
 DRC detected 0 errors and 16 warnings.  Please see the previously displayed

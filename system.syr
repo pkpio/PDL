@@ -4,13 +4,13 @@ Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.14 secs
+Total CPU time to Xst completion: 0.17 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.14 secs
+Total CPU time to Xst completion: 0.17 secs
  
 --> Reading design: system.prj
 
@@ -112,12 +112,12 @@ Cores Search Directories           : {"ipcore_dir"  }
 *                          HDL Compilation                              *
 =========================================================================
 Compiling verilog file "source/pdl_block.v" in library work
-Compiling verilog file "source/pdl_based_switch.v" in library work
+Compiling verilog file "source/pdl_switch.v" in library work
 Module <pdl_block> compiled
-Compiling verilog file "source/PDL_PUF.v" in library work
-Module <pdl_based_switch> compiled
+Compiling verilog file "source/pdl_puf.v" in library work
+Module <pdl_switch> compiled
 Compiling verilog file "ipcore_dir/emac_single/example_design/physical/gmii_if.v" in library work
-Module <PDL_PUF> compiled
+Module <pdl_puf> compiled
 Compiling verilog file "ipcore_dir/emac_single/example_design/emac_single.v" in library work
 Module <gmii_if> compiled
 Compiling verilog file "ipcore_dir/emac_single/example_design/client/fifo/tx_client_fifo_8.v" in library work
@@ -128,10 +128,10 @@ Compiling verilog file "source/sirc_files/iobuf.v" in library work
 Module <rx_client_fifo_8> compiled
 Compiling verilog file "source/sirc_files/fifo36Wrapper.v" in library work
 Module <iobuf16> compiled
-Compiling verilog file "source/pufMapping.v" in library work
+Compiling verilog file "source/alu_puf.v" in library work
 Module <fifo36Wrapper> compiled
 Compiling verilog file "ipcore_dir/emac_single/example_design/emac_single_block.v" in library work
-Module <pufMapping> compiled
+Module <AluPuf> compiled
 Compiling verilog file "ipcore_dir/emac_single/example_design/client/fifo/eth_fifo_8.v" in library work
 Module <emac_single_block> compiled
 Compiling verilog file "ipcore_dir/blk_mem_gen_paramReg.v" in library work
@@ -142,16 +142,16 @@ Compiling verilog file "ipcore_dir/blk_mem_gen_inputMem.v" in library work
 Module <blk_mem_gen_outputMem> compiled
 Compiling verilog file "source/sirc_files/ethernetController.v" in library work
 Module <blk_mem_gen_inputMem> compiled
-Compiling verilog file "source/mapping3.v" in library work
+Compiling verilog file "source/mapping.v" in library work
 Module <ethernetController> compiled
 Compiling verilog file "ipcore_dir/emac_single/example_design/emac_single_locallink.v" in library work
 Module <mapping> compiled
-Compiling verilog file "source/sirc_files/ethernet2BlockMem.v" in library work
+Compiling verilog file "source/sirc_handler.v" in library work
 Module <emac_single_locallink> compiled
-Compiling verilog file "source/simpleTestModuleOne.v" in library work
-Module <ethernet2BlockMem> compiled
+Compiling verilog file "source/sirc_files/ethernet2BlockMem.v" in library work
+Module <SircHandler> compiled
 Compiling verilog file "source/sirc_files/system.v" in library work
-Module <simpleTestModuleOne> compiled
+Module <ethernet2BlockMem> compiled
 Module <system> compiled
 No errors in compilation
 Analysis of file <"system.prj"> succeeded.
@@ -176,7 +176,7 @@ Analyzing hierarchy for module <ethernet2BlockMem> in library <work> with parame
 	OUTMEM_USER_ADDRESS_WIDTH = "00000000000000000000000000001101"
 	OUTMEM_USER_BYTE_WIDTH = "00000000000000000000000000000001"
 
-Analyzing hierarchy for module <simpleTestModuleOne> in library <work> with parameters.
+Analyzing hierarchy for module <SircHandler> in library <work> with parameters.
 	COMPUTE = "00000000000000000000000000000100"
 	IDLE = "00000000000000000000000000000000"
 	INMEM_ADDRESS_WIDTH = "00000000000000000000000000010001"
@@ -275,7 +275,7 @@ Analyzing hierarchy for module <iobuf16> in library <work>.
 
 Analyzing hierarchy for module <fifo36Wrapper> in library <work>.
 
-Analyzing hierarchy for module <pufMapping> in library <work>.
+Analyzing hierarchy for module <AluPuf> in library <work>.
 
 Analyzing hierarchy for module <gmii_if> in library <work>.
 
@@ -313,139 +313,139 @@ Analyzing hierarchy for module <rx_client_fifo_8> in library <work> with paramet
 	SOF_s = "101"
 	WAIT_s = "000"
 
-Analyzing hierarchy for module <PDL_PUF> in library <work> with parameters.
+Analyzing hierarchy for module <pdl_puf> in library <work> with parameters.
 	PUFlength = "00000000000000000000000000111111"
 
-Analyzing hierarchy for module <PDL_PUF> in library <work> with parameters.
+Analyzing hierarchy for module <pdl_puf> in library <work> with parameters.
 	PUFlength = "00000000000000000000000000111111"
 
-Analyzing hierarchy for module <pdl_based_switch> in library <work>.
+Analyzing hierarchy for module <pdl_switch> in library <work>.
 
-Analyzing hierarchy for module <pdl_based_switch> in library <work>.
+Analyzing hierarchy for module <pdl_switch> in library <work>.
 
-Analyzing hierarchy for module <pdl_based_switch> in library <work>.
+Analyzing hierarchy for module <pdl_switch> in library <work>.
 
-Analyzing hierarchy for module <pdl_based_switch> in library <work>.
+Analyzing hierarchy for module <pdl_switch> in library <work>.
 
-Analyzing hierarchy for module <pdl_based_switch> in library <work>.
+Analyzing hierarchy for module <pdl_switch> in library <work>.
 
-Analyzing hierarchy for module <pdl_based_switch> in library <work>.
+Analyzing hierarchy for module <pdl_switch> in library <work>.
 
-Analyzing hierarchy for module <pdl_based_switch> in library <work>.
+Analyzing hierarchy for module <pdl_switch> in library <work>.
 
-Analyzing hierarchy for module <pdl_based_switch> in library <work>.
+Analyzing hierarchy for module <pdl_switch> in library <work>.
 
-Analyzing hierarchy for module <pdl_based_switch> in library <work>.
+Analyzing hierarchy for module <pdl_switch> in library <work>.
 
-Analyzing hierarchy for module <pdl_based_switch> in library <work>.
+Analyzing hierarchy for module <pdl_switch> in library <work>.
 
-Analyzing hierarchy for module <pdl_based_switch> in library <work>.
+Analyzing hierarchy for module <pdl_switch> in library <work>.
 
-Analyzing hierarchy for module <pdl_based_switch> in library <work>.
+Analyzing hierarchy for module <pdl_switch> in library <work>.
 
-Analyzing hierarchy for module <pdl_based_switch> in library <work>.
+Analyzing hierarchy for module <pdl_switch> in library <work>.
 
-Analyzing hierarchy for module <pdl_based_switch> in library <work>.
+Analyzing hierarchy for module <pdl_switch> in library <work>.
 
-Analyzing hierarchy for module <pdl_based_switch> in library <work>.
+Analyzing hierarchy for module <pdl_switch> in library <work>.
 
-Analyzing hierarchy for module <pdl_based_switch> in library <work>.
+Analyzing hierarchy for module <pdl_switch> in library <work>.
 
-Analyzing hierarchy for module <pdl_based_switch> in library <work>.
+Analyzing hierarchy for module <pdl_switch> in library <work>.
 
-Analyzing hierarchy for module <pdl_based_switch> in library <work>.
+Analyzing hierarchy for module <pdl_switch> in library <work>.
 
-Analyzing hierarchy for module <pdl_based_switch> in library <work>.
+Analyzing hierarchy for module <pdl_switch> in library <work>.
 
-Analyzing hierarchy for module <pdl_based_switch> in library <work>.
+Analyzing hierarchy for module <pdl_switch> in library <work>.
 
-Analyzing hierarchy for module <pdl_based_switch> in library <work>.
+Analyzing hierarchy for module <pdl_switch> in library <work>.
 
-Analyzing hierarchy for module <pdl_based_switch> in library <work>.
+Analyzing hierarchy for module <pdl_switch> in library <work>.
 
-Analyzing hierarchy for module <pdl_based_switch> in library <work>.
+Analyzing hierarchy for module <pdl_switch> in library <work>.
 
-Analyzing hierarchy for module <pdl_based_switch> in library <work>.
+Analyzing hierarchy for module <pdl_switch> in library <work>.
 
-Analyzing hierarchy for module <pdl_based_switch> in library <work>.
+Analyzing hierarchy for module <pdl_switch> in library <work>.
 
-Analyzing hierarchy for module <pdl_based_switch> in library <work>.
+Analyzing hierarchy for module <pdl_switch> in library <work>.
 
-Analyzing hierarchy for module <pdl_based_switch> in library <work>.
+Analyzing hierarchy for module <pdl_switch> in library <work>.
 
-Analyzing hierarchy for module <pdl_based_switch> in library <work>.
+Analyzing hierarchy for module <pdl_switch> in library <work>.
 
-Analyzing hierarchy for module <pdl_based_switch> in library <work>.
+Analyzing hierarchy for module <pdl_switch> in library <work>.
 
-Analyzing hierarchy for module <pdl_based_switch> in library <work>.
+Analyzing hierarchy for module <pdl_switch> in library <work>.
 
-Analyzing hierarchy for module <pdl_based_switch> in library <work>.
+Analyzing hierarchy for module <pdl_switch> in library <work>.
 
-Analyzing hierarchy for module <pdl_based_switch> in library <work>.
+Analyzing hierarchy for module <pdl_switch> in library <work>.
 
-Analyzing hierarchy for module <pdl_based_switch> in library <work>.
+Analyzing hierarchy for module <pdl_switch> in library <work>.
 
-Analyzing hierarchy for module <pdl_based_switch> in library <work>.
+Analyzing hierarchy for module <pdl_switch> in library <work>.
 
-Analyzing hierarchy for module <pdl_based_switch> in library <work>.
+Analyzing hierarchy for module <pdl_switch> in library <work>.
 
-Analyzing hierarchy for module <pdl_based_switch> in library <work>.
+Analyzing hierarchy for module <pdl_switch> in library <work>.
 
-Analyzing hierarchy for module <pdl_based_switch> in library <work>.
+Analyzing hierarchy for module <pdl_switch> in library <work>.
 
-Analyzing hierarchy for module <pdl_based_switch> in library <work>.
+Analyzing hierarchy for module <pdl_switch> in library <work>.
 
-Analyzing hierarchy for module <pdl_based_switch> in library <work>.
+Analyzing hierarchy for module <pdl_switch> in library <work>.
 
-Analyzing hierarchy for module <pdl_based_switch> in library <work>.
+Analyzing hierarchy for module <pdl_switch> in library <work>.
 
-Analyzing hierarchy for module <pdl_based_switch> in library <work>.
+Analyzing hierarchy for module <pdl_switch> in library <work>.
 
-Analyzing hierarchy for module <pdl_based_switch> in library <work>.
+Analyzing hierarchy for module <pdl_switch> in library <work>.
 
-Analyzing hierarchy for module <pdl_based_switch> in library <work>.
+Analyzing hierarchy for module <pdl_switch> in library <work>.
 
-Analyzing hierarchy for module <pdl_based_switch> in library <work>.
+Analyzing hierarchy for module <pdl_switch> in library <work>.
 
-Analyzing hierarchy for module <pdl_based_switch> in library <work>.
+Analyzing hierarchy for module <pdl_switch> in library <work>.
 
-Analyzing hierarchy for module <pdl_based_switch> in library <work>.
+Analyzing hierarchy for module <pdl_switch> in library <work>.
 
-Analyzing hierarchy for module <pdl_based_switch> in library <work>.
+Analyzing hierarchy for module <pdl_switch> in library <work>.
 
-Analyzing hierarchy for module <pdl_based_switch> in library <work>.
+Analyzing hierarchy for module <pdl_switch> in library <work>.
 
-Analyzing hierarchy for module <pdl_based_switch> in library <work>.
+Analyzing hierarchy for module <pdl_switch> in library <work>.
 
-Analyzing hierarchy for module <pdl_based_switch> in library <work>.
+Analyzing hierarchy for module <pdl_switch> in library <work>.
 
-Analyzing hierarchy for module <pdl_based_switch> in library <work>.
+Analyzing hierarchy for module <pdl_switch> in library <work>.
 
-Analyzing hierarchy for module <pdl_based_switch> in library <work>.
+Analyzing hierarchy for module <pdl_switch> in library <work>.
 
-Analyzing hierarchy for module <pdl_based_switch> in library <work>.
+Analyzing hierarchy for module <pdl_switch> in library <work>.
 
-Analyzing hierarchy for module <pdl_based_switch> in library <work>.
+Analyzing hierarchy for module <pdl_switch> in library <work>.
 
-Analyzing hierarchy for module <pdl_based_switch> in library <work>.
+Analyzing hierarchy for module <pdl_switch> in library <work>.
 
-Analyzing hierarchy for module <pdl_based_switch> in library <work>.
+Analyzing hierarchy for module <pdl_switch> in library <work>.
 
-Analyzing hierarchy for module <pdl_based_switch> in library <work>.
+Analyzing hierarchy for module <pdl_switch> in library <work>.
 
-Analyzing hierarchy for module <pdl_based_switch> in library <work>.
+Analyzing hierarchy for module <pdl_switch> in library <work>.
 
-Analyzing hierarchy for module <pdl_based_switch> in library <work>.
+Analyzing hierarchy for module <pdl_switch> in library <work>.
 
-Analyzing hierarchy for module <pdl_based_switch> in library <work>.
+Analyzing hierarchy for module <pdl_switch> in library <work>.
 
-Analyzing hierarchy for module <pdl_based_switch> in library <work>.
+Analyzing hierarchy for module <pdl_switch> in library <work>.
 
-Analyzing hierarchy for module <pdl_based_switch> in library <work>.
+Analyzing hierarchy for module <pdl_switch> in library <work>.
 
-Analyzing hierarchy for module <pdl_based_switch> in library <work>.
+Analyzing hierarchy for module <pdl_switch> in library <work>.
 
-Analyzing hierarchy for module <pdl_based_switch> in library <work>.
+Analyzing hierarchy for module <pdl_switch> in library <work>.
 
 Analyzing hierarchy for module <pdl_block> in library <work>.
 
@@ -1286,7 +1286,7 @@ Module <fifo36Wrapper> is correct for synthesis.
     Set user-defined property "EN_SYN =  FALSE" for instance <FIFO18_inst> in unit <fifo36Wrapper>.
     Set user-defined property "FIRST_WORD_FALL_THROUGH =  TRUE" for instance <FIFO18_inst> in unit <fifo36Wrapper>.
     Set user-defined property "SIM_MODE =  SAFE" for instance <FIFO18_inst> in unit <fifo36Wrapper>.
-Analyzing module <simpleTestModuleOne> in library <work>.
+Analyzing module <SircHandler> in library <work>.
 	COMPUTE = 32'sb00000000000000000000000000000100
 	IDLE = 32'sb00000000000000000000000000000000
 	INMEM_ADDRESS_WIDTH = 32'sb00000000000000000000000000010001
@@ -1299,7 +1299,7 @@ Analyzing module <simpleTestModuleOne> in library <work>.
 	WRITE = 32'sb00000000000000000000000000000101
 INFO:Xst:1433 - Contents of array <challenge> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
 INFO:Xst:1433 - Contents of array <response> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
-Module <simpleTestModuleOne> is correct for synthesis.
+Module <SircHandler> is correct for synthesis.
  
 Analyzing module <mapping> in library <work>.
 	COMPUTE = 32'sb00000000000000000000000000000001
@@ -1308,88 +1308,88 @@ Analyzing module <mapping> in library <work>.
 	OUT_WIDTH = 32'sb00000000000000000000000000010000
 Module <mapping> is correct for synthesis.
  
-Analyzing module <pufMapping> in library <work>.
-Module <pufMapping> is correct for synthesis.
+Analyzing module <AluPuf> in library <work>.
+Module <AluPuf> is correct for synthesis.
  
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <puf1> in unit <pufMapping>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <puf1> in unit <AluPuf>.
     Set user-defined property "KEEP =  TRUE" for signal <a1>.
-Analyzing module <PDL_PUF.1> in library <work>.
+Analyzing module <pdl_puf.1> in library <work>.
 	PUFlength = 32'sb00000000000000000000000000111111
-Module <PDL_PUF.1> is correct for synthesis.
+Module <pdl_puf.1> is correct for synthesis.
  
-    Set user-defined property "INIT =  0" for instance <FDC1> in unit <PDL_PUF.1>.
-    Set user-defined property "BEL =  D6LUT" for instance <LUT1_inst_2> in unit <PDL_PUF.1>.
-    Set user-defined property "INIT =  2" for instance <LUT1_inst_2> in unit <PDL_PUF.1>.
-    Set user-defined property "LOCK_PINS =  all" for instance <LUT1_inst_2> in unit <PDL_PUF.1>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[0]> in unit <PDL_PUF.1>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[10]> in unit <PDL_PUF.1>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[11]> in unit <PDL_PUF.1>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[12]> in unit <PDL_PUF.1>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[13]> in unit <PDL_PUF.1>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[14]> in unit <PDL_PUF.1>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[15]> in unit <PDL_PUF.1>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[16]> in unit <PDL_PUF.1>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[17]> in unit <PDL_PUF.1>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[18]> in unit <PDL_PUF.1>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[19]> in unit <PDL_PUF.1>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[1]> in unit <PDL_PUF.1>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[20]> in unit <PDL_PUF.1>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[21]> in unit <PDL_PUF.1>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[22]> in unit <PDL_PUF.1>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[23]> in unit <PDL_PUF.1>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[24]> in unit <PDL_PUF.1>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[25]> in unit <PDL_PUF.1>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[26]> in unit <PDL_PUF.1>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[27]> in unit <PDL_PUF.1>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[28]> in unit <PDL_PUF.1>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[29]> in unit <PDL_PUF.1>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[2]> in unit <PDL_PUF.1>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[30]> in unit <PDL_PUF.1>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[31]> in unit <PDL_PUF.1>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[32]> in unit <PDL_PUF.1>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[33]> in unit <PDL_PUF.1>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[34]> in unit <PDL_PUF.1>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[35]> in unit <PDL_PUF.1>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[36]> in unit <PDL_PUF.1>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[37]> in unit <PDL_PUF.1>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[38]> in unit <PDL_PUF.1>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[39]> in unit <PDL_PUF.1>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[3]> in unit <PDL_PUF.1>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[40]> in unit <PDL_PUF.1>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[41]> in unit <PDL_PUF.1>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[42]> in unit <PDL_PUF.1>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[43]> in unit <PDL_PUF.1>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[44]> in unit <PDL_PUF.1>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[45]> in unit <PDL_PUF.1>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[46]> in unit <PDL_PUF.1>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[47]> in unit <PDL_PUF.1>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[48]> in unit <PDL_PUF.1>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[49]> in unit <PDL_PUF.1>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[4]> in unit <PDL_PUF.1>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[50]> in unit <PDL_PUF.1>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[51]> in unit <PDL_PUF.1>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[52]> in unit <PDL_PUF.1>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[53]> in unit <PDL_PUF.1>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[54]> in unit <PDL_PUF.1>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[55]> in unit <PDL_PUF.1>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[56]> in unit <PDL_PUF.1>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[57]> in unit <PDL_PUF.1>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[58]> in unit <PDL_PUF.1>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[59]> in unit <PDL_PUF.1>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[5]> in unit <PDL_PUF.1>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[60]> in unit <PDL_PUF.1>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[61]> in unit <PDL_PUF.1>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[62]> in unit <PDL_PUF.1>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[63]> in unit <PDL_PUF.1>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[6]> in unit <PDL_PUF.1>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[7]> in unit <PDL_PUF.1>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[8]> in unit <PDL_PUF.1>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[9]> in unit <PDL_PUF.1>.
-Analyzing module <pdl_based_switch.1> in library <work>.
-Module <pdl_based_switch.1> is correct for synthesis.
+    Set user-defined property "INIT =  0" for instance <FDC1> in unit <pdl_puf.1>.
+    Set user-defined property "BEL =  D6LUT" for instance <LUT1_inst_2> in unit <pdl_puf.1>.
+    Set user-defined property "INIT =  2" for instance <LUT1_inst_2> in unit <pdl_puf.1>.
+    Set user-defined property "LOCK_PINS =  all" for instance <LUT1_inst_2> in unit <pdl_puf.1>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[0]> in unit <pdl_puf.1>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[10]> in unit <pdl_puf.1>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[11]> in unit <pdl_puf.1>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[12]> in unit <pdl_puf.1>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[13]> in unit <pdl_puf.1>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[14]> in unit <pdl_puf.1>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[15]> in unit <pdl_puf.1>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[16]> in unit <pdl_puf.1>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[17]> in unit <pdl_puf.1>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[18]> in unit <pdl_puf.1>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[19]> in unit <pdl_puf.1>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[1]> in unit <pdl_puf.1>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[20]> in unit <pdl_puf.1>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[21]> in unit <pdl_puf.1>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[22]> in unit <pdl_puf.1>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[23]> in unit <pdl_puf.1>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[24]> in unit <pdl_puf.1>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[25]> in unit <pdl_puf.1>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[26]> in unit <pdl_puf.1>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[27]> in unit <pdl_puf.1>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[28]> in unit <pdl_puf.1>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[29]> in unit <pdl_puf.1>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[2]> in unit <pdl_puf.1>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[30]> in unit <pdl_puf.1>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[31]> in unit <pdl_puf.1>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[32]> in unit <pdl_puf.1>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[33]> in unit <pdl_puf.1>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[34]> in unit <pdl_puf.1>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[35]> in unit <pdl_puf.1>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[36]> in unit <pdl_puf.1>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[37]> in unit <pdl_puf.1>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[38]> in unit <pdl_puf.1>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[39]> in unit <pdl_puf.1>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[3]> in unit <pdl_puf.1>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[40]> in unit <pdl_puf.1>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[41]> in unit <pdl_puf.1>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[42]> in unit <pdl_puf.1>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[43]> in unit <pdl_puf.1>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[44]> in unit <pdl_puf.1>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[45]> in unit <pdl_puf.1>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[46]> in unit <pdl_puf.1>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[47]> in unit <pdl_puf.1>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[48]> in unit <pdl_puf.1>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[49]> in unit <pdl_puf.1>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[4]> in unit <pdl_puf.1>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[50]> in unit <pdl_puf.1>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[51]> in unit <pdl_puf.1>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[52]> in unit <pdl_puf.1>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[53]> in unit <pdl_puf.1>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[54]> in unit <pdl_puf.1>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[55]> in unit <pdl_puf.1>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[56]> in unit <pdl_puf.1>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[57]> in unit <pdl_puf.1>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[58]> in unit <pdl_puf.1>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[59]> in unit <pdl_puf.1>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[5]> in unit <pdl_puf.1>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[60]> in unit <pdl_puf.1>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[61]> in unit <pdl_puf.1>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[62]> in unit <pdl_puf.1>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[63]> in unit <pdl_puf.1>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[6]> in unit <pdl_puf.1>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[7]> in unit <pdl_puf.1>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[8]> in unit <pdl_puf.1>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[9]> in unit <pdl_puf.1>.
+Analyzing module <pdl_switch.1> in library <work>.
+Module <pdl_switch.1> is correct for synthesis.
  
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_based_switch.1>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_based_switch.1>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_switch.1>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_switch.1>.
 Analyzing module <pdl_block.1> in library <work>.
 Module <pdl_block.1> is correct for synthesis.
  
@@ -1414,407 +1414,407 @@ Module <pdl_block.2> is correct for synthesis.
     Set user-defined property "S =  TRUE" for unit <pdl_block.2>.
     Set user-defined property "KEEP =  TRUE" for signal <w>.
     Set user-defined property "S =  TRUE" for signal <w>.
-Analyzing module <pdl_based_switch.2> in library <work>.
-Module <pdl_based_switch.2> is correct for synthesis.
+Analyzing module <pdl_switch.2> in library <work>.
+Module <pdl_switch.2> is correct for synthesis.
  
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_based_switch.2>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_based_switch.2>.
-Analyzing module <pdl_based_switch.3> in library <work>.
-Module <pdl_based_switch.3> is correct for synthesis.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_switch.2>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_switch.2>.
+Analyzing module <pdl_switch.3> in library <work>.
+Module <pdl_switch.3> is correct for synthesis.
  
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_based_switch.3>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_based_switch.3>.
-Analyzing module <pdl_based_switch.4> in library <work>.
-Module <pdl_based_switch.4> is correct for synthesis.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_switch.3>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_switch.3>.
+Analyzing module <pdl_switch.4> in library <work>.
+Module <pdl_switch.4> is correct for synthesis.
  
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_based_switch.4>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_based_switch.4>.
-Analyzing module <pdl_based_switch.5> in library <work>.
-Module <pdl_based_switch.5> is correct for synthesis.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_switch.4>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_switch.4>.
+Analyzing module <pdl_switch.5> in library <work>.
+Module <pdl_switch.5> is correct for synthesis.
  
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_based_switch.5>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_based_switch.5>.
-Analyzing module <pdl_based_switch.6> in library <work>.
-Module <pdl_based_switch.6> is correct for synthesis.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_switch.5>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_switch.5>.
+Analyzing module <pdl_switch.6> in library <work>.
+Module <pdl_switch.6> is correct for synthesis.
  
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_based_switch.6>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_based_switch.6>.
-Analyzing module <pdl_based_switch.7> in library <work>.
-Module <pdl_based_switch.7> is correct for synthesis.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_switch.6>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_switch.6>.
+Analyzing module <pdl_switch.7> in library <work>.
+Module <pdl_switch.7> is correct for synthesis.
  
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_based_switch.7>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_based_switch.7>.
-Analyzing module <pdl_based_switch.8> in library <work>.
-Module <pdl_based_switch.8> is correct for synthesis.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_switch.7>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_switch.7>.
+Analyzing module <pdl_switch.8> in library <work>.
+Module <pdl_switch.8> is correct for synthesis.
  
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_based_switch.8>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_based_switch.8>.
-Analyzing module <pdl_based_switch.9> in library <work>.
-Module <pdl_based_switch.9> is correct for synthesis.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_switch.8>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_switch.8>.
+Analyzing module <pdl_switch.9> in library <work>.
+Module <pdl_switch.9> is correct for synthesis.
  
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_based_switch.9>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_based_switch.9>.
-Analyzing module <pdl_based_switch.10> in library <work>.
-Module <pdl_based_switch.10> is correct for synthesis.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_switch.9>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_switch.9>.
+Analyzing module <pdl_switch.10> in library <work>.
+Module <pdl_switch.10> is correct for synthesis.
  
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_based_switch.10>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_based_switch.10>.
-Analyzing module <pdl_based_switch.11> in library <work>.
-Module <pdl_based_switch.11> is correct for synthesis.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_switch.10>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_switch.10>.
+Analyzing module <pdl_switch.11> in library <work>.
+Module <pdl_switch.11> is correct for synthesis.
  
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_based_switch.11>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_based_switch.11>.
-Analyzing module <pdl_based_switch.12> in library <work>.
-Module <pdl_based_switch.12> is correct for synthesis.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_switch.11>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_switch.11>.
+Analyzing module <pdl_switch.12> in library <work>.
+Module <pdl_switch.12> is correct for synthesis.
  
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_based_switch.12>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_based_switch.12>.
-Analyzing module <pdl_based_switch.13> in library <work>.
-Module <pdl_based_switch.13> is correct for synthesis.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_switch.12>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_switch.12>.
+Analyzing module <pdl_switch.13> in library <work>.
+Module <pdl_switch.13> is correct for synthesis.
  
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_based_switch.13>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_based_switch.13>.
-Analyzing module <pdl_based_switch.14> in library <work>.
-Module <pdl_based_switch.14> is correct for synthesis.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_switch.13>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_switch.13>.
+Analyzing module <pdl_switch.14> in library <work>.
+Module <pdl_switch.14> is correct for synthesis.
  
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_based_switch.14>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_based_switch.14>.
-Analyzing module <pdl_based_switch.15> in library <work>.
-Module <pdl_based_switch.15> is correct for synthesis.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_switch.14>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_switch.14>.
+Analyzing module <pdl_switch.15> in library <work>.
+Module <pdl_switch.15> is correct for synthesis.
  
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_based_switch.15>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_based_switch.15>.
-Analyzing module <pdl_based_switch.16> in library <work>.
-Module <pdl_based_switch.16> is correct for synthesis.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_switch.15>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_switch.15>.
+Analyzing module <pdl_switch.16> in library <work>.
+Module <pdl_switch.16> is correct for synthesis.
  
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_based_switch.16>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_based_switch.16>.
-Analyzing module <pdl_based_switch.17> in library <work>.
-Module <pdl_based_switch.17> is correct for synthesis.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_switch.16>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_switch.16>.
+Analyzing module <pdl_switch.17> in library <work>.
+Module <pdl_switch.17> is correct for synthesis.
  
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_based_switch.17>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_based_switch.17>.
-Analyzing module <pdl_based_switch.18> in library <work>.
-Module <pdl_based_switch.18> is correct for synthesis.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_switch.17>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_switch.17>.
+Analyzing module <pdl_switch.18> in library <work>.
+Module <pdl_switch.18> is correct for synthesis.
  
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_based_switch.18>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_based_switch.18>.
-Analyzing module <pdl_based_switch.19> in library <work>.
-Module <pdl_based_switch.19> is correct for synthesis.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_switch.18>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_switch.18>.
+Analyzing module <pdl_switch.19> in library <work>.
+Module <pdl_switch.19> is correct for synthesis.
  
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_based_switch.19>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_based_switch.19>.
-Analyzing module <pdl_based_switch.20> in library <work>.
-Module <pdl_based_switch.20> is correct for synthesis.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_switch.19>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_switch.19>.
+Analyzing module <pdl_switch.20> in library <work>.
+Module <pdl_switch.20> is correct for synthesis.
  
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_based_switch.20>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_based_switch.20>.
-Analyzing module <pdl_based_switch.21> in library <work>.
-Module <pdl_based_switch.21> is correct for synthesis.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_switch.20>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_switch.20>.
+Analyzing module <pdl_switch.21> in library <work>.
+Module <pdl_switch.21> is correct for synthesis.
  
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_based_switch.21>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_based_switch.21>.
-Analyzing module <pdl_based_switch.22> in library <work>.
-Module <pdl_based_switch.22> is correct for synthesis.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_switch.21>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_switch.21>.
+Analyzing module <pdl_switch.22> in library <work>.
+Module <pdl_switch.22> is correct for synthesis.
  
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_based_switch.22>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_based_switch.22>.
-Analyzing module <pdl_based_switch.23> in library <work>.
-Module <pdl_based_switch.23> is correct for synthesis.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_switch.22>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_switch.22>.
+Analyzing module <pdl_switch.23> in library <work>.
+Module <pdl_switch.23> is correct for synthesis.
  
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_based_switch.23>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_based_switch.23>.
-Analyzing module <pdl_based_switch.24> in library <work>.
-Module <pdl_based_switch.24> is correct for synthesis.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_switch.23>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_switch.23>.
+Analyzing module <pdl_switch.24> in library <work>.
+Module <pdl_switch.24> is correct for synthesis.
  
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_based_switch.24>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_based_switch.24>.
-Analyzing module <pdl_based_switch.25> in library <work>.
-Module <pdl_based_switch.25> is correct for synthesis.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_switch.24>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_switch.24>.
+Analyzing module <pdl_switch.25> in library <work>.
+Module <pdl_switch.25> is correct for synthesis.
  
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_based_switch.25>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_based_switch.25>.
-Analyzing module <pdl_based_switch.26> in library <work>.
-Module <pdl_based_switch.26> is correct for synthesis.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_switch.25>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_switch.25>.
+Analyzing module <pdl_switch.26> in library <work>.
+Module <pdl_switch.26> is correct for synthesis.
  
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_based_switch.26>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_based_switch.26>.
-Analyzing module <pdl_based_switch.27> in library <work>.
-Module <pdl_based_switch.27> is correct for synthesis.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_switch.26>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_switch.26>.
+Analyzing module <pdl_switch.27> in library <work>.
+Module <pdl_switch.27> is correct for synthesis.
  
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_based_switch.27>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_based_switch.27>.
-Analyzing module <pdl_based_switch.28> in library <work>.
-Module <pdl_based_switch.28> is correct for synthesis.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_switch.27>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_switch.27>.
+Analyzing module <pdl_switch.28> in library <work>.
+Module <pdl_switch.28> is correct for synthesis.
  
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_based_switch.28>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_based_switch.28>.
-Analyzing module <pdl_based_switch.29> in library <work>.
-Module <pdl_based_switch.29> is correct for synthesis.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_switch.28>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_switch.28>.
+Analyzing module <pdl_switch.29> in library <work>.
+Module <pdl_switch.29> is correct for synthesis.
  
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_based_switch.29>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_based_switch.29>.
-Analyzing module <pdl_based_switch.30> in library <work>.
-Module <pdl_based_switch.30> is correct for synthesis.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_switch.29>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_switch.29>.
+Analyzing module <pdl_switch.30> in library <work>.
+Module <pdl_switch.30> is correct for synthesis.
  
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_based_switch.30>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_based_switch.30>.
-Analyzing module <pdl_based_switch.31> in library <work>.
-Module <pdl_based_switch.31> is correct for synthesis.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_switch.30>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_switch.30>.
+Analyzing module <pdl_switch.31> in library <work>.
+Module <pdl_switch.31> is correct for synthesis.
  
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_based_switch.31>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_based_switch.31>.
-Analyzing module <pdl_based_switch.32> in library <work>.
-Module <pdl_based_switch.32> is correct for synthesis.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_switch.31>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_switch.31>.
+Analyzing module <pdl_switch.32> in library <work>.
+Module <pdl_switch.32> is correct for synthesis.
  
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_based_switch.32>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_based_switch.32>.
-Analyzing module <pdl_based_switch.33> in library <work>.
-Module <pdl_based_switch.33> is correct for synthesis.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_switch.32>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_switch.32>.
+Analyzing module <pdl_switch.33> in library <work>.
+Module <pdl_switch.33> is correct for synthesis.
  
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_based_switch.33>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_based_switch.33>.
-Analyzing module <pdl_based_switch.34> in library <work>.
-Module <pdl_based_switch.34> is correct for synthesis.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_switch.33>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_switch.33>.
+Analyzing module <pdl_switch.34> in library <work>.
+Module <pdl_switch.34> is correct for synthesis.
  
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_based_switch.34>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_based_switch.34>.
-Analyzing module <pdl_based_switch.35> in library <work>.
-Module <pdl_based_switch.35> is correct for synthesis.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_switch.34>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_switch.34>.
+Analyzing module <pdl_switch.35> in library <work>.
+Module <pdl_switch.35> is correct for synthesis.
  
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_based_switch.35>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_based_switch.35>.
-Analyzing module <pdl_based_switch.36> in library <work>.
-Module <pdl_based_switch.36> is correct for synthesis.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_switch.35>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_switch.35>.
+Analyzing module <pdl_switch.36> in library <work>.
+Module <pdl_switch.36> is correct for synthesis.
  
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_based_switch.36>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_based_switch.36>.
-Analyzing module <pdl_based_switch.37> in library <work>.
-Module <pdl_based_switch.37> is correct for synthesis.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_switch.36>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_switch.36>.
+Analyzing module <pdl_switch.37> in library <work>.
+Module <pdl_switch.37> is correct for synthesis.
  
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_based_switch.37>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_based_switch.37>.
-Analyzing module <pdl_based_switch.38> in library <work>.
-Module <pdl_based_switch.38> is correct for synthesis.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_switch.37>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_switch.37>.
+Analyzing module <pdl_switch.38> in library <work>.
+Module <pdl_switch.38> is correct for synthesis.
  
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_based_switch.38>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_based_switch.38>.
-Analyzing module <pdl_based_switch.39> in library <work>.
-Module <pdl_based_switch.39> is correct for synthesis.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_switch.38>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_switch.38>.
+Analyzing module <pdl_switch.39> in library <work>.
+Module <pdl_switch.39> is correct for synthesis.
  
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_based_switch.39>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_based_switch.39>.
-Analyzing module <pdl_based_switch.40> in library <work>.
-Module <pdl_based_switch.40> is correct for synthesis.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_switch.39>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_switch.39>.
+Analyzing module <pdl_switch.40> in library <work>.
+Module <pdl_switch.40> is correct for synthesis.
  
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_based_switch.40>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_based_switch.40>.
-Analyzing module <pdl_based_switch.41> in library <work>.
-Module <pdl_based_switch.41> is correct for synthesis.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_switch.40>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_switch.40>.
+Analyzing module <pdl_switch.41> in library <work>.
+Module <pdl_switch.41> is correct for synthesis.
  
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_based_switch.41>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_based_switch.41>.
-Analyzing module <pdl_based_switch.42> in library <work>.
-Module <pdl_based_switch.42> is correct for synthesis.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_switch.41>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_switch.41>.
+Analyzing module <pdl_switch.42> in library <work>.
+Module <pdl_switch.42> is correct for synthesis.
  
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_based_switch.42>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_based_switch.42>.
-Analyzing module <pdl_based_switch.43> in library <work>.
-Module <pdl_based_switch.43> is correct for synthesis.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_switch.42>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_switch.42>.
+Analyzing module <pdl_switch.43> in library <work>.
+Module <pdl_switch.43> is correct for synthesis.
  
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_based_switch.43>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_based_switch.43>.
-Analyzing module <pdl_based_switch.44> in library <work>.
-Module <pdl_based_switch.44> is correct for synthesis.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_switch.43>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_switch.43>.
+Analyzing module <pdl_switch.44> in library <work>.
+Module <pdl_switch.44> is correct for synthesis.
  
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_based_switch.44>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_based_switch.44>.
-Analyzing module <pdl_based_switch.45> in library <work>.
-Module <pdl_based_switch.45> is correct for synthesis.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_switch.44>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_switch.44>.
+Analyzing module <pdl_switch.45> in library <work>.
+Module <pdl_switch.45> is correct for synthesis.
  
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_based_switch.45>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_based_switch.45>.
-Analyzing module <pdl_based_switch.46> in library <work>.
-Module <pdl_based_switch.46> is correct for synthesis.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_switch.45>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_switch.45>.
+Analyzing module <pdl_switch.46> in library <work>.
+Module <pdl_switch.46> is correct for synthesis.
  
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_based_switch.46>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_based_switch.46>.
-Analyzing module <pdl_based_switch.47> in library <work>.
-Module <pdl_based_switch.47> is correct for synthesis.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_switch.46>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_switch.46>.
+Analyzing module <pdl_switch.47> in library <work>.
+Module <pdl_switch.47> is correct for synthesis.
  
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_based_switch.47>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_based_switch.47>.
-Analyzing module <pdl_based_switch.48> in library <work>.
-Module <pdl_based_switch.48> is correct for synthesis.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_switch.47>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_switch.47>.
+Analyzing module <pdl_switch.48> in library <work>.
+Module <pdl_switch.48> is correct for synthesis.
  
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_based_switch.48>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_based_switch.48>.
-Analyzing module <pdl_based_switch.49> in library <work>.
-Module <pdl_based_switch.49> is correct for synthesis.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_switch.48>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_switch.48>.
+Analyzing module <pdl_switch.49> in library <work>.
+Module <pdl_switch.49> is correct for synthesis.
  
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_based_switch.49>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_based_switch.49>.
-Analyzing module <pdl_based_switch.50> in library <work>.
-Module <pdl_based_switch.50> is correct for synthesis.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_switch.49>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_switch.49>.
+Analyzing module <pdl_switch.50> in library <work>.
+Module <pdl_switch.50> is correct for synthesis.
  
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_based_switch.50>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_based_switch.50>.
-Analyzing module <pdl_based_switch.51> in library <work>.
-Module <pdl_based_switch.51> is correct for synthesis.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_switch.50>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_switch.50>.
+Analyzing module <pdl_switch.51> in library <work>.
+Module <pdl_switch.51> is correct for synthesis.
  
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_based_switch.51>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_based_switch.51>.
-Analyzing module <pdl_based_switch.52> in library <work>.
-Module <pdl_based_switch.52> is correct for synthesis.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_switch.51>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_switch.51>.
+Analyzing module <pdl_switch.52> in library <work>.
+Module <pdl_switch.52> is correct for synthesis.
  
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_based_switch.52>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_based_switch.52>.
-Analyzing module <pdl_based_switch.53> in library <work>.
-Module <pdl_based_switch.53> is correct for synthesis.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_switch.52>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_switch.52>.
+Analyzing module <pdl_switch.53> in library <work>.
+Module <pdl_switch.53> is correct for synthesis.
  
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_based_switch.53>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_based_switch.53>.
-Analyzing module <pdl_based_switch.54> in library <work>.
-Module <pdl_based_switch.54> is correct for synthesis.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_switch.53>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_switch.53>.
+Analyzing module <pdl_switch.54> in library <work>.
+Module <pdl_switch.54> is correct for synthesis.
  
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_based_switch.54>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_based_switch.54>.
-Analyzing module <pdl_based_switch.55> in library <work>.
-Module <pdl_based_switch.55> is correct for synthesis.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_switch.54>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_switch.54>.
+Analyzing module <pdl_switch.55> in library <work>.
+Module <pdl_switch.55> is correct for synthesis.
  
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_based_switch.55>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_based_switch.55>.
-Analyzing module <pdl_based_switch.56> in library <work>.
-Module <pdl_based_switch.56> is correct for synthesis.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_switch.55>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_switch.55>.
+Analyzing module <pdl_switch.56> in library <work>.
+Module <pdl_switch.56> is correct for synthesis.
  
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_based_switch.56>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_based_switch.56>.
-Analyzing module <pdl_based_switch.57> in library <work>.
-Module <pdl_based_switch.57> is correct for synthesis.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_switch.56>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_switch.56>.
+Analyzing module <pdl_switch.57> in library <work>.
+Module <pdl_switch.57> is correct for synthesis.
  
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_based_switch.57>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_based_switch.57>.
-Analyzing module <pdl_based_switch.58> in library <work>.
-Module <pdl_based_switch.58> is correct for synthesis.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_switch.57>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_switch.57>.
+Analyzing module <pdl_switch.58> in library <work>.
+Module <pdl_switch.58> is correct for synthesis.
  
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_based_switch.58>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_based_switch.58>.
-Analyzing module <pdl_based_switch.59> in library <work>.
-Module <pdl_based_switch.59> is correct for synthesis.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_switch.58>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_switch.58>.
+Analyzing module <pdl_switch.59> in library <work>.
+Module <pdl_switch.59> is correct for synthesis.
  
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_based_switch.59>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_based_switch.59>.
-Analyzing module <pdl_based_switch.60> in library <work>.
-Module <pdl_based_switch.60> is correct for synthesis.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_switch.59>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_switch.59>.
+Analyzing module <pdl_switch.60> in library <work>.
+Module <pdl_switch.60> is correct for synthesis.
  
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_based_switch.60>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_based_switch.60>.
-Analyzing module <pdl_based_switch.61> in library <work>.
-Module <pdl_based_switch.61> is correct for synthesis.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_switch.60>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_switch.60>.
+Analyzing module <pdl_switch.61> in library <work>.
+Module <pdl_switch.61> is correct for synthesis.
  
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_based_switch.61>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_based_switch.61>.
-Analyzing module <pdl_based_switch.62> in library <work>.
-Module <pdl_based_switch.62> is correct for synthesis.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_switch.61>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_switch.61>.
+Analyzing module <pdl_switch.62> in library <work>.
+Module <pdl_switch.62> is correct for synthesis.
  
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_based_switch.62>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_based_switch.62>.
-Analyzing module <pdl_based_switch.63> in library <work>.
-Module <pdl_based_switch.63> is correct for synthesis.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_switch.62>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_switch.62>.
+Analyzing module <pdl_switch.63> in library <work>.
+Module <pdl_switch.63> is correct for synthesis.
  
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_based_switch.63>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_based_switch.63>.
-Analyzing module <pdl_based_switch.64> in library <work>.
-Module <pdl_based_switch.64> is correct for synthesis.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_switch.63>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_switch.63>.
+Analyzing module <pdl_switch.64> in library <work>.
+Module <pdl_switch.64> is correct for synthesis.
  
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_based_switch.64>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_based_switch.64>.
-Analyzing module <PDL_PUF.2> in library <work>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_bottom> in unit <pdl_switch.64>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <pdl_top> in unit <pdl_switch.64>.
+Analyzing module <pdl_puf.2> in library <work>.
 	PUFlength = 32'sb00000000000000000000000000111111
-Module <PDL_PUF.2> is correct for synthesis.
+Module <pdl_puf.2> is correct for synthesis.
  
-    Set user-defined property "INIT =  0" for instance <FDC1> in unit <PDL_PUF.2>.
-    Set user-defined property "BEL =  D6LUT" for instance <LUT1_inst_2> in unit <PDL_PUF.2>.
-    Set user-defined property "INIT =  2" for instance <LUT1_inst_2> in unit <PDL_PUF.2>.
-    Set user-defined property "LOCK_PINS =  all" for instance <LUT1_inst_2> in unit <PDL_PUF.2>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[0]> in unit <PDL_PUF.2>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[10]> in unit <PDL_PUF.2>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[11]> in unit <PDL_PUF.2>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[12]> in unit <PDL_PUF.2>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[13]> in unit <PDL_PUF.2>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[14]> in unit <PDL_PUF.2>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[15]> in unit <PDL_PUF.2>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[16]> in unit <PDL_PUF.2>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[17]> in unit <PDL_PUF.2>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[18]> in unit <PDL_PUF.2>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[19]> in unit <PDL_PUF.2>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[1]> in unit <PDL_PUF.2>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[20]> in unit <PDL_PUF.2>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[21]> in unit <PDL_PUF.2>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[22]> in unit <PDL_PUF.2>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[23]> in unit <PDL_PUF.2>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[24]> in unit <PDL_PUF.2>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[25]> in unit <PDL_PUF.2>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[26]> in unit <PDL_PUF.2>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[27]> in unit <PDL_PUF.2>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[28]> in unit <PDL_PUF.2>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[29]> in unit <PDL_PUF.2>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[2]> in unit <PDL_PUF.2>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[30]> in unit <PDL_PUF.2>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[31]> in unit <PDL_PUF.2>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[32]> in unit <PDL_PUF.2>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[33]> in unit <PDL_PUF.2>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[34]> in unit <PDL_PUF.2>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[35]> in unit <PDL_PUF.2>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[36]> in unit <PDL_PUF.2>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[37]> in unit <PDL_PUF.2>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[38]> in unit <PDL_PUF.2>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[39]> in unit <PDL_PUF.2>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[3]> in unit <PDL_PUF.2>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[40]> in unit <PDL_PUF.2>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[41]> in unit <PDL_PUF.2>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[42]> in unit <PDL_PUF.2>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[43]> in unit <PDL_PUF.2>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[44]> in unit <PDL_PUF.2>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[45]> in unit <PDL_PUF.2>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[46]> in unit <PDL_PUF.2>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[47]> in unit <PDL_PUF.2>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[48]> in unit <PDL_PUF.2>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[49]> in unit <PDL_PUF.2>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[4]> in unit <PDL_PUF.2>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[50]> in unit <PDL_PUF.2>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[51]> in unit <PDL_PUF.2>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[52]> in unit <PDL_PUF.2>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[53]> in unit <PDL_PUF.2>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[54]> in unit <PDL_PUF.2>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[55]> in unit <PDL_PUF.2>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[56]> in unit <PDL_PUF.2>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[57]> in unit <PDL_PUF.2>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[58]> in unit <PDL_PUF.2>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[59]> in unit <PDL_PUF.2>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[5]> in unit <PDL_PUF.2>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[60]> in unit <PDL_PUF.2>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[61]> in unit <PDL_PUF.2>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[62]> in unit <PDL_PUF.2>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[63]> in unit <PDL_PUF.2>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[6]> in unit <PDL_PUF.2>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[7]> in unit <PDL_PUF.2>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[8]> in unit <PDL_PUF.2>.
-    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[9]> in unit <PDL_PUF.2>.
+    Set user-defined property "INIT =  0" for instance <FDC1> in unit <pdl_puf.2>.
+    Set user-defined property "BEL =  D6LUT" for instance <LUT1_inst_2> in unit <pdl_puf.2>.
+    Set user-defined property "INIT =  2" for instance <LUT1_inst_2> in unit <pdl_puf.2>.
+    Set user-defined property "LOCK_PINS =  all" for instance <LUT1_inst_2> in unit <pdl_puf.2>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[0]> in unit <pdl_puf.2>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[10]> in unit <pdl_puf.2>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[11]> in unit <pdl_puf.2>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[12]> in unit <pdl_puf.2>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[13]> in unit <pdl_puf.2>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[14]> in unit <pdl_puf.2>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[15]> in unit <pdl_puf.2>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[16]> in unit <pdl_puf.2>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[17]> in unit <pdl_puf.2>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[18]> in unit <pdl_puf.2>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[19]> in unit <pdl_puf.2>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[1]> in unit <pdl_puf.2>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[20]> in unit <pdl_puf.2>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[21]> in unit <pdl_puf.2>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[22]> in unit <pdl_puf.2>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[23]> in unit <pdl_puf.2>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[24]> in unit <pdl_puf.2>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[25]> in unit <pdl_puf.2>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[26]> in unit <pdl_puf.2>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[27]> in unit <pdl_puf.2>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[28]> in unit <pdl_puf.2>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[29]> in unit <pdl_puf.2>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[2]> in unit <pdl_puf.2>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[30]> in unit <pdl_puf.2>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[31]> in unit <pdl_puf.2>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[32]> in unit <pdl_puf.2>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[33]> in unit <pdl_puf.2>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[34]> in unit <pdl_puf.2>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[35]> in unit <pdl_puf.2>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[36]> in unit <pdl_puf.2>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[37]> in unit <pdl_puf.2>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[38]> in unit <pdl_puf.2>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[39]> in unit <pdl_puf.2>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[3]> in unit <pdl_puf.2>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[40]> in unit <pdl_puf.2>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[41]> in unit <pdl_puf.2>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[42]> in unit <pdl_puf.2>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[43]> in unit <pdl_puf.2>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[44]> in unit <pdl_puf.2>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[45]> in unit <pdl_puf.2>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[46]> in unit <pdl_puf.2>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[47]> in unit <pdl_puf.2>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[48]> in unit <pdl_puf.2>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[49]> in unit <pdl_puf.2>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[4]> in unit <pdl_puf.2>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[50]> in unit <pdl_puf.2>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[51]> in unit <pdl_puf.2>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[52]> in unit <pdl_puf.2>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[53]> in unit <pdl_puf.2>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[54]> in unit <pdl_puf.2>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[55]> in unit <pdl_puf.2>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[56]> in unit <pdl_puf.2>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[57]> in unit <pdl_puf.2>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[58]> in unit <pdl_puf.2>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[59]> in unit <pdl_puf.2>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[5]> in unit <pdl_puf.2>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[60]> in unit <pdl_puf.2>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[61]> in unit <pdl_puf.2>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[62]> in unit <pdl_puf.2>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[63]> in unit <pdl_puf.2>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[6]> in unit <pdl_puf.2>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[7]> in unit <pdl_puf.2>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[8]> in unit <pdl_puf.2>.
+    Set user-defined property "KEEP_HIERARCHY =  TRUE" for instance <sarray[9]> in unit <pdl_puf.2>.
 
 =========================================================================
 *                           HDL Synthesis                               *
 =========================================================================
 
 Performing bidirectional port resolution...
-INFO:Xst:2679 - Register <LED<7>> in unit <simpleTestModuleOne> has a constant value of 0 during circuit operation. The register is replaced by logic.
-INFO:Xst:2679 - Register <LED<6>> in unit <simpleTestModuleOne> has a constant value of 0 during circuit operation. The register is replaced by logic.
-INFO:Xst:2679 - Register <LED<5>> in unit <simpleTestModuleOne> has a constant value of 0 during circuit operation. The register is replaced by logic.
-INFO:Xst:2679 - Register <LED<4>> in unit <simpleTestModuleOne> has a constant value of 0 during circuit operation. The register is replaced by logic.
-INFO:Xst:2679 - Register <LED<3>> in unit <simpleTestModuleOne> has a constant value of 0 during circuit operation. The register is replaced by logic.
-INFO:Xst:2679 - Register <LED<2>> in unit <simpleTestModuleOne> has a constant value of 0 during circuit operation. The register is replaced by logic.
-INFO:Xst:2679 - Register <LED<1>> in unit <simpleTestModuleOne> has a constant value of 0 during circuit operation. The register is replaced by logic.
-INFO:Xst:2679 - Register <bitCount> in unit <simpleTestModuleOne> has a constant value of 00000000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <LED<7>> in unit <SircHandler> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <LED<6>> in unit <SircHandler> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <LED<5>> in unit <SircHandler> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <LED<4>> in unit <SircHandler> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <LED<3>> in unit <SircHandler> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <LED<2>> in unit <SircHandler> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <LED<1>> in unit <SircHandler> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <bitCount> in unit <SircHandler> has a constant value of 00000000 during circuit operation. The register is replaced by logic.
 INFO:Xst:2679 - Register <sum> in unit <mapping> has a constant value of 0000000000000000 during circuit operation. The register is replaced by logic.
 
 Synthesizing Unit <gmii_if>.
@@ -2177,324 +2177,324 @@ Synthesizing Unit <eth_fifo_8>.
 Unit <eth_fifo_8> synthesized.
 
 
-Synthesizing Unit <pdl_based_switch_1>.
-    Related source file is "source/pdl_based_switch.v".
-Unit <pdl_based_switch_1> synthesized.
+Synthesizing Unit <pdl_switch_1>.
+    Related source file is "source/pdl_switch.v".
+Unit <pdl_switch_1> synthesized.
 
 
-Synthesizing Unit <pdl_based_switch_2>.
-    Related source file is "source/pdl_based_switch.v".
-Unit <pdl_based_switch_2> synthesized.
+Synthesizing Unit <pdl_switch_2>.
+    Related source file is "source/pdl_switch.v".
+Unit <pdl_switch_2> synthesized.
 
 
-Synthesizing Unit <pdl_based_switch_3>.
-    Related source file is "source/pdl_based_switch.v".
-Unit <pdl_based_switch_3> synthesized.
+Synthesizing Unit <pdl_switch_3>.
+    Related source file is "source/pdl_switch.v".
+Unit <pdl_switch_3> synthesized.
 
 
-Synthesizing Unit <pdl_based_switch_4>.
-    Related source file is "source/pdl_based_switch.v".
-Unit <pdl_based_switch_4> synthesized.
+Synthesizing Unit <pdl_switch_4>.
+    Related source file is "source/pdl_switch.v".
+Unit <pdl_switch_4> synthesized.
 
 
-Synthesizing Unit <pdl_based_switch_5>.
-    Related source file is "source/pdl_based_switch.v".
-Unit <pdl_based_switch_5> synthesized.
+Synthesizing Unit <pdl_switch_5>.
+    Related source file is "source/pdl_switch.v".
+Unit <pdl_switch_5> synthesized.
 
 
-Synthesizing Unit <pdl_based_switch_6>.
-    Related source file is "source/pdl_based_switch.v".
-Unit <pdl_based_switch_6> synthesized.
+Synthesizing Unit <pdl_switch_6>.
+    Related source file is "source/pdl_switch.v".
+Unit <pdl_switch_6> synthesized.
 
 
-Synthesizing Unit <pdl_based_switch_7>.
-    Related source file is "source/pdl_based_switch.v".
-Unit <pdl_based_switch_7> synthesized.
+Synthesizing Unit <pdl_switch_7>.
+    Related source file is "source/pdl_switch.v".
+Unit <pdl_switch_7> synthesized.
 
 
-Synthesizing Unit <pdl_based_switch_8>.
-    Related source file is "source/pdl_based_switch.v".
-Unit <pdl_based_switch_8> synthesized.
+Synthesizing Unit <pdl_switch_8>.
+    Related source file is "source/pdl_switch.v".
+Unit <pdl_switch_8> synthesized.
 
 
-Synthesizing Unit <pdl_based_switch_9>.
-    Related source file is "source/pdl_based_switch.v".
-Unit <pdl_based_switch_9> synthesized.
+Synthesizing Unit <pdl_switch_9>.
+    Related source file is "source/pdl_switch.v".
+Unit <pdl_switch_9> synthesized.
 
 
-Synthesizing Unit <pdl_based_switch_10>.
-    Related source file is "source/pdl_based_switch.v".
-Unit <pdl_based_switch_10> synthesized.
+Synthesizing Unit <pdl_switch_10>.
+    Related source file is "source/pdl_switch.v".
+Unit <pdl_switch_10> synthesized.
 
 
-Synthesizing Unit <pdl_based_switch_11>.
-    Related source file is "source/pdl_based_switch.v".
-Unit <pdl_based_switch_11> synthesized.
+Synthesizing Unit <pdl_switch_11>.
+    Related source file is "source/pdl_switch.v".
+Unit <pdl_switch_11> synthesized.
 
 
-Synthesizing Unit <pdl_based_switch_12>.
-    Related source file is "source/pdl_based_switch.v".
-Unit <pdl_based_switch_12> synthesized.
+Synthesizing Unit <pdl_switch_12>.
+    Related source file is "source/pdl_switch.v".
+Unit <pdl_switch_12> synthesized.
 
 
-Synthesizing Unit <pdl_based_switch_13>.
-    Related source file is "source/pdl_based_switch.v".
-Unit <pdl_based_switch_13> synthesized.
+Synthesizing Unit <pdl_switch_13>.
+    Related source file is "source/pdl_switch.v".
+Unit <pdl_switch_13> synthesized.
 
 
-Synthesizing Unit <pdl_based_switch_14>.
-    Related source file is "source/pdl_based_switch.v".
-Unit <pdl_based_switch_14> synthesized.
+Synthesizing Unit <pdl_switch_14>.
+    Related source file is "source/pdl_switch.v".
+Unit <pdl_switch_14> synthesized.
 
 
-Synthesizing Unit <pdl_based_switch_15>.
-    Related source file is "source/pdl_based_switch.v".
-Unit <pdl_based_switch_15> synthesized.
+Synthesizing Unit <pdl_switch_15>.
+    Related source file is "source/pdl_switch.v".
+Unit <pdl_switch_15> synthesized.
 
 
-Synthesizing Unit <pdl_based_switch_16>.
-    Related source file is "source/pdl_based_switch.v".
-Unit <pdl_based_switch_16> synthesized.
+Synthesizing Unit <pdl_switch_16>.
+    Related source file is "source/pdl_switch.v".
+Unit <pdl_switch_16> synthesized.
 
 
-Synthesizing Unit <pdl_based_switch_17>.
-    Related source file is "source/pdl_based_switch.v".
-Unit <pdl_based_switch_17> synthesized.
+Synthesizing Unit <pdl_switch_17>.
+    Related source file is "source/pdl_switch.v".
+Unit <pdl_switch_17> synthesized.
 
 
-Synthesizing Unit <pdl_based_switch_18>.
-    Related source file is "source/pdl_based_switch.v".
-Unit <pdl_based_switch_18> synthesized.
+Synthesizing Unit <pdl_switch_18>.
+    Related source file is "source/pdl_switch.v".
+Unit <pdl_switch_18> synthesized.
 
 
-Synthesizing Unit <pdl_based_switch_19>.
-    Related source file is "source/pdl_based_switch.v".
-Unit <pdl_based_switch_19> synthesized.
+Synthesizing Unit <pdl_switch_19>.
+    Related source file is "source/pdl_switch.v".
+Unit <pdl_switch_19> synthesized.
 
 
-Synthesizing Unit <pdl_based_switch_20>.
-    Related source file is "source/pdl_based_switch.v".
-Unit <pdl_based_switch_20> synthesized.
+Synthesizing Unit <pdl_switch_20>.
+    Related source file is "source/pdl_switch.v".
+Unit <pdl_switch_20> synthesized.
 
 
-Synthesizing Unit <pdl_based_switch_21>.
-    Related source file is "source/pdl_based_switch.v".
-Unit <pdl_based_switch_21> synthesized.
+Synthesizing Unit <pdl_switch_21>.
+    Related source file is "source/pdl_switch.v".
+Unit <pdl_switch_21> synthesized.
 
 
-Synthesizing Unit <pdl_based_switch_22>.
-    Related source file is "source/pdl_based_switch.v".
-Unit <pdl_based_switch_22> synthesized.
+Synthesizing Unit <pdl_switch_22>.
+    Related source file is "source/pdl_switch.v".
+Unit <pdl_switch_22> synthesized.
 
 
-Synthesizing Unit <pdl_based_switch_23>.
-    Related source file is "source/pdl_based_switch.v".
-Unit <pdl_based_switch_23> synthesized.
+Synthesizing Unit <pdl_switch_23>.
+    Related source file is "source/pdl_switch.v".
+Unit <pdl_switch_23> synthesized.
 
 
-Synthesizing Unit <pdl_based_switch_24>.
-    Related source file is "source/pdl_based_switch.v".
-Unit <pdl_based_switch_24> synthesized.
+Synthesizing Unit <pdl_switch_24>.
+    Related source file is "source/pdl_switch.v".
+Unit <pdl_switch_24> synthesized.
 
 
-Synthesizing Unit <pdl_based_switch_25>.
-    Related source file is "source/pdl_based_switch.v".
-Unit <pdl_based_switch_25> synthesized.
+Synthesizing Unit <pdl_switch_25>.
+    Related source file is "source/pdl_switch.v".
+Unit <pdl_switch_25> synthesized.
 
 
-Synthesizing Unit <pdl_based_switch_26>.
-    Related source file is "source/pdl_based_switch.v".
-Unit <pdl_based_switch_26> synthesized.
+Synthesizing Unit <pdl_switch_26>.
+    Related source file is "source/pdl_switch.v".
+Unit <pdl_switch_26> synthesized.
 
 
-Synthesizing Unit <pdl_based_switch_27>.
-    Related source file is "source/pdl_based_switch.v".
-Unit <pdl_based_switch_27> synthesized.
+Synthesizing Unit <pdl_switch_27>.
+    Related source file is "source/pdl_switch.v".
+Unit <pdl_switch_27> synthesized.
 
 
-Synthesizing Unit <pdl_based_switch_28>.
-    Related source file is "source/pdl_based_switch.v".
-Unit <pdl_based_switch_28> synthesized.
+Synthesizing Unit <pdl_switch_28>.
+    Related source file is "source/pdl_switch.v".
+Unit <pdl_switch_28> synthesized.
 
 
-Synthesizing Unit <pdl_based_switch_29>.
-    Related source file is "source/pdl_based_switch.v".
-Unit <pdl_based_switch_29> synthesized.
+Synthesizing Unit <pdl_switch_29>.
+    Related source file is "source/pdl_switch.v".
+Unit <pdl_switch_29> synthesized.
 
 
-Synthesizing Unit <pdl_based_switch_30>.
-    Related source file is "source/pdl_based_switch.v".
-Unit <pdl_based_switch_30> synthesized.
+Synthesizing Unit <pdl_switch_30>.
+    Related source file is "source/pdl_switch.v".
+Unit <pdl_switch_30> synthesized.
 
 
-Synthesizing Unit <pdl_based_switch_31>.
-    Related source file is "source/pdl_based_switch.v".
-Unit <pdl_based_switch_31> synthesized.
+Synthesizing Unit <pdl_switch_31>.
+    Related source file is "source/pdl_switch.v".
+Unit <pdl_switch_31> synthesized.
 
 
-Synthesizing Unit <pdl_based_switch_32>.
-    Related source file is "source/pdl_based_switch.v".
-Unit <pdl_based_switch_32> synthesized.
+Synthesizing Unit <pdl_switch_32>.
+    Related source file is "source/pdl_switch.v".
+Unit <pdl_switch_32> synthesized.
 
 
-Synthesizing Unit <pdl_based_switch_33>.
-    Related source file is "source/pdl_based_switch.v".
-Unit <pdl_based_switch_33> synthesized.
+Synthesizing Unit <pdl_switch_33>.
+    Related source file is "source/pdl_switch.v".
+Unit <pdl_switch_33> synthesized.
 
 
-Synthesizing Unit <pdl_based_switch_34>.
-    Related source file is "source/pdl_based_switch.v".
-Unit <pdl_based_switch_34> synthesized.
+Synthesizing Unit <pdl_switch_34>.
+    Related source file is "source/pdl_switch.v".
+Unit <pdl_switch_34> synthesized.
 
 
-Synthesizing Unit <pdl_based_switch_35>.
-    Related source file is "source/pdl_based_switch.v".
-Unit <pdl_based_switch_35> synthesized.
+Synthesizing Unit <pdl_switch_35>.
+    Related source file is "source/pdl_switch.v".
+Unit <pdl_switch_35> synthesized.
 
 
-Synthesizing Unit <pdl_based_switch_36>.
-    Related source file is "source/pdl_based_switch.v".
-Unit <pdl_based_switch_36> synthesized.
+Synthesizing Unit <pdl_switch_36>.
+    Related source file is "source/pdl_switch.v".
+Unit <pdl_switch_36> synthesized.
 
 
-Synthesizing Unit <pdl_based_switch_37>.
-    Related source file is "source/pdl_based_switch.v".
-Unit <pdl_based_switch_37> synthesized.
+Synthesizing Unit <pdl_switch_37>.
+    Related source file is "source/pdl_switch.v".
+Unit <pdl_switch_37> synthesized.
 
 
-Synthesizing Unit <pdl_based_switch_38>.
-    Related source file is "source/pdl_based_switch.v".
-Unit <pdl_based_switch_38> synthesized.
+Synthesizing Unit <pdl_switch_38>.
+    Related source file is "source/pdl_switch.v".
+Unit <pdl_switch_38> synthesized.
 
 
-Synthesizing Unit <pdl_based_switch_39>.
-    Related source file is "source/pdl_based_switch.v".
-Unit <pdl_based_switch_39> synthesized.
+Synthesizing Unit <pdl_switch_39>.
+    Related source file is "source/pdl_switch.v".
+Unit <pdl_switch_39> synthesized.
 
 
-Synthesizing Unit <pdl_based_switch_40>.
-    Related source file is "source/pdl_based_switch.v".
-Unit <pdl_based_switch_40> synthesized.
+Synthesizing Unit <pdl_switch_40>.
+    Related source file is "source/pdl_switch.v".
+Unit <pdl_switch_40> synthesized.
 
 
-Synthesizing Unit <pdl_based_switch_41>.
-    Related source file is "source/pdl_based_switch.v".
-Unit <pdl_based_switch_41> synthesized.
+Synthesizing Unit <pdl_switch_41>.
+    Related source file is "source/pdl_switch.v".
+Unit <pdl_switch_41> synthesized.
 
 
-Synthesizing Unit <pdl_based_switch_42>.
-    Related source file is "source/pdl_based_switch.v".
-Unit <pdl_based_switch_42> synthesized.
+Synthesizing Unit <pdl_switch_42>.
+    Related source file is "source/pdl_switch.v".
+Unit <pdl_switch_42> synthesized.
 
 
-Synthesizing Unit <pdl_based_switch_43>.
-    Related source file is "source/pdl_based_switch.v".
-Unit <pdl_based_switch_43> synthesized.
+Synthesizing Unit <pdl_switch_43>.
+    Related source file is "source/pdl_switch.v".
+Unit <pdl_switch_43> synthesized.
 
 
-Synthesizing Unit <pdl_based_switch_44>.
-    Related source file is "source/pdl_based_switch.v".
-Unit <pdl_based_switch_44> synthesized.
+Synthesizing Unit <pdl_switch_44>.
+    Related source file is "source/pdl_switch.v".
+Unit <pdl_switch_44> synthesized.
 
 
-Synthesizing Unit <pdl_based_switch_45>.
-    Related source file is "source/pdl_based_switch.v".
-Unit <pdl_based_switch_45> synthesized.
+Synthesizing Unit <pdl_switch_45>.
+    Related source file is "source/pdl_switch.v".
+Unit <pdl_switch_45> synthesized.
 
 
-Synthesizing Unit <pdl_based_switch_46>.
-    Related source file is "source/pdl_based_switch.v".
-Unit <pdl_based_switch_46> synthesized.
+Synthesizing Unit <pdl_switch_46>.
+    Related source file is "source/pdl_switch.v".
+Unit <pdl_switch_46> synthesized.
 
 
-Synthesizing Unit <pdl_based_switch_47>.
-    Related source file is "source/pdl_based_switch.v".
-Unit <pdl_based_switch_47> synthesized.
+Synthesizing Unit <pdl_switch_47>.
+    Related source file is "source/pdl_switch.v".
+Unit <pdl_switch_47> synthesized.
 
 
-Synthesizing Unit <pdl_based_switch_48>.
-    Related source file is "source/pdl_based_switch.v".
-Unit <pdl_based_switch_48> synthesized.
+Synthesizing Unit <pdl_switch_48>.
+    Related source file is "source/pdl_switch.v".
+Unit <pdl_switch_48> synthesized.
 
 
-Synthesizing Unit <pdl_based_switch_49>.
-    Related source file is "source/pdl_based_switch.v".
-Unit <pdl_based_switch_49> synthesized.
+Synthesizing Unit <pdl_switch_49>.
+    Related source file is "source/pdl_switch.v".
+Unit <pdl_switch_49> synthesized.
 
 
-Synthesizing Unit <pdl_based_switch_50>.
-    Related source file is "source/pdl_based_switch.v".
-Unit <pdl_based_switch_50> synthesized.
+Synthesizing Unit <pdl_switch_50>.
+    Related source file is "source/pdl_switch.v".
+Unit <pdl_switch_50> synthesized.
 
 
-Synthesizing Unit <pdl_based_switch_51>.
-    Related source file is "source/pdl_based_switch.v".
-Unit <pdl_based_switch_51> synthesized.
+Synthesizing Unit <pdl_switch_51>.
+    Related source file is "source/pdl_switch.v".
+Unit <pdl_switch_51> synthesized.
 
 
-Synthesizing Unit <pdl_based_switch_52>.
-    Related source file is "source/pdl_based_switch.v".
-Unit <pdl_based_switch_52> synthesized.
+Synthesizing Unit <pdl_switch_52>.
+    Related source file is "source/pdl_switch.v".
+Unit <pdl_switch_52> synthesized.
 
 
-Synthesizing Unit <pdl_based_switch_53>.
-    Related source file is "source/pdl_based_switch.v".
-Unit <pdl_based_switch_53> synthesized.
+Synthesizing Unit <pdl_switch_53>.
+    Related source file is "source/pdl_switch.v".
+Unit <pdl_switch_53> synthesized.
 
 
-Synthesizing Unit <pdl_based_switch_54>.
-    Related source file is "source/pdl_based_switch.v".
-Unit <pdl_based_switch_54> synthesized.
+Synthesizing Unit <pdl_switch_54>.
+    Related source file is "source/pdl_switch.v".
+Unit <pdl_switch_54> synthesized.
 
 
-Synthesizing Unit <pdl_based_switch_55>.
-    Related source file is "source/pdl_based_switch.v".
-Unit <pdl_based_switch_55> synthesized.
+Synthesizing Unit <pdl_switch_55>.
+    Related source file is "source/pdl_switch.v".
+Unit <pdl_switch_55> synthesized.
 
 
-Synthesizing Unit <pdl_based_switch_56>.
-    Related source file is "source/pdl_based_switch.v".
-Unit <pdl_based_switch_56> synthesized.
+Synthesizing Unit <pdl_switch_56>.
+    Related source file is "source/pdl_switch.v".
+Unit <pdl_switch_56> synthesized.
 
 
-Synthesizing Unit <pdl_based_switch_57>.
-    Related source file is "source/pdl_based_switch.v".
-Unit <pdl_based_switch_57> synthesized.
+Synthesizing Unit <pdl_switch_57>.
+    Related source file is "source/pdl_switch.v".
+Unit <pdl_switch_57> synthesized.
 
 
-Synthesizing Unit <pdl_based_switch_58>.
-    Related source file is "source/pdl_based_switch.v".
-Unit <pdl_based_switch_58> synthesized.
+Synthesizing Unit <pdl_switch_58>.
+    Related source file is "source/pdl_switch.v".
+Unit <pdl_switch_58> synthesized.
 
 
-Synthesizing Unit <pdl_based_switch_59>.
-    Related source file is "source/pdl_based_switch.v".
-Unit <pdl_based_switch_59> synthesized.
+Synthesizing Unit <pdl_switch_59>.
+    Related source file is "source/pdl_switch.v".
+Unit <pdl_switch_59> synthesized.
 
 
-Synthesizing Unit <pdl_based_switch_60>.
-    Related source file is "source/pdl_based_switch.v".
-Unit <pdl_based_switch_60> synthesized.
+Synthesizing Unit <pdl_switch_60>.
+    Related source file is "source/pdl_switch.v".
+Unit <pdl_switch_60> synthesized.
 
 
-Synthesizing Unit <pdl_based_switch_61>.
-    Related source file is "source/pdl_based_switch.v".
-Unit <pdl_based_switch_61> synthesized.
+Synthesizing Unit <pdl_switch_61>.
+    Related source file is "source/pdl_switch.v".
+Unit <pdl_switch_61> synthesized.
 
 
-Synthesizing Unit <pdl_based_switch_62>.
-    Related source file is "source/pdl_based_switch.v".
-Unit <pdl_based_switch_62> synthesized.
+Synthesizing Unit <pdl_switch_62>.
+    Related source file is "source/pdl_switch.v".
+Unit <pdl_switch_62> synthesized.
 
 
-Synthesizing Unit <pdl_based_switch_63>.
-    Related source file is "source/pdl_based_switch.v".
-Unit <pdl_based_switch_63> synthesized.
+Synthesizing Unit <pdl_switch_63>.
+    Related source file is "source/pdl_switch.v".
+Unit <pdl_switch_63> synthesized.
 
 
-Synthesizing Unit <pdl_based_switch_64>.
-    Related source file is "source/pdl_based_switch.v".
-Unit <pdl_based_switch_64> synthesized.
+Synthesizing Unit <pdl_switch_64>.
+    Related source file is "source/pdl_switch.v".
+Unit <pdl_switch_64> synthesized.
 
 
 Synthesizing Unit <emac_single_locallink>.
@@ -2512,14 +2512,14 @@ Synthesizing Unit <emac_single_locallink>.
 Unit <emac_single_locallink> synthesized.
 
 
-Synthesizing Unit <PDL_PUF_1>.
-    Related source file is "source/PDL_PUF.v".
-Unit <PDL_PUF_1> synthesized.
+Synthesizing Unit <pdl_puf_1>.
+    Related source file is "source/pdl_puf.v".
+Unit <pdl_puf_1> synthesized.
 
 
-Synthesizing Unit <PDL_PUF_2>.
-    Related source file is "source/PDL_PUF.v".
-Unit <PDL_PUF_2> synthesized.
+Synthesizing Unit <pdl_puf_2>.
+    Related source file is "source/pdl_puf.v".
+Unit <pdl_puf_2> synthesized.
 
 
 Synthesizing Unit <ethernet2BlockMem>.
@@ -2530,29 +2530,29 @@ Synthesizing Unit <ethernet2BlockMem>.
 Unit <ethernet2BlockMem> synthesized.
 
 
-Synthesizing Unit <pufMapping>.
-    Related source file is "source/pufMapping.v".
+Synthesizing Unit <AluPuf>.
+    Related source file is "source/alu_puf.v".
     Found 16-bit register for signal <a1>.
     Found 16-bit register for signal <a2>.
     Found 16-bit register for signal <b1>.
     Found 16-bit register for signal <b2>.
-    Found 16-bit adder for signal <c1$addsub0000> created at line 50.
-    Found 16-bit adder for signal <c2$addsub0000> created at line 51.
+    Found 16-bit adder for signal <c1$addsub0000> created at line 51.
+    Found 16-bit adder for signal <c2$addsub0000> created at line 52.
     Summary:
 	inferred  64 D-type flip-flop(s).
 	inferred   2 Adder/Subtractor(s).
-Unit <pufMapping> synthesized.
+Unit <AluPuf> synthesized.
 
 
 Synthesizing Unit <mapping>.
-    Related source file is "source/mapping3.v".
+    Related source file is "source/mapping.v".
 WARNING:Xst:646 - Signal <sum> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:1872 - Variable <ind> is used but never assigned.
     Found 16-bit register for signal <dataOut>.
     Found 1-bit register for signal <done>.
     Found 128-bit register for signal <buffer>.
     Found 5-bit register for signal <countWait>.
-    Found 5-bit adder for signal <countWait$addsub0000> created at line 56.
+    Found 5-bit adder for signal <countWait$addsub0000> created at line 76.
     Found 1-bit register for signal <mp_state>.
     Found 1-bit register for signal <PUFreset>.
     Found 1-bit register for signal <startPUF>.
@@ -2562,8 +2562,8 @@ WARNING:Xst:1872 - Variable <ind> is used but never assigned.
 Unit <mapping> synthesized.
 
 
-Synthesizing Unit <simpleTestModuleOne>.
-    Related source file is "source/simpleTestModuleOne.v".
+Synthesizing Unit <SircHandler>.
+    Related source file is "source/sirc_handler.v".
 WARNING:Xst:1780 - Signal <responseRegBuffer> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:646 - Signal <bitCount> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:646 - Signal <A<31:16>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
@@ -2580,24 +2580,24 @@ WARNING:Xst:646 - Signal <A<31:16>> is assigned but never used. This unconnected
     Found 32-bit register for signal <A>.
     Found 32-bit register for signal <B>.
     Found 128-bit register for signal <challenge>.
-    Found 6-bit comparator greater for signal <challenge_0$cmp_gt0000> created at line 245.
+    Found 6-bit comparator greater for signal <challenge_0$cmp_gt0000> created at line 246.
     Found 1-bit register for signal <challenge_ready>.
     Found 3-bit register for signal <currState>.
-    Found 6-bit comparator lessequal for signal <currState$cmp_le0001> created at line 245.
+    Found 6-bit comparator lessequal for signal <currState$cmp_le0001> created at line 246.
     Found 1-bit register for signal <inputDone>.
-    Found 17-bit adder for signal <inputMemoryReadAdd$addsub0000> created at line 232.
+    Found 17-bit adder for signal <inputMemoryReadAdd$addsub0000> created at line 233.
     Found 6-bit register for signal <memCount>.
-    Found 6-bit adder for signal <memCount$share0000> created at line 175.
-    Found 13-bit adder for signal <outputMemoryWriteAdd$addsub0000> created at line 286.
-    Found 13-bit comparator greater for signal <outputMemoryWriteData$cmp_gt0000> created at line 279.
+    Found 6-bit adder for signal <memCount$share0000> created at line 176.
+    Found 13-bit adder for signal <outputMemoryWriteAdd$addsub0000> created at line 287.
+    Found 13-bit comparator greater for signal <outputMemoryWriteData$cmp_gt0000> created at line 280.
     Found 1-bit register for signal <paramCount>.
     Found 2-bit register for signal <regCount>.
-    Found 8-bit adder for signal <register32Address$addsub0000> created at line 195.
+    Found 8-bit adder for signal <register32Address$addsub0000> created at line 196.
     Summary:
 	inferred 257 D-type flip-flop(s).
 	inferred   4 Adder/Subtractor(s).
 	inferred   3 Comparator(s).
-Unit <simpleTestModuleOne> synthesized.
+Unit <SircHandler> synthesized.
 
 
 Synthesizing Unit <system>.
@@ -2748,83 +2748,83 @@ WARNING:Xst:2677 - Node <wr_addr_diff_1> of sequential type is unconnected in bl
 WARNING:Xst:2677 - Node <rd_valid_pipe_2> of sequential type is unconnected in block <rx_fifo_i>.
 WARNING:Xst:2677 - Node <wr_addr_diff_0> of sequential type is unconnected in block <rx_fifo_i>.
 WARNING:Xst:2677 - Node <wr_addr_diff_1> of sequential type is unconnected in block <rx_fifo_i>.
-WARNING:Xst:2677 - Node <B_16> of sequential type is unconnected in block <tm>.
-WARNING:Xst:2677 - Node <B_17> of sequential type is unconnected in block <tm>.
-WARNING:Xst:2677 - Node <B_18> of sequential type is unconnected in block <tm>.
-WARNING:Xst:2677 - Node <B_19> of sequential type is unconnected in block <tm>.
-WARNING:Xst:2677 - Node <B_20> of sequential type is unconnected in block <tm>.
-WARNING:Xst:2677 - Node <B_21> of sequential type is unconnected in block <tm>.
-WARNING:Xst:2677 - Node <B_22> of sequential type is unconnected in block <tm>.
-WARNING:Xst:2677 - Node <B_23> of sequential type is unconnected in block <tm>.
-WARNING:Xst:2677 - Node <B_24> of sequential type is unconnected in block <tm>.
-WARNING:Xst:2677 - Node <B_25> of sequential type is unconnected in block <tm>.
-WARNING:Xst:2677 - Node <B_26> of sequential type is unconnected in block <tm>.
-WARNING:Xst:2677 - Node <B_27> of sequential type is unconnected in block <tm>.
-WARNING:Xst:2677 - Node <B_28> of sequential type is unconnected in block <tm>.
-WARNING:Xst:2677 - Node <B_29> of sequential type is unconnected in block <tm>.
-WARNING:Xst:2677 - Node <B_30> of sequential type is unconnected in block <tm>.
-WARNING:Xst:2677 - Node <B_31> of sequential type is unconnected in block <tm>.
-WARNING:Xst:2677 - Node <regCount_1> of sequential type is unconnected in block <tm>.
-WARNING:Xst:2677 - Node <A_16> of sequential type is unconnected in block <tm>.
-WARNING:Xst:2677 - Node <A_17> of sequential type is unconnected in block <tm>.
-WARNING:Xst:2677 - Node <A_18> of sequential type is unconnected in block <tm>.
-WARNING:Xst:2677 - Node <A_19> of sequential type is unconnected in block <tm>.
-WARNING:Xst:2677 - Node <A_20> of sequential type is unconnected in block <tm>.
-WARNING:Xst:2677 - Node <A_21> of sequential type is unconnected in block <tm>.
-WARNING:Xst:2677 - Node <A_22> of sequential type is unconnected in block <tm>.
-WARNING:Xst:2677 - Node <A_23> of sequential type is unconnected in block <tm>.
-WARNING:Xst:2677 - Node <A_24> of sequential type is unconnected in block <tm>.
-WARNING:Xst:2677 - Node <A_25> of sequential type is unconnected in block <tm>.
-WARNING:Xst:2677 - Node <A_26> of sequential type is unconnected in block <tm>.
-WARNING:Xst:2677 - Node <A_27> of sequential type is unconnected in block <tm>.
-WARNING:Xst:2677 - Node <A_28> of sequential type is unconnected in block <tm>.
-WARNING:Xst:2677 - Node <A_29> of sequential type is unconnected in block <tm>.
-WARNING:Xst:2677 - Node <A_30> of sequential type is unconnected in block <tm>.
-WARNING:Xst:2677 - Node <A_31> of sequential type is unconnected in block <tm>.
+WARNING:Xst:2677 - Node <B_16> of sequential type is unconnected in block <sh>.
+WARNING:Xst:2677 - Node <B_17> of sequential type is unconnected in block <sh>.
+WARNING:Xst:2677 - Node <B_18> of sequential type is unconnected in block <sh>.
+WARNING:Xst:2677 - Node <B_19> of sequential type is unconnected in block <sh>.
+WARNING:Xst:2677 - Node <B_20> of sequential type is unconnected in block <sh>.
+WARNING:Xst:2677 - Node <B_21> of sequential type is unconnected in block <sh>.
+WARNING:Xst:2677 - Node <B_22> of sequential type is unconnected in block <sh>.
+WARNING:Xst:2677 - Node <B_23> of sequential type is unconnected in block <sh>.
+WARNING:Xst:2677 - Node <B_24> of sequential type is unconnected in block <sh>.
+WARNING:Xst:2677 - Node <B_25> of sequential type is unconnected in block <sh>.
+WARNING:Xst:2677 - Node <B_26> of sequential type is unconnected in block <sh>.
+WARNING:Xst:2677 - Node <B_27> of sequential type is unconnected in block <sh>.
+WARNING:Xst:2677 - Node <B_28> of sequential type is unconnected in block <sh>.
+WARNING:Xst:2677 - Node <B_29> of sequential type is unconnected in block <sh>.
+WARNING:Xst:2677 - Node <B_30> of sequential type is unconnected in block <sh>.
+WARNING:Xst:2677 - Node <B_31> of sequential type is unconnected in block <sh>.
+WARNING:Xst:2677 - Node <regCount_1> of sequential type is unconnected in block <sh>.
+WARNING:Xst:2677 - Node <A_16> of sequential type is unconnected in block <sh>.
+WARNING:Xst:2677 - Node <A_17> of sequential type is unconnected in block <sh>.
+WARNING:Xst:2677 - Node <A_18> of sequential type is unconnected in block <sh>.
+WARNING:Xst:2677 - Node <A_19> of sequential type is unconnected in block <sh>.
+WARNING:Xst:2677 - Node <A_20> of sequential type is unconnected in block <sh>.
+WARNING:Xst:2677 - Node <A_21> of sequential type is unconnected in block <sh>.
+WARNING:Xst:2677 - Node <A_22> of sequential type is unconnected in block <sh>.
+WARNING:Xst:2677 - Node <A_23> of sequential type is unconnected in block <sh>.
+WARNING:Xst:2677 - Node <A_24> of sequential type is unconnected in block <sh>.
+WARNING:Xst:2677 - Node <A_25> of sequential type is unconnected in block <sh>.
+WARNING:Xst:2677 - Node <A_26> of sequential type is unconnected in block <sh>.
+WARNING:Xst:2677 - Node <A_27> of sequential type is unconnected in block <sh>.
+WARNING:Xst:2677 - Node <A_28> of sequential type is unconnected in block <sh>.
+WARNING:Xst:2677 - Node <A_29> of sequential type is unconnected in block <sh>.
+WARNING:Xst:2677 - Node <A_30> of sequential type is unconnected in block <sh>.
+WARNING:Xst:2677 - Node <A_31> of sequential type is unconnected in block <sh>.
 WARNING:Xst:2677 - Node <rd_enable_delay> of sequential type is unconnected in block <tx_fifo_i>.
 WARNING:Xst:2677 - Node <rd_enable_delay2> of sequential type is unconnected in block <tx_fifo_i>.
 
-Synthesizing (advanced) Unit <pufMapping>.
+Synthesizing (advanced) Unit <AluPuf>.
 INFO:Xst:2774 - HDL ADVISOR - KEEP property attached to signal a1 may hinder XST clustering optimizations.
-Unit <pufMapping> synthesized (advanced).
+Unit <AluPuf> synthesized (advanced).
 
 Synthesizing (advanced) Unit <tx_client_fifo_8>.
 INFO:Xst:2774 - HDL ADVISOR - ASYNC_REG property attached to signal wr_rd_addr may hinder XST clustering optimizations.
 Unit <tx_client_fifo_8> synthesized (advanced).
 WARNING:Xst:2677 - Node <rd_valid_pipe_2> of sequential type is unconnected in block <rx_client_fifo_8>.
-WARNING:Xst:2677 - Node <B_16> of sequential type is unconnected in block <simpleTestModuleOne>.
-WARNING:Xst:2677 - Node <B_17> of sequential type is unconnected in block <simpleTestModuleOne>.
-WARNING:Xst:2677 - Node <B_18> of sequential type is unconnected in block <simpleTestModuleOne>.
-WARNING:Xst:2677 - Node <B_19> of sequential type is unconnected in block <simpleTestModuleOne>.
-WARNING:Xst:2677 - Node <B_20> of sequential type is unconnected in block <simpleTestModuleOne>.
-WARNING:Xst:2677 - Node <B_21> of sequential type is unconnected in block <simpleTestModuleOne>.
-WARNING:Xst:2677 - Node <B_22> of sequential type is unconnected in block <simpleTestModuleOne>.
-WARNING:Xst:2677 - Node <B_23> of sequential type is unconnected in block <simpleTestModuleOne>.
-WARNING:Xst:2677 - Node <B_24> of sequential type is unconnected in block <simpleTestModuleOne>.
-WARNING:Xst:2677 - Node <B_25> of sequential type is unconnected in block <simpleTestModuleOne>.
-WARNING:Xst:2677 - Node <B_26> of sequential type is unconnected in block <simpleTestModuleOne>.
-WARNING:Xst:2677 - Node <B_27> of sequential type is unconnected in block <simpleTestModuleOne>.
-WARNING:Xst:2677 - Node <B_28> of sequential type is unconnected in block <simpleTestModuleOne>.
-WARNING:Xst:2677 - Node <B_29> of sequential type is unconnected in block <simpleTestModuleOne>.
-WARNING:Xst:2677 - Node <B_30> of sequential type is unconnected in block <simpleTestModuleOne>.
-WARNING:Xst:2677 - Node <B_31> of sequential type is unconnected in block <simpleTestModuleOne>.
-WARNING:Xst:2677 - Node <regCount_1> of sequential type is unconnected in block <simpleTestModuleOne>.
-WARNING:Xst:2677 - Node <A_16> of sequential type is unconnected in block <simpleTestModuleOne>.
-WARNING:Xst:2677 - Node <A_17> of sequential type is unconnected in block <simpleTestModuleOne>.
-WARNING:Xst:2677 - Node <A_18> of sequential type is unconnected in block <simpleTestModuleOne>.
-WARNING:Xst:2677 - Node <A_19> of sequential type is unconnected in block <simpleTestModuleOne>.
-WARNING:Xst:2677 - Node <A_20> of sequential type is unconnected in block <simpleTestModuleOne>.
-WARNING:Xst:2677 - Node <A_21> of sequential type is unconnected in block <simpleTestModuleOne>.
-WARNING:Xst:2677 - Node <A_22> of sequential type is unconnected in block <simpleTestModuleOne>.
-WARNING:Xst:2677 - Node <A_23> of sequential type is unconnected in block <simpleTestModuleOne>.
-WARNING:Xst:2677 - Node <A_24> of sequential type is unconnected in block <simpleTestModuleOne>.
-WARNING:Xst:2677 - Node <A_25> of sequential type is unconnected in block <simpleTestModuleOne>.
-WARNING:Xst:2677 - Node <A_26> of sequential type is unconnected in block <simpleTestModuleOne>.
-WARNING:Xst:2677 - Node <A_27> of sequential type is unconnected in block <simpleTestModuleOne>.
-WARNING:Xst:2677 - Node <A_28> of sequential type is unconnected in block <simpleTestModuleOne>.
-WARNING:Xst:2677 - Node <A_29> of sequential type is unconnected in block <simpleTestModuleOne>.
-WARNING:Xst:2677 - Node <A_30> of sequential type is unconnected in block <simpleTestModuleOne>.
-WARNING:Xst:2677 - Node <A_31> of sequential type is unconnected in block <simpleTestModuleOne>.
+WARNING:Xst:2677 - Node <B_16> of sequential type is unconnected in block <SircHandler>.
+WARNING:Xst:2677 - Node <B_17> of sequential type is unconnected in block <SircHandler>.
+WARNING:Xst:2677 - Node <B_18> of sequential type is unconnected in block <SircHandler>.
+WARNING:Xst:2677 - Node <B_19> of sequential type is unconnected in block <SircHandler>.
+WARNING:Xst:2677 - Node <B_20> of sequential type is unconnected in block <SircHandler>.
+WARNING:Xst:2677 - Node <B_21> of sequential type is unconnected in block <SircHandler>.
+WARNING:Xst:2677 - Node <B_22> of sequential type is unconnected in block <SircHandler>.
+WARNING:Xst:2677 - Node <B_23> of sequential type is unconnected in block <SircHandler>.
+WARNING:Xst:2677 - Node <B_24> of sequential type is unconnected in block <SircHandler>.
+WARNING:Xst:2677 - Node <B_25> of sequential type is unconnected in block <SircHandler>.
+WARNING:Xst:2677 - Node <B_26> of sequential type is unconnected in block <SircHandler>.
+WARNING:Xst:2677 - Node <B_27> of sequential type is unconnected in block <SircHandler>.
+WARNING:Xst:2677 - Node <B_28> of sequential type is unconnected in block <SircHandler>.
+WARNING:Xst:2677 - Node <B_29> of sequential type is unconnected in block <SircHandler>.
+WARNING:Xst:2677 - Node <B_30> of sequential type is unconnected in block <SircHandler>.
+WARNING:Xst:2677 - Node <B_31> of sequential type is unconnected in block <SircHandler>.
+WARNING:Xst:2677 - Node <regCount_1> of sequential type is unconnected in block <SircHandler>.
+WARNING:Xst:2677 - Node <A_16> of sequential type is unconnected in block <SircHandler>.
+WARNING:Xst:2677 - Node <A_17> of sequential type is unconnected in block <SircHandler>.
+WARNING:Xst:2677 - Node <A_18> of sequential type is unconnected in block <SircHandler>.
+WARNING:Xst:2677 - Node <A_19> of sequential type is unconnected in block <SircHandler>.
+WARNING:Xst:2677 - Node <A_20> of sequential type is unconnected in block <SircHandler>.
+WARNING:Xst:2677 - Node <A_21> of sequential type is unconnected in block <SircHandler>.
+WARNING:Xst:2677 - Node <A_22> of sequential type is unconnected in block <SircHandler>.
+WARNING:Xst:2677 - Node <A_23> of sequential type is unconnected in block <SircHandler>.
+WARNING:Xst:2677 - Node <A_24> of sequential type is unconnected in block <SircHandler>.
+WARNING:Xst:2677 - Node <A_25> of sequential type is unconnected in block <SircHandler>.
+WARNING:Xst:2677 - Node <A_26> of sequential type is unconnected in block <SircHandler>.
+WARNING:Xst:2677 - Node <A_27> of sequential type is unconnected in block <SircHandler>.
+WARNING:Xst:2677 - Node <A_28> of sequential type is unconnected in block <SircHandler>.
+WARNING:Xst:2677 - Node <A_29> of sequential type is unconnected in block <SircHandler>.
+WARNING:Xst:2677 - Node <A_30> of sequential type is unconnected in block <SircHandler>.
+WARNING:Xst:2677 - Node <A_31> of sequential type is unconnected in block <SircHandler>.
 
 =========================================================================
 Advanced HDL Synthesis Report
@@ -2912,145 +2912,145 @@ Optimizing unit <pdl_block_2> ...
 
 Optimizing unit <ethernetController> ...
 
-Optimizing unit <pdl_based_switch_1> ...
+Optimizing unit <pdl_switch_1> ...
 
-Optimizing unit <pdl_based_switch_2> ...
+Optimizing unit <pdl_switch_2> ...
 
-Optimizing unit <pdl_based_switch_3> ...
+Optimizing unit <pdl_switch_3> ...
 
-Optimizing unit <pdl_based_switch_4> ...
+Optimizing unit <pdl_switch_4> ...
 
-Optimizing unit <pdl_based_switch_5> ...
+Optimizing unit <pdl_switch_5> ...
 
-Optimizing unit <pdl_based_switch_6> ...
+Optimizing unit <pdl_switch_6> ...
 
-Optimizing unit <pdl_based_switch_7> ...
+Optimizing unit <pdl_switch_7> ...
 
-Optimizing unit <pdl_based_switch_8> ...
+Optimizing unit <pdl_switch_8> ...
 
-Optimizing unit <pdl_based_switch_9> ...
+Optimizing unit <pdl_switch_9> ...
 
-Optimizing unit <pdl_based_switch_10> ...
+Optimizing unit <pdl_switch_10> ...
 
-Optimizing unit <pdl_based_switch_11> ...
+Optimizing unit <pdl_switch_11> ...
 
-Optimizing unit <pdl_based_switch_12> ...
+Optimizing unit <pdl_switch_12> ...
 
-Optimizing unit <pdl_based_switch_13> ...
+Optimizing unit <pdl_switch_13> ...
 
-Optimizing unit <pdl_based_switch_14> ...
+Optimizing unit <pdl_switch_14> ...
 
-Optimizing unit <pdl_based_switch_15> ...
+Optimizing unit <pdl_switch_15> ...
 
-Optimizing unit <pdl_based_switch_16> ...
+Optimizing unit <pdl_switch_16> ...
 
-Optimizing unit <pdl_based_switch_17> ...
+Optimizing unit <pdl_switch_17> ...
 
-Optimizing unit <pdl_based_switch_18> ...
+Optimizing unit <pdl_switch_18> ...
 
-Optimizing unit <pdl_based_switch_19> ...
+Optimizing unit <pdl_switch_19> ...
 
-Optimizing unit <pdl_based_switch_20> ...
+Optimizing unit <pdl_switch_20> ...
 
-Optimizing unit <pdl_based_switch_21> ...
+Optimizing unit <pdl_switch_21> ...
 
-Optimizing unit <pdl_based_switch_22> ...
+Optimizing unit <pdl_switch_22> ...
 
-Optimizing unit <pdl_based_switch_23> ...
+Optimizing unit <pdl_switch_23> ...
 
-Optimizing unit <pdl_based_switch_24> ...
+Optimizing unit <pdl_switch_24> ...
 
-Optimizing unit <pdl_based_switch_25> ...
+Optimizing unit <pdl_switch_25> ...
 
-Optimizing unit <pdl_based_switch_26> ...
+Optimizing unit <pdl_switch_26> ...
 
-Optimizing unit <pdl_based_switch_27> ...
+Optimizing unit <pdl_switch_27> ...
 
-Optimizing unit <pdl_based_switch_28> ...
+Optimizing unit <pdl_switch_28> ...
 
-Optimizing unit <pdl_based_switch_29> ...
+Optimizing unit <pdl_switch_29> ...
 
-Optimizing unit <pdl_based_switch_30> ...
+Optimizing unit <pdl_switch_30> ...
 
-Optimizing unit <pdl_based_switch_31> ...
+Optimizing unit <pdl_switch_31> ...
 
-Optimizing unit <pdl_based_switch_32> ...
+Optimizing unit <pdl_switch_32> ...
 
-Optimizing unit <pdl_based_switch_33> ...
+Optimizing unit <pdl_switch_33> ...
 
-Optimizing unit <pdl_based_switch_34> ...
+Optimizing unit <pdl_switch_34> ...
 
-Optimizing unit <pdl_based_switch_35> ...
+Optimizing unit <pdl_switch_35> ...
 
-Optimizing unit <pdl_based_switch_36> ...
+Optimizing unit <pdl_switch_36> ...
 
-Optimizing unit <pdl_based_switch_37> ...
+Optimizing unit <pdl_switch_37> ...
 
-Optimizing unit <pdl_based_switch_38> ...
+Optimizing unit <pdl_switch_38> ...
 
-Optimizing unit <pdl_based_switch_39> ...
+Optimizing unit <pdl_switch_39> ...
 
-Optimizing unit <pdl_based_switch_40> ...
+Optimizing unit <pdl_switch_40> ...
 
-Optimizing unit <pdl_based_switch_41> ...
+Optimizing unit <pdl_switch_41> ...
 
-Optimizing unit <pdl_based_switch_42> ...
+Optimizing unit <pdl_switch_42> ...
 
-Optimizing unit <pdl_based_switch_43> ...
+Optimizing unit <pdl_switch_43> ...
 
-Optimizing unit <pdl_based_switch_44> ...
+Optimizing unit <pdl_switch_44> ...
 
-Optimizing unit <pdl_based_switch_45> ...
+Optimizing unit <pdl_switch_45> ...
 
-Optimizing unit <pdl_based_switch_46> ...
+Optimizing unit <pdl_switch_46> ...
 
-Optimizing unit <pdl_based_switch_47> ...
+Optimizing unit <pdl_switch_47> ...
 
-Optimizing unit <pdl_based_switch_48> ...
+Optimizing unit <pdl_switch_48> ...
 
-Optimizing unit <pdl_based_switch_49> ...
+Optimizing unit <pdl_switch_49> ...
 
-Optimizing unit <pdl_based_switch_50> ...
+Optimizing unit <pdl_switch_50> ...
 
-Optimizing unit <pdl_based_switch_51> ...
+Optimizing unit <pdl_switch_51> ...
 
-Optimizing unit <pdl_based_switch_52> ...
+Optimizing unit <pdl_switch_52> ...
 
-Optimizing unit <pdl_based_switch_53> ...
+Optimizing unit <pdl_switch_53> ...
 
-Optimizing unit <pdl_based_switch_54> ...
+Optimizing unit <pdl_switch_54> ...
 
-Optimizing unit <pdl_based_switch_55> ...
+Optimizing unit <pdl_switch_55> ...
 
-Optimizing unit <pdl_based_switch_56> ...
+Optimizing unit <pdl_switch_56> ...
 
-Optimizing unit <pdl_based_switch_57> ...
+Optimizing unit <pdl_switch_57> ...
 
-Optimizing unit <pdl_based_switch_58> ...
+Optimizing unit <pdl_switch_58> ...
 
-Optimizing unit <pdl_based_switch_59> ...
+Optimizing unit <pdl_switch_59> ...
 
-Optimizing unit <pdl_based_switch_60> ...
+Optimizing unit <pdl_switch_60> ...
 
-Optimizing unit <pdl_based_switch_61> ...
+Optimizing unit <pdl_switch_61> ...
 
-Optimizing unit <pdl_based_switch_62> ...
+Optimizing unit <pdl_switch_62> ...
 
-Optimizing unit <pdl_based_switch_63> ...
+Optimizing unit <pdl_switch_63> ...
 
-Optimizing unit <pdl_based_switch_64> ...
+Optimizing unit <pdl_switch_64> ...
 
 Optimizing unit <emac_single_locallink> ...
 
-Optimizing unit <PDL_PUF_1> ...
+Optimizing unit <pdl_puf_1> ...
 
 Optimizing unit <ethernet2BlockMem> ...
 
-Optimizing unit <pufMapping> ...
+Optimizing unit <AluPuf> ...
 
 Optimizing unit <mapping> ...
 
-Optimizing unit <simpleTestModuleOne> ...
+Optimizing unit <SircHandler> ...
 WARNING:Xst:2677 - Node <E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/wr_addr_diff_1> of sequential type is unconnected in block <system>.
 WARNING:Xst:2677 - Node <E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/wr_addr_diff_0> of sequential type is unconnected in block <system>.
 WARNING:Xst:2677 - Node <E2M/emac_ll/client_side_FIFO_emac0/tx_fifo_i/wr_fifo_status_0> of sequential type is unconnected in block <system>.
@@ -3067,38 +3067,38 @@ WARNING:Xst:2677 - Node <E2M/emac_ll/client_side_FIFO_emac0/rx_fifo_i/wr_fifo_st
 Mapping all equations...
 Building and optimizing final netlist ...
 Found area constraint ratio of 100 (+ 5) on block system, actual ratio is 8.
-INFO:Xst:2260 - The FF/Latch <tm/mp/pufCore/b1_10> in Unit <system> is equivalent to the following FF/Latch : <tm/mp/pufCore/b2_10> 
-INFO:Xst:2260 - The FF/Latch <tm/mp/pufCore/b1_11> in Unit <system> is equivalent to the following FF/Latch : <tm/mp/pufCore/b2_11> 
-INFO:Xst:2260 - The FF/Latch <tm/mp/pufCore/b1_12> in Unit <system> is equivalent to the following FF/Latch : <tm/mp/pufCore/b2_12> 
-INFO:Xst:2260 - The FF/Latch <tm/mp/pufCore/b1_13> in Unit <system> is equivalent to the following FF/Latch : <tm/mp/pufCore/b2_13> 
-INFO:Xst:2260 - The FF/Latch <tm/mp/pufCore/b1_14> in Unit <system> is equivalent to the following FF/Latch : <tm/mp/pufCore/b2_14> 
-INFO:Xst:2260 - The FF/Latch <tm/mp/pufCore/b1_15> in Unit <system> is equivalent to the following FF/Latch : <tm/mp/pufCore/b2_15> 
-INFO:Xst:2260 - The FF/Latch <tm/mp/pufCore/a2_0> in Unit <system> is equivalent to the following FF/Latch : <tm/mp/pufCore/a1_0> 
-INFO:Xst:2260 - The FF/Latch <tm/mp/pufCore/a2_1> in Unit <system> is equivalent to the following FF/Latch : <tm/mp/pufCore/a1_1> 
-INFO:Xst:2260 - The FF/Latch <tm/mp/pufCore/a2_2> in Unit <system> is equivalent to the following FF/Latch : <tm/mp/pufCore/a1_2> 
-INFO:Xst:2260 - The FF/Latch <tm/mp/pufCore/a2_3> in Unit <system> is equivalent to the following FF/Latch : <tm/mp/pufCore/a1_3> 
-INFO:Xst:2260 - The FF/Latch <tm/mp/pufCore/a2_4> in Unit <system> is equivalent to the following FF/Latch : <tm/mp/pufCore/a1_4> 
-INFO:Xst:2260 - The FF/Latch <tm/mp/pufCore/a2_5> in Unit <system> is equivalent to the following FF/Latch : <tm/mp/pufCore/a1_5> 
-INFO:Xst:2260 - The FF/Latch <tm/mp/pufCore/a2_6> in Unit <system> is equivalent to the following FF/Latch : <tm/mp/pufCore/a1_6> 
-INFO:Xst:2260 - The FF/Latch <tm/mp/pufCore/a2_7> in Unit <system> is equivalent to the following FF/Latch : <tm/mp/pufCore/a1_7> 
-INFO:Xst:2260 - The FF/Latch <tm/mp/pufCore/a2_8> in Unit <system> is equivalent to the following FF/Latch : <tm/mp/pufCore/a1_8> 
-INFO:Xst:2260 - The FF/Latch <tm/mp/pufCore/a2_9> in Unit <system> is equivalent to the following FF/Latch : <tm/mp/pufCore/a1_9> 
-INFO:Xst:2260 - The FF/Latch <tm/mp/pufCore/b1_0> in Unit <system> is equivalent to the following FF/Latch : <tm/mp/pufCore/b2_0> 
-INFO:Xst:2260 - The FF/Latch <tm/mp/pufCore/b1_1> in Unit <system> is equivalent to the following FF/Latch : <tm/mp/pufCore/b2_1> 
-INFO:Xst:2260 - The FF/Latch <tm/mp/pufCore/b1_2> in Unit <system> is equivalent to the following FF/Latch : <tm/mp/pufCore/b2_2> 
-INFO:Xst:2260 - The FF/Latch <tm/mp/pufCore/b1_3> in Unit <system> is equivalent to the following FF/Latch : <tm/mp/pufCore/b2_3> 
-INFO:Xst:2260 - The FF/Latch <tm/mp/pufCore/b1_4> in Unit <system> is equivalent to the following FF/Latch : <tm/mp/pufCore/b2_4> 
-INFO:Xst:2260 - The FF/Latch <tm/mp/pufCore/b1_5> in Unit <system> is equivalent to the following FF/Latch : <tm/mp/pufCore/b2_5> 
-INFO:Xst:2260 - The FF/Latch <tm/mp/pufCore/b1_6> in Unit <system> is equivalent to the following FF/Latch : <tm/mp/pufCore/b2_6> 
-INFO:Xst:2260 - The FF/Latch <tm/mp/pufCore/b1_7> in Unit <system> is equivalent to the following FF/Latch : <tm/mp/pufCore/b2_7> 
-INFO:Xst:2260 - The FF/Latch <tm/mp/pufCore/b1_8> in Unit <system> is equivalent to the following FF/Latch : <tm/mp/pufCore/b2_8> 
-INFO:Xst:2260 - The FF/Latch <tm/mp/pufCore/b1_9> in Unit <system> is equivalent to the following FF/Latch : <tm/mp/pufCore/b2_9> 
-INFO:Xst:2260 - The FF/Latch <tm/mp/pufCore/a2_10> in Unit <system> is equivalent to the following FF/Latch : <tm/mp/pufCore/a1_10> 
-INFO:Xst:2260 - The FF/Latch <tm/mp/pufCore/a2_11> in Unit <system> is equivalent to the following FF/Latch : <tm/mp/pufCore/a1_11> 
-INFO:Xst:2260 - The FF/Latch <tm/mp/pufCore/a2_12> in Unit <system> is equivalent to the following FF/Latch : <tm/mp/pufCore/a1_12> 
-INFO:Xst:2260 - The FF/Latch <tm/mp/pufCore/a2_13> in Unit <system> is equivalent to the following FF/Latch : <tm/mp/pufCore/a1_13> 
-INFO:Xst:2260 - The FF/Latch <tm/mp/pufCore/a2_14> in Unit <system> is equivalent to the following FF/Latch : <tm/mp/pufCore/a1_14> 
-INFO:Xst:2260 - The FF/Latch <tm/mp/pufCore/a2_15> in Unit <system> is equivalent to the following FF/Latch : <tm/mp/pufCore/a1_15> 
+INFO:Xst:2260 - The FF/Latch <sh/mp/alupuf/b1_0> in Unit <system> is equivalent to the following FF/Latch : <sh/mp/alupuf/b2_0> 
+INFO:Xst:2260 - The FF/Latch <sh/mp/alupuf/b1_1> in Unit <system> is equivalent to the following FF/Latch : <sh/mp/alupuf/b2_1> 
+INFO:Xst:2260 - The FF/Latch <sh/mp/alupuf/b1_2> in Unit <system> is equivalent to the following FF/Latch : <sh/mp/alupuf/b2_2> 
+INFO:Xst:2260 - The FF/Latch <sh/mp/alupuf/b1_3> in Unit <system> is equivalent to the following FF/Latch : <sh/mp/alupuf/b2_3> 
+INFO:Xst:2260 - The FF/Latch <sh/mp/alupuf/b1_4> in Unit <system> is equivalent to the following FF/Latch : <sh/mp/alupuf/b2_4> 
+INFO:Xst:2260 - The FF/Latch <sh/mp/alupuf/b1_5> in Unit <system> is equivalent to the following FF/Latch : <sh/mp/alupuf/b2_5> 
+INFO:Xst:2260 - The FF/Latch <sh/mp/alupuf/b1_6> in Unit <system> is equivalent to the following FF/Latch : <sh/mp/alupuf/b2_6> 
+INFO:Xst:2260 - The FF/Latch <sh/mp/alupuf/b1_7> in Unit <system> is equivalent to the following FF/Latch : <sh/mp/alupuf/b2_7> 
+INFO:Xst:2260 - The FF/Latch <sh/mp/alupuf/b1_8> in Unit <system> is equivalent to the following FF/Latch : <sh/mp/alupuf/b2_8> 
+INFO:Xst:2260 - The FF/Latch <sh/mp/alupuf/b1_9> in Unit <system> is equivalent to the following FF/Latch : <sh/mp/alupuf/b2_9> 
+INFO:Xst:2260 - The FF/Latch <sh/mp/alupuf/b1_10> in Unit <system> is equivalent to the following FF/Latch : <sh/mp/alupuf/b2_10> 
+INFO:Xst:2260 - The FF/Latch <sh/mp/alupuf/b1_11> in Unit <system> is equivalent to the following FF/Latch : <sh/mp/alupuf/b2_11> 
+INFO:Xst:2260 - The FF/Latch <sh/mp/alupuf/b1_12> in Unit <system> is equivalent to the following FF/Latch : <sh/mp/alupuf/b2_12> 
+INFO:Xst:2260 - The FF/Latch <sh/mp/alupuf/b1_13> in Unit <system> is equivalent to the following FF/Latch : <sh/mp/alupuf/b2_13> 
+INFO:Xst:2260 - The FF/Latch <sh/mp/alupuf/b1_14> in Unit <system> is equivalent to the following FF/Latch : <sh/mp/alupuf/b2_14> 
+INFO:Xst:2260 - The FF/Latch <sh/mp/alupuf/b1_15> in Unit <system> is equivalent to the following FF/Latch : <sh/mp/alupuf/b2_15> 
+INFO:Xst:2260 - The FF/Latch <sh/mp/alupuf/a2_10> in Unit <system> is equivalent to the following FF/Latch : <sh/mp/alupuf/a1_10> 
+INFO:Xst:2260 - The FF/Latch <sh/mp/alupuf/a2_11> in Unit <system> is equivalent to the following FF/Latch : <sh/mp/alupuf/a1_11> 
+INFO:Xst:2260 - The FF/Latch <sh/mp/alupuf/a2_12> in Unit <system> is equivalent to the following FF/Latch : <sh/mp/alupuf/a1_12> 
+INFO:Xst:2260 - The FF/Latch <sh/mp/alupuf/a2_13> in Unit <system> is equivalent to the following FF/Latch : <sh/mp/alupuf/a1_13> 
+INFO:Xst:2260 - The FF/Latch <sh/mp/alupuf/a2_14> in Unit <system> is equivalent to the following FF/Latch : <sh/mp/alupuf/a1_14> 
+INFO:Xst:2260 - The FF/Latch <sh/mp/alupuf/a2_15> in Unit <system> is equivalent to the following FF/Latch : <sh/mp/alupuf/a1_15> 
+INFO:Xst:2260 - The FF/Latch <sh/mp/alupuf/a2_0> in Unit <system> is equivalent to the following FF/Latch : <sh/mp/alupuf/a1_0> 
+INFO:Xst:2260 - The FF/Latch <sh/mp/alupuf/a2_1> in Unit <system> is equivalent to the following FF/Latch : <sh/mp/alupuf/a1_1> 
+INFO:Xst:2260 - The FF/Latch <sh/mp/alupuf/a2_2> in Unit <system> is equivalent to the following FF/Latch : <sh/mp/alupuf/a1_2> 
+INFO:Xst:2260 - The FF/Latch <sh/mp/alupuf/a2_3> in Unit <system> is equivalent to the following FF/Latch : <sh/mp/alupuf/a1_3> 
+INFO:Xst:2260 - The FF/Latch <sh/mp/alupuf/a2_4> in Unit <system> is equivalent to the following FF/Latch : <sh/mp/alupuf/a1_4> 
+INFO:Xst:2260 - The FF/Latch <sh/mp/alupuf/a2_5> in Unit <system> is equivalent to the following FF/Latch : <sh/mp/alupuf/a1_5> 
+INFO:Xst:2260 - The FF/Latch <sh/mp/alupuf/a2_6> in Unit <system> is equivalent to the following FF/Latch : <sh/mp/alupuf/a1_6> 
+INFO:Xst:2260 - The FF/Latch <sh/mp/alupuf/a2_7> in Unit <system> is equivalent to the following FF/Latch : <sh/mp/alupuf/a1_7> 
+INFO:Xst:2260 - The FF/Latch <sh/mp/alupuf/a2_8> in Unit <system> is equivalent to the following FF/Latch : <sh/mp/alupuf/a1_8> 
+INFO:Xst:2260 - The FF/Latch <sh/mp/alupuf/a2_9> in Unit <system> is equivalent to the following FF/Latch : <sh/mp/alupuf/a1_9> 
 
 Final Macro Processing ...
 
@@ -3248,33 +3248,33 @@ NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
 
 Clock Information:
 ------------------
---------------------------------------------------------------------------------------------------+----------------------------------+-------+
-Clock Signal                                                                                      | Clock buffer(FF name)            | Load  |
---------------------------------------------------------------------------------------------------+----------------------------------+-------+
-CLK_100                                                                                           | BUFGP                            | 1     |
-clk_125_eth_i                                                                                     | BUFG                             | 1055  |
-GMII_RX_CLK_0                                                                                     | IBUF+IODELAY+BUFG                | 116   |
-clk_user_interface_i                                                                              | BUFG                             | 446   |
-E2M/EC/sysACE_delay_clk                                                                           | BUFG                             | 34    |
-clk_200_i                                                                                         | BUFG                             | 13    |
-tm/mp/pufCore/puf1/sarray[0]/pdl_bottom/o(tm/mp/pufCore/puf1/sarray[0]/pdl_bottom/LUT6_inst_0:O)  | NONE(*)(tm/mp/pufCore/puf1/FDC1) | 1     |
-tm/mp/pufCore/puf2/sarray[0]/pdl_bottom/o(tm/mp/pufCore/puf2/sarray[0]/pdl_bottom/LUT6_inst_0:O)  | NONE(*)(tm/mp/pufCore/puf2/FDC1) | 1     |
-tm/mp/pufCore/puf3/sarray[0]/pdl_bottom/o(tm/mp/pufCore/puf3/sarray[0]/pdl_bottom/LUT6_inst_0:O)  | NONE(*)(tm/mp/pufCore/puf3/FDC1) | 1     |
-tm/mp/pufCore/puf4/sarray[0]/pdl_bottom/o(tm/mp/pufCore/puf4/sarray[0]/pdl_bottom/LUT6_inst_0:O)  | NONE(*)(tm/mp/pufCore/puf4/FDC1) | 1     |
-tm/mp/pufCore/puf5/sarray[0]/pdl_bottom/o(tm/mp/pufCore/puf5/sarray[0]/pdl_bottom/LUT6_inst_0:O)  | NONE(*)(tm/mp/pufCore/puf5/FDC1) | 1     |
-tm/mp/pufCore/puf6/sarray[0]/pdl_bottom/o(tm/mp/pufCore/puf6/sarray[0]/pdl_bottom/LUT6_inst_0:O)  | NONE(*)(tm/mp/pufCore/puf6/FDC1) | 1     |
-tm/mp/pufCore/puf7/sarray[0]/pdl_bottom/o(tm/mp/pufCore/puf7/sarray[0]/pdl_bottom/LUT6_inst_0:O)  | NONE(*)(tm/mp/pufCore/puf7/FDC1) | 1     |
-tm/mp/pufCore/puf8/sarray[0]/pdl_bottom/o(tm/mp/pufCore/puf8/sarray[0]/pdl_bottom/LUT6_inst_0:O)  | NONE(*)(tm/mp/pufCore/puf8/FDC1) | 1     |
-tm/mp/pufCore/puf9/sarray[0]/pdl_bottom/o(tm/mp/pufCore/puf9/sarray[0]/pdl_bottom/LUT6_inst_0:O)  | NONE(*)(tm/mp/pufCore/puf9/FDC1) | 1     |
-tm/mp/pufCore/puf10/sarray[0]/pdl_bottom/o(tm/mp/pufCore/puf10/sarray[0]/pdl_bottom/LUT6_inst_0:O)| NONE(*)(tm/mp/pufCore/puf10/FDC1)| 1     |
-tm/mp/pufCore/puf11/sarray[0]/pdl_bottom/o(tm/mp/pufCore/puf11/sarray[0]/pdl_bottom/LUT6_inst_0:O)| NONE(*)(tm/mp/pufCore/puf11/FDC1)| 1     |
-tm/mp/pufCore/puf12/sarray[0]/pdl_bottom/o(tm/mp/pufCore/puf12/sarray[0]/pdl_bottom/LUT6_inst_0:O)| NONE(*)(tm/mp/pufCore/puf12/FDC1)| 1     |
-tm/mp/pufCore/puf13/sarray[0]/pdl_bottom/o(tm/mp/pufCore/puf13/sarray[0]/pdl_bottom/LUT6_inst_0:O)| NONE(*)(tm/mp/pufCore/puf13/FDC1)| 1     |
-tm/mp/pufCore/puf14/sarray[0]/pdl_bottom/o(tm/mp/pufCore/puf14/sarray[0]/pdl_bottom/LUT6_inst_0:O)| NONE(*)(tm/mp/pufCore/puf14/FDC1)| 1     |
-tm/mp/pufCore/puf15/sarray[0]/pdl_bottom/o(tm/mp/pufCore/puf15/sarray[0]/pdl_bottom/LUT6_inst_0:O)| NONE(*)(tm/mp/pufCore/puf15/FDC1)| 1     |
-tm/mp/pufCore/puf16/sarray[0]/pdl_bottom/o(tm/mp/pufCore/puf16/sarray[0]/pdl_bottom/LUT6_inst_0:O)| NONE(*)(tm/mp/pufCore/puf16/FDC1)| 1     |
-tm/mp/startPUF1                                                                                   | BUFG                             | 64    |
---------------------------------------------------------------------------------------------------+----------------------------------+-------+
+------------------------------------------------------------------------------------------------+---------------------------------+-------+
+Clock Signal                                                                                    | Clock buffer(FF name)           | Load  |
+------------------------------------------------------------------------------------------------+---------------------------------+-------+
+CLK_100                                                                                         | BUFGP                           | 1     |
+clk_125_eth_i                                                                                   | BUFG                            | 1055  |
+GMII_RX_CLK_0                                                                                   | IBUF+IODELAY+BUFG               | 116   |
+clk_user_interface_i                                                                            | BUFG                            | 446   |
+E2M/EC/sysACE_delay_clk                                                                         | BUFG                            | 34    |
+clk_200_i                                                                                       | BUFG                            | 13    |
+sh/mp/alupuf/puf1/sarray[0]/pdl_bottom/o(sh/mp/alupuf/puf1/sarray[0]/pdl_bottom/LUT6_inst_0:O)  | NONE(*)(sh/mp/alupuf/puf1/FDC1) | 1     |
+sh/mp/alupuf/puf2/sarray[0]/pdl_bottom/o(sh/mp/alupuf/puf2/sarray[0]/pdl_bottom/LUT6_inst_0:O)  | NONE(*)(sh/mp/alupuf/puf2/FDC1) | 1     |
+sh/mp/alupuf/puf3/sarray[0]/pdl_bottom/o(sh/mp/alupuf/puf3/sarray[0]/pdl_bottom/LUT6_inst_0:O)  | NONE(*)(sh/mp/alupuf/puf3/FDC1) | 1     |
+sh/mp/alupuf/puf4/sarray[0]/pdl_bottom/o(sh/mp/alupuf/puf4/sarray[0]/pdl_bottom/LUT6_inst_0:O)  | NONE(*)(sh/mp/alupuf/puf4/FDC1) | 1     |
+sh/mp/alupuf/puf5/sarray[0]/pdl_bottom/o(sh/mp/alupuf/puf5/sarray[0]/pdl_bottom/LUT6_inst_0:O)  | NONE(*)(sh/mp/alupuf/puf5/FDC1) | 1     |
+sh/mp/alupuf/puf6/sarray[0]/pdl_bottom/o(sh/mp/alupuf/puf6/sarray[0]/pdl_bottom/LUT6_inst_0:O)  | NONE(*)(sh/mp/alupuf/puf6/FDC1) | 1     |
+sh/mp/alupuf/puf7/sarray[0]/pdl_bottom/o(sh/mp/alupuf/puf7/sarray[0]/pdl_bottom/LUT6_inst_0:O)  | NONE(*)(sh/mp/alupuf/puf7/FDC1) | 1     |
+sh/mp/alupuf/puf8/sarray[0]/pdl_bottom/o(sh/mp/alupuf/puf8/sarray[0]/pdl_bottom/LUT6_inst_0:O)  | NONE(*)(sh/mp/alupuf/puf8/FDC1) | 1     |
+sh/mp/alupuf/puf9/sarray[0]/pdl_bottom/o(sh/mp/alupuf/puf9/sarray[0]/pdl_bottom/LUT6_inst_0:O)  | NONE(*)(sh/mp/alupuf/puf9/FDC1) | 1     |
+sh/mp/alupuf/puf10/sarray[0]/pdl_bottom/o(sh/mp/alupuf/puf10/sarray[0]/pdl_bottom/LUT6_inst_0:O)| NONE(*)(sh/mp/alupuf/puf10/FDC1)| 1     |
+sh/mp/alupuf/puf11/sarray[0]/pdl_bottom/o(sh/mp/alupuf/puf11/sarray[0]/pdl_bottom/LUT6_inst_0:O)| NONE(*)(sh/mp/alupuf/puf11/FDC1)| 1     |
+sh/mp/alupuf/puf12/sarray[0]/pdl_bottom/o(sh/mp/alupuf/puf12/sarray[0]/pdl_bottom/LUT6_inst_0:O)| NONE(*)(sh/mp/alupuf/puf12/FDC1)| 1     |
+sh/mp/alupuf/puf13/sarray[0]/pdl_bottom/o(sh/mp/alupuf/puf13/sarray[0]/pdl_bottom/LUT6_inst_0:O)| NONE(*)(sh/mp/alupuf/puf13/FDC1)| 1     |
+sh/mp/alupuf/puf14/sarray[0]/pdl_bottom/o(sh/mp/alupuf/puf14/sarray[0]/pdl_bottom/LUT6_inst_0:O)| NONE(*)(sh/mp/alupuf/puf14/FDC1)| 1     |
+sh/mp/alupuf/puf15/sarray[0]/pdl_bottom/o(sh/mp/alupuf/puf15/sarray[0]/pdl_bottom/LUT6_inst_0:O)| NONE(*)(sh/mp/alupuf/puf15/FDC1)| 1     |
+sh/mp/alupuf/puf16/sarray[0]/pdl_bottom/o(sh/mp/alupuf/puf16/sarray[0]/pdl_bottom/LUT6_inst_0:O)| NONE(*)(sh/mp/alupuf/puf16/FDC1)| 1     |
+sh/mp/startPUF1                                                                                 | BUFG                            | 64    |
+------------------------------------------------------------------------------------------------+---------------------------------+-------+
 (*) These 16 clock signal(s) are generated by combinatorial logic,
 and XST is not able to identify which are the primary clock signals.
 Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
@@ -3288,7 +3288,7 @@ Control Signal                                                                  
 E2M/EC/memInputData/N0(E2M/EC/memInputData/XST_GND:G)                                                                                                                                                                                                                                                | NONE(E2M/EC/memInputData/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.CASCADED_PRIM36.TDP_B)  | 128   |
 E2M/delayCtrl0Reset_12(E2M/delayCtrl0Reset_12:Q)                                                                                                                                                                                                                                                     | NONE(E2M/emac_ll/rx_bad_frame_0_r)                                                                                                                    | 45    |
 E2M/EC/memOutputData/N0(E2M/EC/memOutputData/XST_GND:G)                                                                                                                                                                                                                                              | NONE(E2M/EC/memOutputData/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP)     | 16    |
-tm/mp/PUFreset(tm/mp/PUFreset:Q)                                                                                                                                                                                                                                                                     | NONE(tm/mp/pufCore/puf1/FDC1)                                                                                                                         | 16    |
+sh/mp/PUFreset(sh/mp/PUFreset:Q)                                                                                                                                                                                                                                                                     | NONE(sh/mp/alupuf/puf1/FDC1)                                                                                                                          | 16    |
 E2M/EC/resetMaxOutputAddress(E2M/EC/resetMaxOutputAddress:Q)                                                                                                                                                                                                                                         | NONE(E2M/EC/tx_max_output_address_0)                                                                                                                  | 13    |
 E2M/hardResetClockLockLow_inv(E2M/hardResetClockLockLow_inv1:O)                                                                                                                                                                                                                                      | NONE(E2M/delayCtrl0Reset_0)                                                                                                                           | 13    |
 E2M/EC/register32File/N0(E2M/EC/register32File/XST_GND:G)                                                                                                                                                                                                                                            | NONE(E2M/EC/register32File/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v5_noinit.ram/TRUE_DP.SINGLE_PRIM36.TDP)| 8     |
@@ -3467,23 +3467,23 @@ Timing constraint: Default period analysis for Clock 'clk_user_interface_i'
   Total number of paths / destination ports: 7004 / 1958
 -------------------------------------------------------------------------
 Delay:               4.439ns (Levels of Logic = 6)
-  Source:            tm/outputMemoryWriteAdd_7 (FF)
-  Destination:       tm/memCount_5 (FF)
+  Source:            sh/outputMemoryWriteAdd_7 (FF)
+  Destination:       sh/memCount_5 (FF)
   Source Clock:      clk_user_interface_i rising
   Destination Clock: clk_user_interface_i rising
 
-  Data Path: tm/outputMemoryWriteAdd_7 to tm/memCount_5
+  Data Path: sh/outputMemoryWriteAdd_7 to sh/memCount_5
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDR:C->Q             11   0.471   1.028  tm/outputMemoryWriteAdd_7 (tm/outputMemoryWriteAdd_7)
-     LUT5:I0->O            3   0.094   0.587  tm/currState_cmp_eq000823 (tm/currState_cmp_eq000823)
-     LUT4:I2->O            3   0.094   0.587  tm/currState_cmp_eq000887 (tm/currState_cmp_eq0008)
-     LUT6:I4->O            1   0.094   0.000  tm/memCount_mux0000<0>11_G (N1060)
-     MUXF7:I1->O           2   0.254   0.485  tm/memCount_mux0000<0>11 (tm/N8)
-     LUT4:I3->O           15   0.094   0.557  tm/outputMemoryWriteAdd_mux0000<0>11 (tm/N1)
-     LUT6:I5->O            1   0.094   0.000  tm/memCount_mux0000<1> (tm/memCount_mux0000<1>)
-     FDE:D                    -0.018          tm/memCount_4
+     FDR:C->Q             11   0.471   1.028  sh/outputMemoryWriteAdd_7 (sh/outputMemoryWriteAdd_7)
+     LUT5:I0->O            3   0.094   0.587  sh/currState_cmp_eq000823 (sh/currState_cmp_eq000823)
+     LUT4:I2->O            3   0.094   0.587  sh/currState_cmp_eq000887 (sh/currState_cmp_eq0008)
+     LUT6:I4->O            1   0.094   0.000  sh/memCount_mux0000<0>11_G (N1060)
+     MUXF7:I1->O           2   0.254   0.485  sh/memCount_mux0000<0>11 (sh/N8)
+     LUT4:I3->O           15   0.094   0.557  sh/outputMemoryWriteAdd_mux0000<0>11 (sh/N1)
+     LUT6:I5->O            1   0.094   0.000  sh/memCount_mux0000<1> (sh/memCount_mux0000<1>)
+     FDE:D                    -0.018          sh/memCount_4
     ----------------------------------------
     Total                      4.439ns (1.195ns logic, 3.244ns route)
                                        (26.9% logic, 73.1% route)
@@ -3677,15 +3677,15 @@ Timing constraint: Default OFFSET OUT AFTER for Clock 'clk_user_interface_i'
   Total number of paths / destination ports: 1 / 1
 -------------------------------------------------------------------------
 Offset:              3.264ns (Levels of Logic = 1)
-  Source:            tm/LED_0 (FF)
+  Source:            sh/LED_0 (FF)
   Destination:       LED<0> (PAD)
   Source Clock:      clk_user_interface_i rising
 
-  Data Path: tm/LED_0 to LED<0>
+  Data Path: sh/LED_0 to LED<0>
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDE:C->Q              2   0.471   0.341  tm/LED_0 (tm/LED_0)
+     FDE:C->Q              2   0.471   0.341  sh/LED_0 (sh/LED_0)
      OBUF:I->O                 2.452          LED_0_OBUF (LED<0>)
     ----------------------------------------
     Total                      3.264ns (2.923ns logic, 0.341ns route)
@@ -3750,12 +3750,12 @@ Delay:               3.617ns (Levels of Logic = 2)
 =========================================================================
 
 
-Total REAL time to Xst completion: 156.00 secs
-Total CPU time to Xst completion: 155.76 secs
+Total REAL time to Xst completion: 175.00 secs
+Total CPU time to Xst completion: 175.67 secs
  
 --> 
 
-Total memory usage is 554812 kilobytes
+Total memory usage is 554876 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :  174 (   0 filtered)

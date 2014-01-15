@@ -259,13 +259,13 @@ module system #(
 
 
 	//************Instantiate user module
-	simpleTestModuleOne #(
+	SircHandler #(
 		//Forward parameters to user circuit
 		.INMEM_BYTE_WIDTH(INMEM_USER_BYTE_WIDTH),
 		.OUTMEM_BYTE_WIDTH(OUTMEM_USER_BYTE_WIDTH),
 		.INMEM_ADDRESS_WIDTH(INMEM_USER_ADDRESS_WIDTH),
 		.OUTMEM_ADDRESS_WIDTH(OUTMEM_USER_ADDRESS_WIDTH)
-	) tm(										
+	) sh(										
       .clk(clk_user_interface),										//For simplicity sake (although it doesn't have to), the entire user circuit can run off of the same 
 																					//		clock used to synchronize the interface.
       .reset(userLogicReset),											//When this signal is asserted (it is synchronous to userInterfaceClk), the user's circuit should reset

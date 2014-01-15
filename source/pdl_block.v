@@ -1,23 +1,22 @@
+//////////////////////////////////////////////////////////////////////////////////
+//
+// Author           :   Praveen Kumar Pendyala
+// Create Date      :   05/27/13
+// Modify Date      :   16/01/14
+// Module Name      :   pdl_block
+// Project Name     :   PDL
+// Target Devices   :   Xilinx Vertix 5, XUPV5 110T
+// Tool versions    :   13.2 ISE
+//
+// Description:
+// Each pdl block consists of two 6 input LUTs.
+// Initialised to 64'h5655555555555555 which translates each LUT as an inverter.
+//
+//////////////////////////////////////////////////////////////////////////////////
+
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date:    11:29:10 04/17/2008 
-// Design Name: 
-// Module Name:    DelayElement 
-// Project Name: 
-// Target Devices: 
-// Tool versions: 
-// Description: 
-//
-// Dependencies: 
-//
-// Revision: 
-// Revision 0.01 - File Created
-// Additional Comments: 
-//
-//////////////////////////////////////////////////////////////////////////////////
+`default_nettype none
+
 module pdl_block(i,o,t);
 
 (* KEEP = "TRUE" *) (* S = "TRUE" *) input i;

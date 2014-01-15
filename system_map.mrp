@@ -10,7 +10,7 @@ Target Device  : xc5vlx110t
 Target Package : ff1136
 Target Speed   : -1
 Mapper Version : virtex5 -- $Revision: 1.55 $
-Mapped Date    : Thu Jan 16 01:09:00 2014
+Mapped Date    : Thu Jan 16 03:00:58 2014
 
 Design Summary
 --------------
@@ -33,11 +33,11 @@ Slice Logic Utilization:
     Number using O5 output only:                 3
 
 Slice Logic Distribution:
-  Number of occupied Slices:                 5,336 out of  17,280   30%
-  Number of LUT Flip Flop pairs used:        7,353
-    Number with an unused Flip Flop:         5,721 out of   7,353   77%
-    Number with an unused LUT:                 705 out of   7,353    9%
-    Number of fully used LUT-FF pairs:         927 out of   7,353   12%
+  Number of occupied Slices:                 5,249 out of  17,280   30%
+  Number of LUT Flip Flop pairs used:        7,321
+    Number with an unused Flip Flop:         5,689 out of   7,321   77%
+    Number with an unused LUT:                 673 out of   7,321    9%
+    Number of fully used LUT-FF pairs:         959 out of   7,321   13%
     Number of unique control sets:             108
     Number of slice register sites lost
       to control set restrictions:             205 out of  69,120    1%
@@ -72,9 +72,9 @@ Specific Feature Utilization:
 
 Average Fanout of Non-Clock Nets:                5.34
 
-Peak Memory Usage:  720 MB
-Total REAL time to MAP completion:  1 mins 54 secs 
-Total CPU time to MAP completion:   1 mins 52 secs 
+Peak Memory Usage:  702 MB
+Total REAL time to MAP completion:  3 mins 33 secs 
+Total CPU time to MAP completion:   3 mins 4 secs 
 
 Table of Contents
 -----------------
@@ -1164,52 +1164,52 @@ WARNING:Place:838 - An IO Bus with more than one IO standard is found.
    	 Comp: LED<7>   IOSTANDARD = LVCMOS12
 
 
-WARNING:PhysDesignRules:372 - Gated clock. Clock net tm/mp/pufCore/puf1/i2<0> is
+WARNING:PhysDesignRules:372 - Gated clock. Clock net sh/mp/alupuf/puf1/i2<0> is
    sourced by a combinatorial pin. This is not good design practice. Use the CE
    pin to control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net tm/mp/pufCore/puf16/i2<0>
-   is sourced by a combinatorial pin. This is not good design practice. Use the
-   CE pin to control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net tm/mp/pufCore/puf15/i2<0>
-   is sourced by a combinatorial pin. This is not good design practice. Use the
-   CE pin to control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net tm/mp/pufCore/puf14/i2<0>
-   is sourced by a combinatorial pin. This is not good design practice. Use the
-   CE pin to control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net tm/mp/pufCore/puf13/i2<0>
-   is sourced by a combinatorial pin. This is not good design practice. Use the
-   CE pin to control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net tm/mp/pufCore/puf12/i2<0>
-   is sourced by a combinatorial pin. This is not good design practice. Use the
-   CE pin to control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net tm/mp/pufCore/puf11/i2<0>
-   is sourced by a combinatorial pin. This is not good design practice. Use the
-   CE pin to control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net tm/mp/pufCore/puf10/i2<0>
-   is sourced by a combinatorial pin. This is not good design practice. Use the
-   CE pin to control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net tm/mp/pufCore/puf9/i2<0> is
+WARNING:PhysDesignRules:372 - Gated clock. Clock net sh/mp/alupuf/puf16/i2<0> is
    sourced by a combinatorial pin. This is not good design practice. Use the CE
    pin to control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net tm/mp/pufCore/puf8/i2<0> is
+WARNING:PhysDesignRules:372 - Gated clock. Clock net sh/mp/alupuf/puf15/i2<0> is
    sourced by a combinatorial pin. This is not good design practice. Use the CE
    pin to control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net tm/mp/pufCore/puf7/i2<0> is
+WARNING:PhysDesignRules:372 - Gated clock. Clock net sh/mp/alupuf/puf14/i2<0> is
    sourced by a combinatorial pin. This is not good design practice. Use the CE
    pin to control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net tm/mp/pufCore/puf6/i2<0> is
+WARNING:PhysDesignRules:372 - Gated clock. Clock net sh/mp/alupuf/puf13/i2<0> is
    sourced by a combinatorial pin. This is not good design practice. Use the CE
    pin to control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net tm/mp/pufCore/puf5/i2<0> is
+WARNING:PhysDesignRules:372 - Gated clock. Clock net sh/mp/alupuf/puf12/i2<0> is
    sourced by a combinatorial pin. This is not good design practice. Use the CE
    pin to control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net tm/mp/pufCore/puf4/i2<0> is
+WARNING:PhysDesignRules:372 - Gated clock. Clock net sh/mp/alupuf/puf11/i2<0> is
    sourced by a combinatorial pin. This is not good design practice. Use the CE
    pin to control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net tm/mp/pufCore/puf3/i2<0> is
+WARNING:PhysDesignRules:372 - Gated clock. Clock net sh/mp/alupuf/puf10/i2<0> is
    sourced by a combinatorial pin. This is not good design practice. Use the CE
    pin to control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net tm/mp/pufCore/puf2/i2<0> is
+WARNING:PhysDesignRules:372 - Gated clock. Clock net sh/mp/alupuf/puf9/i2<0> is
+   sourced by a combinatorial pin. This is not good design practice. Use the CE
+   pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net sh/mp/alupuf/puf8/i2<0> is
+   sourced by a combinatorial pin. This is not good design practice. Use the CE
+   pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net sh/mp/alupuf/puf7/i2<0> is
+   sourced by a combinatorial pin. This is not good design practice. Use the CE
+   pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net sh/mp/alupuf/puf6/i2<0> is
+   sourced by a combinatorial pin. This is not good design practice. Use the CE
+   pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net sh/mp/alupuf/puf5/i2<0> is
+   sourced by a combinatorial pin. This is not good design practice. Use the CE
+   pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net sh/mp/alupuf/puf4/i2<0> is
+   sourced by a combinatorial pin. This is not good design practice. Use the CE
+   pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net sh/mp/alupuf/puf3/i2<0> is
+   sourced by a combinatorial pin. This is not good design practice. Use the CE
+   pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net sh/mp/alupuf/puf2/i2<0> is
    sourced by a combinatorial pin. This is not good design practice. Use the CE
    pin to control the loading of data into the flip-flop.
 
