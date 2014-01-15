@@ -11,7 +11,7 @@
 // Description:
 // Each pdl switch consists of 2 blocks - top_block and bottom_block
 // The relative signal delay can adjusted by giving different configuration bits
-// for each block. The one with greater 1's in the configuration bits usual
+// for each block. The one with greater 1's in the configuration bits usually
 // provides greater delay for signal.
 //
 //////////////////////////////////////////////////////////////////////////////////

@@ -29,7 +29,7 @@ module pdl_block(i,o,t);
 
 (* BEL ="D6LUT" *) (* LOCK_PINS = "all" *)
 LUT6 #(
-	.INIT(64'h5655555555555555) // Specify LUT Contents
+	.INIT(64'h5555555555555555) // Specify LUT Contents
 ) LUT6_inst_1 (
 	.O(w), // LUT general output
 	.I0(i), // LUT input
@@ -43,7 +43,7 @@ LUT6 #(
 
 (* BEL ="D6LUT" *) (* LOCK_PINS = "all" *)
 LUT6 #(
-	.INIT(64'h5655555555555555) // Specify LUT Contents
+	.INIT(64'h5555555555555555) // Specify LUT Contents
 ) LUT6_inst_0 (
 	.O(o), // LUT general output
 	.I0(w), // LUT input

@@ -11,8 +11,8 @@
 // Description:
 // This is an ALU based PUF. Implements two adders that operate on the same operands
 // concurrently and produce results. The result signals are passed through pdl_puf
-// for skews tuning using pdls and responses are computed based on which signal is
-// faster for each bit of response.
+// for tuning assymetric routing delay using pdls and responses are computed based on
+// which signal is faster for each bit of response.
 //
 //////////////////////////////////////////////////////////////////////////////////
 

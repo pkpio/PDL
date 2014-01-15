@@ -32,18 +32,25 @@ module pdl_puf (s_tp, s_btm, s1, s2, reset, o);
 // s1: a sum bit from adder1;
 // s2: a sum bit from adder2
 
-    parameter PUFlength = 63;
+  parameter PUFlength = 63;
 
-    input [PUFlength:0] s_tp, s_btm;
-    input  s1, s2, reset;
-    output o;
+  input [PUFlength:0] s_tp, s_btm;
+  input  s1, s2, reset;
+  output o;
 
 	 wire [PUFlength:0] i1,i2;
 	 wire puf_out;
 
 
 (* KEEP_HIERARCHY="TRUE" *)
-pdl_switch sarray [PUFlength:0] (.i1({s1,i1[PUFlength:1]}),.i2({s2,i2[PUFlength:1]}), .select_tp(s_tp[PUFlength:0]), .select_btm(s_btm[PUFlength:0]),.o1(i1[PUFlength:0]),.o2(i2[PUFlength:0]));
+pdl_switch sarray [PUFlength:0] (
+  .i1({s1,i1[PUFlength:1]}),
+  .i2({s2,i2[PUFlength:1]}),
+  .select_tp(s_tp[PUFlength:0]),
+  .select_btm(s_btm[PUFlength:0]),
+  .o1(i1[PUFlength:0]),
+  .o2(i2[PUFlength:0])
+  );
 
 
 // Arbiter to decide which signal reached first.
