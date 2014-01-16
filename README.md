@@ -8,5 +8,5 @@ This project servers an example of using PDLs - Programmable Delay Logics into a
 
 Organisation
 ------------------------------------------------------------------------
-Hardware - Contains verilog project code to be programmed onto the FPGA
+Hardware - Contains verilog project code to be programmed onto the FPGA <br>
 Software - Contains software tester that sends and collects data from the FPGA
