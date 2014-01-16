@@ -12,3 +12,8 @@ Run 'software_tester.exe' in the Software folder (./../Software/software_tester.
 Getting started with hardware code
 ------------------------------------------------------------------------
 To get started with the whole project and its details refer: https://github.com/praveendath92/PDL/wiki
+
+
+@Author:   Praveen Kumar Pendyala <br>
+@Created:  28/10/2013 <br>
+@Modified: 16/01/2014

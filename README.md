@@ -10,3 +10,8 @@ Organisation
 ------------------------------------------------------------------------
 Hardware - Contains verilog project code to be programmed onto the FPGA <br>
 Software - Contains software tester that sends and collects data from the FPGA
+
+
+@Author:   Praveen Kumar Pendyala <br>
+@Created:  28/10/2013 <br>
+@Modified: 16/01/2014
