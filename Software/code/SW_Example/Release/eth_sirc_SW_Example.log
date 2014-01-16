@@ -1,0 +1,40 @@
+﻿Build started 1/16/2014 11:57:21 AM.
+     1>Project "E:\Dropbox\Works and collections\Elec\Rice\Joonho\codes\dual_core_PUF_with_PDL_and_ethernet_SW\SW_Example\eth_sirc_SW_Example.vcxproj" on node 2 (build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>InitializeBuildStatus:
+         Creating "Release\eth_sirc_lib_SW_Example.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\SWSrc /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /EHa /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt ..\SW_Example\eth_SW_Example.cpp /clr:nostdlib 
+         eth_SW_Example.cpp
+     1>..\SW_Example\eth_SW_Example.cpp(93): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>..\SW_Example\eth_SW_Example.cpp(106): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>..\SW_Example\eth_SW_Example.cpp(116): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>..\SW_Example\eth_SW_Example.cpp(443): warning C4018: '<' : signed/unsigned mismatch
+     1>..\SW_Example\eth_SW_Example.cpp(140): warning C4101: 'numOpsReturned' : unreferenced local variable
+     1>..\SW_Example\eth_SW_Example.cpp(148): warning C4101: 'tempInt' : unreferenced local variable
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       CoreResGen:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\eth_sirc_lib_SW_Example.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\SWSrc\Release eth_sirc_lib.lib Setupapi.lib powrprof.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /ASSEMBLYRESOURCE:Release\eth_sirc_lib_SW_Example.display.resources /MANIFEST /ManifestFile:"Release\eth_sirc_lib_SW_Example.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Dropbox\Works and collections\Elec\Rice\Joonho\codes\dual_core_PUF_with_PDL_and_ethernet_SW\SW_Example\eth_sirc_lib_SW_Example.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Release\sirc_util.obj
+         Release\eth_SW_Example.obj
+         Release\display.obj
+         "Release\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         Generating code
+         Finished generating code
+     1>eth_sirc_lib.lib(eth_SIRC.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'eth_sirc_lib.lib(eth_SIRC.obj)' or at 'E:\Dropbox\Works and collections\Elec\Rice\Joonho\codes\dual_core_PUF_with_PDL_and_ethernet_SW\SW_Example\vc100.pdb'; linking object as if no debug info
+     1>eth_sirc_lib.lib(packet.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'eth_sirc_lib.lib(packet.obj)' or at 'E:\Dropbox\Works and collections\Elec\Rice\Joonho\codes\dual_core_PUF_with_PDL_and_ethernet_SW\SW_Example\vc100.pdb'; linking object as if no debug info
+         eth_sirc_SW_Example.vcxproj -> E:\Dropbox\Works and collections\Elec\Rice\Joonho\codes\dual_core_PUF_with_PDL_and_ethernet_SW\SW_Example\.\eth_sirc_lib_SW_Example.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:".\eth_sirc_lib_SW_Example.exe;#1" /manifest Release\eth_sirc_lib_SW_Example.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\eth_sirc_lib_SW_Example.unsuccessfulbuild".
+         Touching "Release\eth_sirc_lib_SW_Example.lastbuildstate".
+     1>Done Building Project "E:\Dropbox\Works and collections\Elec\Rice\Joonho\codes\dual_core_PUF_with_PDL_and_ethernet_SW\SW_Example\eth_sirc_SW_Example.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.92

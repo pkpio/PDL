@@ -1,0 +1,179 @@
+--------------------------------------------------------------------------------
+Release 13.3 Trace  (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\13.3\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 1
+-n 3 -fastpaths -xml system.twx system.ncd -o system.twr system.pcf
+
+Design file:              system.ncd
+Physical constraint file: system.pcf
+Device,package,speed:     xc5vlx110t,ff1136,-1 (PRODUCTION 1.73 2011-10-03, STEPPING level 0)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock CLK_100
+------------+------------+------------+------------------+--------+
+            |Max Setup to|Max Hold to |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+test2       |   -0.385(R)|    2.587(R)|CLK_100_BUFGP     |   0.000|
+------------+------------+------------+------------------+--------+
+
+Setup/Hold to clock GMII_RX_CLK_0
+-------------+------------+------------+---------------------+--------+
+             |Max Setup to|Max Hold to |                     | Clock  |
+Source       | clk (edge) | clk (edge) |Internal Clock(s)    | Phase  |
+-------------+------------+------------+---------------------+--------+
+GMII_RXD_0<0>|   -0.276(R)|    1.756(R)|E2M/gmii_rx_clk_delay|   0.000|
+GMII_RXD_0<1>|   -0.848(R)|    2.279(R)|E2M/gmii_rx_clk_delay|   0.000|
+GMII_RXD_0<2>|   -0.846(R)|    2.277(R)|E2M/gmii_rx_clk_delay|   0.000|
+GMII_RXD_0<3>|   -0.832(R)|    2.264(R)|E2M/gmii_rx_clk_delay|   0.000|
+GMII_RXD_0<4>|   -0.358(R)|    1.831(R)|E2M/gmii_rx_clk_delay|   0.000|
+GMII_RXD_0<5>|   -0.438(R)|    1.903(R)|E2M/gmii_rx_clk_delay|   0.000|
+GMII_RXD_0<6>|   -0.534(R)|    1.991(R)|E2M/gmii_rx_clk_delay|   0.000|
+GMII_RXD_0<7>|   -0.626(R)|    2.075(R)|E2M/gmii_rx_clk_delay|   0.000|
+GMII_RX_DV_0 |   -0.848(R)|    2.286(R)|E2M/gmii_rx_clk_delay|   0.000|
+GMII_RX_ER_0 |   -0.772(R)|    2.220(R)|E2M/gmii_rx_clk_delay|   0.000|
+-------------+------------+------------+---------------------+--------+
+
+Setup/Hold to clock sysACE_CLK
+-----------------+------------+------------+-------------------+--------+
+                 |Max Setup to|Max Hold to |                   | Clock  |
+Source           | clk (edge) | clk (edge) |Internal Clock(s)  | Phase  |
+-----------------+------------+------------+-------------------+--------+
+sysACE_MPDATA<0> |   -1.136(R)|    3.888(R)|E2M/EC/sysACE_clk_o|   0.000|
+sysACE_MPDATA<1> |   -0.865(R)|    3.637(R)|E2M/EC/sysACE_clk_o|   0.000|
+sysACE_MPDATA<2> |   -1.099(R)|    3.852(R)|E2M/EC/sysACE_clk_o|   0.000|
+sysACE_MPDATA<3> |   -0.865(R)|    3.641(R)|E2M/EC/sysACE_clk_o|   0.000|
+sysACE_MPDATA<4> |   -1.051(R)|    3.813(R)|E2M/EC/sysACE_clk_o|   0.000|
+sysACE_MPDATA<5> |   -1.072(R)|    3.830(R)|E2M/EC/sysACE_clk_o|   0.000|
+sysACE_MPDATA<6> |   -1.105(R)|    3.860(R)|E2M/EC/sysACE_clk_o|   0.000|
+sysACE_MPDATA<7> |   -0.882(R)|    3.656(R)|E2M/EC/sysACE_clk_o|   0.000|
+sysACE_MPDATA<8> |   -0.931(R)|    3.700(R)|E2M/EC/sysACE_clk_o|   0.000|
+sysACE_MPDATA<9> |   -0.948(R)|    3.714(R)|E2M/EC/sysACE_clk_o|   0.000|
+sysACE_MPDATA<10>|   -0.799(R)|    3.578(R)|E2M/EC/sysACE_clk_o|   0.000|
+sysACE_MPDATA<11>|   -0.864(R)|    3.639(R)|E2M/EC/sysACE_clk_o|   0.000|
+sysACE_MPDATA<12>|   -0.644(R)|    3.437(R)|E2M/EC/sysACE_clk_o|   0.000|
+sysACE_MPDATA<13>|   -0.800(R)|    3.581(R)|E2M/EC/sysACE_clk_o|   0.000|
+sysACE_MPDATA<14>|   -0.677(R)|    3.466(R)|E2M/EC/sysACE_clk_o|   0.000|
+sysACE_MPDATA<15>|   -0.836(R)|    3.612(R)|E2M/EC/sysACE_clk_o|   0.000|
+-----------------+------------+------------+-------------------+--------+
+
+Clock CLK_100 to Pad
+--------------+------------+------------------+--------+
+              | clk (edge) |                  | Clock  |
+Destination   |   to PAD   |Internal Clock(s) | Phase  |
+--------------+------------+------------------+--------+
+GMII_GTX_CLK_0|   10.935(R)|clk_125_eth       |   0.000|
+              |   10.935(F)|clk_125_eth       |   0.000|
+GMII_TXD_0<0> |   11.103(R)|clk_125_eth       |   0.000|
+GMII_TXD_0<1> |   11.213(R)|clk_125_eth       |   0.000|
+GMII_TXD_0<2> |   11.107(R)|clk_125_eth       |   0.000|
+GMII_TXD_0<3> |   11.195(R)|clk_125_eth       |   0.000|
+GMII_TXD_0<4> |   11.203(R)|clk_125_eth       |   0.000|
+GMII_TXD_0<5> |   11.163(R)|clk_125_eth       |   0.000|
+GMII_TXD_0<6> |   11.177(R)|clk_125_eth       |   0.000|
+GMII_TXD_0<7> |   11.126(R)|clk_125_eth       |   0.000|
+GMII_TX_EN_0  |   11.232(R)|clk_125_eth       |   0.000|
+GMII_TX_ER_0  |   11.230(R)|clk_125_eth       |   0.000|
+LED<0>        |   12.636(R)|clk_user_interface|   0.000|
+test1         |    7.537(R)|CLK_100_BUFGP     |   0.000|
+--------------+------------+------------------+--------+
+
+Clock sysACE_CLK to Pad
+-----------------+------------+-------------------+--------+
+                 | clk (edge) |                   | Clock  |
+Destination      |   to PAD   |Internal Clock(s)  | Phase  |
+-----------------+------------+-------------------+--------+
+sysACE_MPADD<0>  |   11.500(R)|E2M/EC/sysACE_clk_o|   0.000|
+sysACE_MPADD<1>  |   11.374(R)|E2M/EC/sysACE_clk_o|   0.000|
+sysACE_MPADD<2>  |   11.524(R)|E2M/EC/sysACE_clk_o|   0.000|
+sysACE_MPADD<3>  |   10.113(R)|E2M/EC/sysACE_clk_o|   0.000|
+sysACE_MPADD<4>  |   11.445(R)|E2M/EC/sysACE_clk_o|   0.000|
+sysACE_MPADD<5>  |   11.583(R)|E2M/EC/sysACE_clk_o|   0.000|
+sysACE_MPADD<6>  |   11.567(R)|E2M/EC/sysACE_clk_o|   0.000|
+sysACE_MPDATA<0> |   11.666(R)|E2M/EC/sysACE_clk_o|   0.000|
+sysACE_MPDATA<1> |   11.840(R)|E2M/EC/sysACE_clk_o|   0.000|
+sysACE_MPDATA<2> |   11.846(R)|E2M/EC/sysACE_clk_o|   0.000|
+sysACE_MPDATA<3> |   12.041(R)|E2M/EC/sysACE_clk_o|   0.000|
+sysACE_MPDATA<4> |   12.034(R)|E2M/EC/sysACE_clk_o|   0.000|
+sysACE_MPDATA<5> |   11.900(R)|E2M/EC/sysACE_clk_o|   0.000|
+sysACE_MPDATA<6> |   11.898(R)|E2M/EC/sysACE_clk_o|   0.000|
+sysACE_MPDATA<7> |   11.929(R)|E2M/EC/sysACE_clk_o|   0.000|
+sysACE_MPDATA<8> |   11.926(R)|E2M/EC/sysACE_clk_o|   0.000|
+sysACE_MPDATA<9> |   11.927(R)|E2M/EC/sysACE_clk_o|   0.000|
+sysACE_MPDATA<10>|   11.928(R)|E2M/EC/sysACE_clk_o|   0.000|
+sysACE_MPDATA<11>|   12.104(R)|E2M/EC/sysACE_clk_o|   0.000|
+sysACE_MPDATA<12>|   12.240(R)|E2M/EC/sysACE_clk_o|   0.000|
+sysACE_MPDATA<13>|   12.217(R)|E2M/EC/sysACE_clk_o|   0.000|
+sysACE_MPDATA<14>|   12.197(R)|E2M/EC/sysACE_clk_o|   0.000|
+sysACE_MPDATA<15>|   12.189(R)|E2M/EC/sysACE_clk_o|   0.000|
+sysACE_MPOE      |   11.363(R)|E2M/EC/sysACE_clk_o|   0.000|
+sysACE_MPWE      |    9.943(R)|E2M/EC/sysACE_clk_o|   0.000|
+-----------------+------------+-------------------+--------+
+
+Clock to Setup on destination clock CLK_100
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLK_100        |    8.253|         |    4.525|         |
+GMII_RX_CLK_0  |   -1.447|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock GMII_RX_CLK_0
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLK_100        |    4.036|         |         |         |
+GMII_RX_CLK_0  |    3.098|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock sysACE_CLK
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLK_100        |    6.911|         |         |         |
+sysACE_CLK     |    3.636|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+RESET          |GMII_RESET_B   |    5.237|
+---------------+---------------+---------+
+
+
+Analysis completed Thu Jan 16 12:31:51 2014 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 553 MB
+
+
+

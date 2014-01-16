@@ -1,0 +1,292 @@
+Release 13.3 par O.76xd (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+PRAVEEN-PC::  Thu Jan 16 12:29:44 2014
+
+par -w -intstyle ise -ol high -mt off system_map.ncd system.ncd system.pcf 
+
+
+Constraints file: system.pcf.
+Loading device for application Rf_Device from file '5vlx110t.nph' in environment C:\Xilinx\13.3\ISE_DS\ISE\.
+   "system" is an NCD, version 3.2, device xc5vlx110t, package ff1136, speed -1
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000 Celsius)
+Initializing voltage to 0.950 Volts. (default - Range: 0.950 to 1.050 Volts)
+
+INFO:Par:282 - No user timing constraints were detected or you have set the option to ignore timing constraints ("par
+   -x"). Place and Route will run in "Performance Evaluation Mode" to automatically improve the performance of all
+   internal clocks in this design. Because there are not defined timing requirements, a timing score will not be
+   reported in the PAR report in this mode. The PAR timing summary will list the performance achieved for each clock.
+   Note: For the fastest runtime, set the effort level to "std".  For best performance, set the effort level to "high".
+
+Device speed data version:  "PRODUCTION 1.73 2011-10-03".
+
+
+
+Device Utilization Summary:
+
+   Number of BUFGs                           7 out of 32     21%
+   Number of IDELAYCTRLs                     2 out of 22      9%
+   Number of External IOBs                  62 out of 640     9%
+      Number of LOCed IOBs                   0 out of 62      0%
+
+   Number of IODELAYs                       11 out of 800     1%
+   Number of OLOGICs                        12 out of 800     1%
+   Number of PLL_ADVs                        2 out of 6      33%
+   Number of RAMB18X2s                       2 out of 148     1%
+   Number of RAMB36_EXPs                    35 out of 148    23%
+   Number of RAMBFIFO18_36s                  2 out of 148     1%
+   Number of TEMACs                          1 out of 2      50%
+   Number of Slices                       5222 out of 17280  30%
+   Number of Slice Registers              1642 out of 69120   2%
+      Number used as Flip Flops           1642
+      Number used as Latches                 0
+      Number used as LatchThrus              0
+
+   Number of Slice LUTS                   6616 out of 69120   9%
+   Number of Slice LUT-Flip Flop pairs    7269 out of 69120  10%
+
+
+Overall effort level (-ol):   High 
+Router effort level (-rl):    High 
+
+Starting initial Timing Analysis.  REAL time: 14 secs 
+Finished initial Timing Analysis.  REAL time: 14 secs 
+
+WARNING:Par:288 - The signal sh/mp/buffer<127> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<126> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<125> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<124> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<123> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<122> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<121> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<120> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<119> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<118> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<117> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<116> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<115> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<114> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<113> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<112> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<111> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<110> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<109> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<108> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<107> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<106> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<105> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<104> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<103> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<102> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<101> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<100> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<99> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<98> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<97> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<96> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<95> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<94> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<93> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<92> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<91> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<90> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<89> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<88> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<87> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<86> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<85> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<84> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<83> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<82> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<81> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<80> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<79> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<78> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<77> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<76> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<75> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<74> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<73> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<72> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<71> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<70> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<69> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<68> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<67> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<66> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<65> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<64> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<63> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<62> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<61> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<60> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<59> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<58> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<57> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<56> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<55> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<54> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<53> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<52> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<51> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<50> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<49> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<48> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<47> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<46> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<45> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<44> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<43> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<42> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<41> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<40> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<39> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<38> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<37> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<36> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<35> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<34> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<33> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<32> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<31> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<30> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<29> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<28> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<27> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<26> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<25> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<24> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<23> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<22> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<21> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<20> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<19> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<18> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<17> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<16> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<15> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<14> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<13> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<12> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<11> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<10> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<9> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<8> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<7> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<6> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<5> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<4> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<3> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<2> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<1> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal sh/mp/buffer<0> has no load.  PAR will not attempt to route this signal.
+Starting Router
+
+
+Phase  1  : 22399 unrouted;      REAL time: 16 secs 
+
+Phase  2  : 19937 unrouted;      REAL time: 18 secs 
+
+Phase  3  : 5991 unrouted;      REAL time: 29 secs 
+
+Phase  4  : 6254 unrouted; (Par is working to improve performance)     REAL time: 44 secs 
+
+Updating file: system.ncd with current fully routed design.
+
+Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 51 secs 
+
+Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 52 secs 
+
+Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 1 mins 35 secs 
+
+Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 1 mins 36 secs 
+
+Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 1 mins 36 secs 
+
+Phase 10  : 0 unrouted; (Par is working to improve performance)     REAL time: 1 mins 37 secs 
+Total REAL time to Router completion: 1 mins 37 secs 
+Total CPU time to Router completion: 1 mins 38 secs 
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Generating "PAR" statistics.
+INFO:Par:459 - The Clock Report is not displayed in the non timing-driven mode.
+Timing Score: 0 (Setup: 0, Hold: 0)
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+----------------------------------------------------------------------------------------------------------
+  Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
+                                            |             |    Slack   | Achievable | Errors |    Score   
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net clk | SETUP       |         N/A|     7.510ns|     N/A|           0
+  _125_eth                                  | HOLD        |     0.317ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net clk | SETUP       |         N/A|     8.007ns|     N/A|           0
+  _user_interface                           | HOLD        |     0.433ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net E2M | SETUP       |         N/A|     3.098ns|     N/A|           0
+  /gmii_rx_clk_delay                        | HOLD        |     0.402ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net E2M | SETUP       |         N/A|     3.636ns|     N/A|           0
+  /EC/sysACE_clk_o                          | HOLD        |     0.250ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net clk | SETUP       |         N/A|     1.834ns|     N/A|           0
+  _200                                      | HOLD        |     0.461ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+
+
+Derived Constraint Report
+Review Timing Report for more details on the following derived constraints.
+To create a Timing Report, run "trce -v 12 -fastpaths -o design_timing_report design.ncd design.pcf"
+or "Run Timing Analysis" from Timing Analyzer (timingan).
+Derived Constraints for CLK_100_BUFGP
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|CLK_100_BUFGP                  |     10.000ns|      4.000ns|      4.167ns|            0|            0|            0|            0|
+| clk_user_interface_i          |      6.000ns|      2.500ns|          N/A|            0|            0|            0|            0|
+| clk_125_eth_i                 |      8.000ns|      2.500ns|          N/A|            0|            0|            0|            0|
+| clk_200_i                     |      5.000ns|      1.666ns|          N/A|            0|            0|            0|            0|
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+All constraints were met.
+INFO:Timing:2761 - N/A entries in the Constraints List may indicate that the 
+   constraint is not analyzed due to the following: No paths covered by this 
+   constraint; Other constraints intersect with this constraint; or This 
+   constraint was disabled by a Path Tracing Control. Please run the Timespec 
+   Interaction Report (TSI) via command line (trce tsi) or Timing Analyzer GUI.
+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+WARNING:Par:283 - There are 128 loadless signals in this design. This design will cause Bitgen to issue DRC warnings.
+
+Total REAL time to PAR completion: 1 mins 44 secs 
+Total CPU time to PAR completion: 1 mins 44 secs 
+
+Peak Memory Usage:  638 MB
+
+Placer: Placement generated during map.
+Routing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 130
+Number of info messages: 2
+
+Writing design to file system.ncd
+
+
+
+PAR done!

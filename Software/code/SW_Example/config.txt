@@ -1,0 +1,18 @@
+255,255,255,255,255,255,255,255,
+0,0,0,0,0,0,0,0,
+13,
+
+#Line 1 is for top line
+#Line 2 is for bottom line
+#Line 3 for TL - tuning level (#1's in Line 2 - #1's in Line 1)
+#Please note that each line should have 8-values seperated by comma and value should be in the range [0, 255]
+#IMP: The last entry in each line should be followed by a comma
+      0,0,0,0,0,0,0,0,    Valid
+      0,0,0,0,0,0,0,0     Invalid
+Notes:
+255 - 1111 1111
+63  - 0011 1111
+15  - 0000 1111
+3   - 0000 0011
+1   - 0000 0001
+

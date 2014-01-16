@@ -1,0 +1,25 @@
+Final report for each bit:
+
+# of 1's in bit 0 is: 0
+# of 1's in bit 1 is: 999
+# of 1's in bit 2 is: 999
+# of 1's in bit 3 is: 0
+# of 1's in bit 4 is: 999
+# of 1's in bit 5 is: 1000
+# of 1's in bit 6 is: 1000
+# of 1's in bit 7 is: 1000
+# of 1's in bit 8 is: 1000
+# of 1's in bit 9 is: 1000
+# of 1's in bit 10 is: 1000
+# of 1's in bit 11 is: 1000
+# of 1's in bit 12 is: 999
+# of 1's in bit 13 is: 1000
+# of 1's in bit 14 is: 1000
+# of 1's in bit 15 is: 1000
+
+
+Config used :
+Top line: 255, 255, 255, 255, 255, 255, 255, 255, 
+Bottom line: 0, 0, 0, 0, 0, 0, 0, 0, 
+
+# of runs: 1000
