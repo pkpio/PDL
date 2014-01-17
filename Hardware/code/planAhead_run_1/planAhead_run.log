@@ -9,72 +9,110 @@ INFO: [Device-25] Loading parts and site information from C:/Xilinx/13.3/ISE_DS/
 Finished parsing RTL primitives file [C:/Xilinx/13.3/ISE_DS/PlanAhead\parts\xilinx\rtl\prims\rtl_prims.xml]
 start_gui
 starting gui ...
-source {E:/Dropbox/Works and collections/Elec/Rice/PDL/pa.fromNetlist.tcl}
-# create_project -name PDL -dir "E:/Dropbox/Works and collections/Elec/Rice/PDL/planAhead_run_1" -part xc5vlx110tff1136-1
+source {E:/Dropbox/Works and collections/Elec/Rice/PDL/Hardware/code/pa.fromNetlist.tcl}
+# create_project -name PDL -dir "E:/Dropbox/Works and collections/Elec/Rice/PDL/Hardware/code/planAhead_run_1" -part xc5vlx110tff1136-1
 Parsing template File [C:/Xilinx/13.3/ISE_DS/ISE\data\projnav\templates\verilog.xml].
 Finished parsing template File [C:/Xilinx/13.3/ISE_DS/ISE\data\projnav\templates\verilog.xml].
 Parsing template File [C:/Xilinx/13.3/ISE_DS/ISE\data\projnav\templates\vhdl.xml].
 Finished parsing template File [C:/Xilinx/13.3/ISE_DS/ISE\data\projnav\templates\vhdl.xml].
 Parsing template File [C:/Xilinx/13.3/ISE_DS/ISE\data\projnav\templates\ucf.xml].
 Finished parsing template File [C:/Xilinx/13.3/ISE_DS/ISE\data\projnav\templates\ucf.xml].
-create_project: Time (s): 9.184w.  Memory (MB): 528.762p 7.797g
+create_project: Time (s): 5.598w.  Memory (MB): 533.434p 10.281g
 # set_property design_mode GateLvl [get_property srcset [current_run -impl]]
-# set_property edif_top_file "E:/Dropbox/Works and collections/Elec/Rice/PDL/pdl_test_bench.ngc" [ get_property srcset [ current_run ] ]
-# add_files -norecurse { {E:/Dropbox/Works and collections/Elec/Rice/PDL} }
-# set_property target_constrs_file "E:/Dropbox/Works and collections/Elec/Rice/PDL/constraints/XUPV5system.ucf" [current_fileset -constrset]
-Adding file 'E:\Dropbox\Works and collections\Elec\Rice\PDL\constraints\XUPV5system.ucf' to fileset 'constrs_1'
-# add_files [list {E:/Dropbox/Works and collections/Elec/Rice/PDL/constraints/XUPV5system.ucf}] -fileset [get_property constrset [current_run]]
-# add_files [list {E:/Dropbox/Works and collections/Elec/Rice/PDL/constraints/pdl_constraints.ucf}] -fileset [get_property constrset [current_run]]
+# set_property edif_top_file "E:/Dropbox/Works and collections/Elec/Rice/PDL/Hardware/code/system.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {E:/Dropbox/Works and collections/Elec/Rice/PDL/Hardware/code} {ipcore_dir} }
+# add_files [list {ipcore_dir/blk_mem_gen_inputMem.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/blk_mem_gen_outputMem.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/blk_mem_gen_paramReg.ncf}] -fileset [get_property constrset [current_run]]
+# set_property target_constrs_file "E:/Dropbox/Works and collections/Elec/Rice/PDL/Hardware/code/constraints/pdl_constraints.ucf" [current_fileset -constrset]
+Adding file 'E:\Dropbox\Works and collections\Elec\Rice\PDL\Hardware\code\constraints\pdl_constraints.ucf' to fileset 'constrs_1'
+# add_files [list {E:/Dropbox/Works and collections/Elec/Rice/PDL/Hardware/code/constraints/pdl_constraints.ucf}] -fileset [get_property constrset [current_run]]
+# add_files [list {E:/Dropbox/Works and collections/Elec/Rice/PDL/Hardware/code/constraints/puf_logic_constraints.ucf}] -fileset [get_property constrset [current_run]]
+# add_files [list {E:/Dropbox/Works and collections/Elec/Rice/PDL/Hardware/code/constraints/XUPV5system.ucf}] -fileset [get_property constrset [current_run]]
 # open_netlist_design
 Design is defaulting to srcset: sources_1
 Design is defaulting to constrset: constrs_1
 Design is defaulting to part: xc5vlx110tff1136-1
 Release 13.3 - ngc2edif O.76xd (nt64)
 Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
-Reading design pdl_test_bench.ngc ...
-WARNING:NetListWriters:298 - No output is written to pdl_test_bench.xncf,
-   ignored.
+Reading design system.ngc ...
+WARNING:NetListWriters:298 - No output is written to system.xncf, ignored.
 Processing design ...
    Preping design's networks ...
    Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   E2M/EC/Madd_tx_header_buffer_len_share0000_lut<3 : 0> on block system is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus E2M/EC/Msub__sub0000_lut<15 : 1> on
+   block system is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus E2M/EC/Msub__sub0001_lut<31 : 1> on
+   block system is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   E2M/EC/Msub_rx_mem_length_addsub0000_lut<31 : 1> on block system is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus E2M/EC/tx_header_buffer_len_mux0001<3 :
+   0> on block system is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus E2M/EC/tx_header_buffer_len_mux0002<15 :
+   1> on block system is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   E2M/emac_ll/client_side_FIFO_emac0/rx_fifo_i/Maccum_rd_addr_lut<11 : 0> on
+   block system is not reconstructed, because there are some missing bus
+   signals.
   finished :Prep
-Writing EDIF netlist file pdl_test_bench.edif ...
-ngc2edif: Total memory usage is 87964 kilobytes
+Writing EDIF netlist file system.edif ...
+ngc2edif: Total memory usage is 110940 kilobytes
 
-Parsing EDIF File [.\planAhead_run_1\PDL.data\cache\pdl_test_bench_ngc_854d43fa.edif]
-Finished Parsing EDIF File [.\planAhead_run_1\PDL.data\cache\pdl_test_bench_ngc_854d43fa.edif]
-INFO: [PlanAhead-430] Reading macro library C:/Xilinx/13.3/ISE_DS/PlanAhead\./parts/xilinx/virtex5/virtex5lx/hd_int_macros.edn
-Parsing EDIF File [C:/Xilinx/13.3/ISE_DS/PlanAhead\./parts/xilinx/virtex5/virtex5lx/hd_int_macros.edn]
-Finished Parsing EDIF File [C:/Xilinx/13.3/ISE_DS/PlanAhead\./parts/xilinx/virtex5/virtex5lx/hd_int_macros.edn]
-INFO: [Device-21] Reading bus macro file C:/Xilinx/13.3/ISE_DS/PlanAhead\./parts/xilinx/virtex5/pr_bus_macros.xmlLoading clock regions from C:/Xilinx/13.3/ISE_DS/PlanAhead\parts/xilinx/virtex5/virtex5lxt/xc5vlx110t/ClockRegion.xml
-Loading clock buffers from C:/Xilinx/13.3/ISE_DS/PlanAhead\parts/xilinx/virtex5/virtex5lxt/xc5vlx110t/ClockBuffers.xml
-Loading package from C:/Xilinx/13.3/ISE_DS/PlanAhead\parts/xilinx/virtex5/virtex5lxt/xc5vlx110t/ff1136/Package.xml
-Loading io standards from C:/Xilinx/13.3/ISE_DS/PlanAhead\./parts/xilinx/virtex5/IOStandards.xml
-INFO: [Device-19] Loading pkg sso from C:/Xilinx/13.3/ISE_DS/PlanAhead\parts/xilinx/virtex5/virtex5lxt/xc5vlx110t/ff1136/SSORules.xml
-Loading list of drcs for the architecture : C:/Xilinx/13.3/ISE_DS/PlanAhead\./parts/xilinx/virtex5/drc.xml
-Parsing UCF File [E:\Dropbox\Works and collections\Elec\Rice\PDL\constraints\XUPV5system.ucf]
-INFO: [Designutils-22] PART constraint ignored, using PlanAhead selected device [E:\Dropbox\Works and collections\Elec\Rice\PDL\constraints\XUPV5system.ucf:5]
-Finished Parsing UCF File [E:\Dropbox\Works and collections\Elec\Rice\PDL\constraints\XUPV5system.ucf]
-Parsing UCF File [E:\Dropbox\Works and collections\Elec\Rice\PDL\constraints\pdl_constraints.ucf]
-INFO: [Designutils-22] PART constraint ignored, using PlanAhead selected device [E:\Dropbox\Works and collections\Elec\Rice\PDL\constraints\pdl_constraints.ucf:5]
-Finished Parsing UCF File [E:\Dropbox\Works and collections\Elec\Rice\PDL\constraints\pdl_constraints.ucf]
-INFO: [PlanAhead-566] Unisim Transformation Summary:
-No Unisim elements were transformed.open_netlist_design: Time (s): 28.417w.  Memory (MB): 715.770p 185.934g
-refresh_design
+Parsing EDIF File [.\planAhead_run_1\PDL.data\cache\system_ngc_33da83d1.edif]
+Finished Parsing EDIF File [.\planAhead_run_1\PDL.data\cache\system_ngc_33da83d1.edif]
 Release 13.3 - ngc2edif O.76xd (nt64)
 Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
-Reading design pdl_test_bench.ngc ...
-WARNING:NetListWriters:298 - No output is written to pdl_test_bench.xncf,
+Reading design blk_mem_gen_paramReg.ngc ...
+WARNING:NetListWriters:298 - No output is written to blk_mem_gen_paramReg.xncf,
    ignored.
 Processing design ...
    Preping design's networks ...
    Preping design's macros ...
   finished :Prep
-Writing EDIF netlist file pdl_test_bench.edif ...
-ngc2edif: Total memory usage is 87964 kilobytes
+Writing EDIF netlist file blk_mem_gen_paramReg.edif ...
+ngc2edif: Total memory usage is 86492 kilobytes
 
-Parsing EDIF File [.\planAhead_run_1\PDL.data\cache\pdl_test_bench_ngc_854d43fa.edif]
-Finished Parsing EDIF File [.\planAhead_run_1\PDL.data\cache\pdl_test_bench_ngc_854d43fa.edif]
+Reading core file 'E:\Dropbox\Works and collections\Elec\Rice\PDL\Hardware\code\ipcore_dir\blk_mem_gen_paramReg.ngc' for (cell view 'blk_mem_gen_paramReg', library 'system_lib', file 'system.ngc')
+Parsing EDIF File [.\planAhead_run_1\PDL.data\cache\blk_mem_gen_paramReg_ngc_90c1d0d9.edif]
+Finished Parsing EDIF File [.\planAhead_run_1\PDL.data\cache\blk_mem_gen_paramReg_ngc_90c1d0d9.edif]
+Release 13.3 - ngc2edif O.76xd (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design blk_mem_gen_outputMem.ngc ...
+WARNING:NetListWriters:298 - No output is written to blk_mem_gen_outputMem.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file blk_mem_gen_outputMem.edif ...
+ngc2edif: Total memory usage is 85916 kilobytes
+
+Reading core file 'E:\Dropbox\Works and collections\Elec\Rice\PDL\Hardware\code\ipcore_dir\blk_mem_gen_outputMem.ngc' for (cell view 'blk_mem_gen_outputMem', library 'system_lib', file 'system.ngc')
+Parsing EDIF File [.\planAhead_run_1\PDL.data\cache\blk_mem_gen_outputMem_ngc_90c1d0d9.edif]
+Finished Parsing EDIF File [.\planAhead_run_1\PDL.data\cache\blk_mem_gen_outputMem_ngc_90c1d0d9.edif]
+Release 13.3 - ngc2edif O.76xd (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design blk_mem_gen_inputMem.ngc ...
+WARNING:NetListWriters:298 - No output is written to blk_mem_gen_inputMem.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file blk_mem_gen_inputMem.edif ...
+ngc2edif: Total memory usage is 87956 kilobytes
+
+Reading core file 'E:\Dropbox\Works and collections\Elec\Rice\PDL\Hardware\code\ipcore_dir\blk_mem_gen_inputMem.ngc' for (cell view 'blk_mem_gen_inputMem', library 'system_lib', file 'system.ngc')
+Parsing EDIF File [.\planAhead_run_1\PDL.data\cache\blk_mem_gen_inputMem_ngc_90c1d0d9.edif]
+Finished Parsing EDIF File [.\planAhead_run_1\PDL.data\cache\blk_mem_gen_inputMem_ngc_90c1d0d9.edif]
 INFO: [PlanAhead-430] Reading macro library C:/Xilinx/13.3/ISE_DS/PlanAhead\./parts/xilinx/virtex5/virtex5lx/hd_int_macros.edn
 Parsing EDIF File [C:/Xilinx/13.3/ISE_DS/PlanAhead\./parts/xilinx/virtex5/virtex5lx/hd_int_macros.edn]
 Finished Parsing EDIF File [C:/Xilinx/13.3/ISE_DS/PlanAhead\./parts/xilinx/virtex5/virtex5lx/hd_int_macros.edn]
@@ -84,13 +122,39 @@ Loading package from C:/Xilinx/13.3/ISE_DS/PlanAhead\parts/xilinx/virtex5/virtex
 Loading io standards from C:/Xilinx/13.3/ISE_DS/PlanAhead\./parts/xilinx/virtex5/IOStandards.xml
 INFO: [Device-19] Loading pkg sso from C:/Xilinx/13.3/ISE_DS/PlanAhead\parts/xilinx/virtex5/virtex5lxt/xc5vlx110t/ff1136/SSORules.xml
 Loading list of drcs for the architecture : C:/Xilinx/13.3/ISE_DS/PlanAhead\./parts/xilinx/virtex5/drc.xml
-Parsing UCF File [E:\Dropbox\Works and collections\Elec\Rice\PDL\constraints\XUPV5system.ucf]
-INFO: [Designutils-22] PART constraint ignored, using PlanAhead selected device [E:\Dropbox\Works and collections\Elec\Rice\PDL\constraints\XUPV5system.ucf:5]
-Finished Parsing UCF File [E:\Dropbox\Works and collections\Elec\Rice\PDL\constraints\XUPV5system.ucf]
-Parsing UCF File [E:\Dropbox\Works and collections\Elec\Rice\PDL\constraints\pdl_constraints.ucf]
-INFO: [Designutils-22] PART constraint ignored, using PlanAhead selected device [E:\Dropbox\Works and collections\Elec\Rice\PDL\constraints\pdl_constraints.ucf:5]
-Finished Parsing UCF File [E:\Dropbox\Works and collections\Elec\Rice\PDL\constraints\pdl_constraints.ucf]
-refresh_design: Time (s): 28.896w.  Memory (MB): 867.297p 20.457g
+Parsing UCF File [E:\Dropbox\Works and collections\Elec\Rice\PDL\Hardware\code\ipcore_dir\blk_mem_gen_inputMem.ncf]
+Finished Parsing UCF File [E:\Dropbox\Works and collections\Elec\Rice\PDL\Hardware\code\ipcore_dir\blk_mem_gen_inputMem.ncf]
+Parsing UCF File [E:\Dropbox\Works and collections\Elec\Rice\PDL\Hardware\code\ipcore_dir\blk_mem_gen_outputMem.ncf]
+Finished Parsing UCF File [E:\Dropbox\Works and collections\Elec\Rice\PDL\Hardware\code\ipcore_dir\blk_mem_gen_outputMem.ncf]
+Parsing UCF File [E:\Dropbox\Works and collections\Elec\Rice\PDL\Hardware\code\ipcore_dir\blk_mem_gen_paramReg.ncf]
+Finished Parsing UCF File [E:\Dropbox\Works and collections\Elec\Rice\PDL\Hardware\code\ipcore_dir\blk_mem_gen_paramReg.ncf]
+Parsing UCF File [E:\Dropbox\Works and collections\Elec\Rice\PDL\Hardware\code\constraints\pdl_constraints.ucf]
+INFO: [Designutils-22] PART constraint ignored, using PlanAhead selected device [E:\Dropbox\Works and collections\Elec\Rice\PDL\Hardware\code\constraints\pdl_constraints.ucf:6]
+Finished Parsing UCF File [E:\Dropbox\Works and collections\Elec\Rice\PDL\Hardware\code\constraints\pdl_constraints.ucf]
+Parsing UCF File [E:\Dropbox\Works and collections\Elec\Rice\PDL\Hardware\code\constraints\puf_logic_constraints.ucf]
+INFO: [Designutils-22] PART constraint ignored, using PlanAhead selected device [E:\Dropbox\Works and collections\Elec\Rice\PDL\Hardware\code\constraints\puf_logic_constraints.ucf:6]
+Finished Parsing UCF File [E:\Dropbox\Works and collections\Elec\Rice\PDL\Hardware\code\constraints\puf_logic_constraints.ucf]
+Parsing UCF File [E:\Dropbox\Works and collections\Elec\Rice\PDL\Hardware\code\constraints\XUPV5system.ucf]
+INFO: [Designutils-22] PART constraint ignored, using PlanAhead selected device [E:\Dropbox\Works and collections\Elec\Rice\PDL\Hardware\code\constraints\XUPV5system.ucf:11]
+Finished Parsing UCF File [E:\Dropbox\Works and collections\Elec\Rice\PDL\Hardware\code\constraints\XUPV5system.ucf]
+INFO: [Designutils-20] Invalid constraints found, use command 'write_ucf -constraints invalid <file>' to save all the invalid constraints to a file
+INFO: [PlanAhead-566] Unisim Transformation Summary:
+  A total of 17 instances were transformed.
+  BUFGP => BUFGP (IBUFG, BUFG): 1 instances
+  IOBUF => IOBUF (IBUF, OBUFT): 16 instances
+open_netlist_design: Time (s): 29.001w.  Memory (MB): 773.563p 239.227g
+startgroup 
+create_pblock PDL_switchs_Bit_1
+endgroup
+delete_pblock [get_pblocks  PDL_switchs_Bit_1]
+startgroup 
+create_pblock PDL_switchs_Bit_1
+resize_pblock PDL_switchs_Bit_1 -add SLICE_X8Y143:SLICE_X11Y148
+endgroup
+startgroup 
+create_pblock PDL_switchs_Bit_2
+resize_pblock PDL_switchs_Bit_2 -add SLICE_X12Y143:SLICE_X15Y148
+endgroup
 exit
 stop_gui
 INFO: [PlanAhead-261] Exiting PlanAhead...

@@ -1,6 +1,6 @@
 255,255,255,255,255,255,255,255,
 0,0,0,0,0,0,0,0,
-13,
+64,
 
 #Line 1 is for top line
 #Line 2 is for bottom line

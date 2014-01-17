@@ -5,6 +5,16 @@
 			Type="DesignSrcs"
 			RelSrcDir="$PSRCDIR/sources_1">
 		<Filter Type="EDIFSrcs"/>
+		<File Path="$PPRDIR/../system.ngc">
+			<FileInfo>
+				<Attr Name="UsedInSynthesis"
+						Val="1"/>
+				<Attr Name="UsedInImplementation"
+						Val="1"/>
+				<Attr Name="UsedInSimulation"
+						Val="1"/>
+			</FileInfo>
+		</File>
 		<File Path="$PPRDIR/../pdl_test_bench.ngc">
 			<FileInfo>
 				<Attr Name="UsedInSynthesis"
@@ -25,15 +35,45 @@
 						Val="1"/>
 			</FileInfo>
 		</File>
+		<File Path="$PPRDIR/../ipcore_dir/blk_mem_gen_paramReg.ngc">
+			<FileInfo>
+				<Attr Name="UsedInSynthesis"
+						Val="1"/>
+				<Attr Name="UsedInImplementation"
+						Val="1"/>
+				<Attr Name="UsedInSimulation"
+						Val="1"/>
+			</FileInfo>
+		</File>
+		<File Path="$PPRDIR/../ipcore_dir/blk_mem_gen_outputMem.ngc">
+			<FileInfo>
+				<Attr Name="UsedInSynthesis"
+						Val="1"/>
+				<Attr Name="UsedInImplementation"
+						Val="1"/>
+				<Attr Name="UsedInSimulation"
+						Val="1"/>
+			</FileInfo>
+		</File>
+		<File Path="$PPRDIR/../ipcore_dir/blk_mem_gen_inputMem.ngc">
+			<FileInfo>
+				<Attr Name="UsedInSynthesis"
+						Val="1"/>
+				<Attr Name="UsedInImplementation"
+						Val="1"/>
+				<Attr Name="UsedInSimulation"
+						Val="1"/>
+			</FileInfo>
+		</File>
 		<Config>
 			<Option Name="DesignMode"
 					Val="GateLvl"/>
 			<Option Name="GateLvlMode"
 					Val="EDIF"/>
 			<Option Name="TopModule"
-					Val="pdl_test_bench"/>
+					Val="system"/>
 			<Option Name="TopFile"
-					Val="$PPRDIR/../pdl_test_bench.ngc"/>
+					Val="$PPRDIR/../system.ngc"/>
 		</Config>
 	</FileSet>
 </DARoots>

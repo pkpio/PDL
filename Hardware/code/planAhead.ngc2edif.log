@@ -106,3 +106,141 @@ Processing design ...
 Writing EDIF netlist file pdl_test_bench.edif ...
 ngc2edif: Total memory usage is 87964 kilobytes
 
+Release 13.3 - ngc2edif O.76xd (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design system.ngc ...
+WARNING:NetListWriters:298 - No output is written to system.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   E2M/EC/Madd_tx_header_buffer_len_share0000_lut<3 : 0> on block system is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus E2M/EC/Msub__sub0000_lut<15 : 1> on
+   block system is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus E2M/EC/Msub__sub0001_lut<31 : 1> on
+   block system is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   E2M/EC/Msub_rx_mem_length_addsub0000_lut<31 : 1> on block system is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus E2M/EC/tx_header_buffer_len_mux0001<3 :
+   0> on block system is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus E2M/EC/tx_header_buffer_len_mux0002<15 :
+   1> on block system is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   E2M/emac_ll/client_side_FIFO_emac0/rx_fifo_i/Maccum_rd_addr_lut<11 : 0> on
+   block system is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file system.edif ...
+ngc2edif: Total memory usage is 110676 kilobytes
+
+Release 13.3 - ngc2edif O.76xd (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design blk_mem_gen_paramReg.ngc ...
+WARNING:NetListWriters:298 - No output is written to blk_mem_gen_paramReg.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file blk_mem_gen_paramReg.edif ...
+ngc2edif: Total memory usage is 85916 kilobytes
+
+Release 13.3 - ngc2edif O.76xd (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design blk_mem_gen_outputMem.ngc ...
+WARNING:NetListWriters:298 - No output is written to blk_mem_gen_outputMem.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file blk_mem_gen_outputMem.edif ...
+ngc2edif: Total memory usage is 85908 kilobytes
+
+Release 13.3 - ngc2edif O.76xd (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design blk_mem_gen_inputMem.ngc ...
+WARNING:NetListWriters:298 - No output is written to blk_mem_gen_inputMem.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file blk_mem_gen_inputMem.edif ...
+ngc2edif: Total memory usage is 87964 kilobytes
+
+Release 13.3 - ngc2edif O.76xd (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design system.ngc ...
+WARNING:NetListWriters:298 - No output is written to system.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   E2M/EC/Madd_tx_header_buffer_len_share0000_lut<3 : 0> on block system is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus E2M/EC/Msub__sub0000_lut<15 : 1> on
+   block system is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus E2M/EC/Msub__sub0001_lut<31 : 1> on
+   block system is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   E2M/EC/Msub_rx_mem_length_addsub0000_lut<31 : 1> on block system is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus E2M/EC/tx_header_buffer_len_mux0001<3 :
+   0> on block system is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus E2M/EC/tx_header_buffer_len_mux0002<15 :
+   1> on block system is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   E2M/emac_ll/client_side_FIFO_emac0/rx_fifo_i/Maccum_rd_addr_lut<11 : 0> on
+   block system is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file system.edif ...
+ngc2edif: Total memory usage is 110940 kilobytes
+
+Release 13.3 - ngc2edif O.76xd (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design blk_mem_gen_paramReg.ngc ...
+WARNING:NetListWriters:298 - No output is written to blk_mem_gen_paramReg.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file blk_mem_gen_paramReg.edif ...
+ngc2edif: Total memory usage is 86492 kilobytes
+
+Release 13.3 - ngc2edif O.76xd (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design blk_mem_gen_outputMem.ngc ...
+WARNING:NetListWriters:298 - No output is written to blk_mem_gen_outputMem.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file blk_mem_gen_outputMem.edif ...
+ngc2edif: Total memory usage is 85916 kilobytes
+
+Release 13.3 - ngc2edif O.76xd (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design blk_mem_gen_inputMem.ngc ...
+WARNING:NetListWriters:298 - No output is written to blk_mem_gen_inputMem.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file blk_mem_gen_inputMem.edif ...
+ngc2edif: Total memory usage is 87956 kilobytes
+

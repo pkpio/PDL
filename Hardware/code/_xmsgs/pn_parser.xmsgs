@@ -8,5 +8,59 @@
 <!-- Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
+<msg type="info" file="ProjectMgmt" num="1835" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/Dropbox/Works and collections/Elec/Rice/PDL/Hardware/code/source/alu_puf.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1835" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/Dropbox/Works and collections/Elec/Rice/PDL/Hardware/code/source/ipcore_dependencies/emac_single.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1835" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/Dropbox/Works and collections/Elec/Rice/PDL/Hardware/code/source/ipcore_dependencies/emac_single_block.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1835" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/Dropbox/Works and collections/Elec/Rice/PDL/Hardware/code/source/ipcore_dependencies/emac_single_locallink.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1835" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/Dropbox/Works and collections/Elec/Rice/PDL/Hardware/code/source/ipcore_dependencies/eth_fifo_8.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1835" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/Dropbox/Works and collections/Elec/Rice/PDL/Hardware/code/source/ipcore_dependencies/gmii_if.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1835" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/Dropbox/Works and collections/Elec/Rice/PDL/Hardware/code/source/ipcore_dependencies/rx_client_fifo_8.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1835" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/Dropbox/Works and collections/Elec/Rice/PDL/Hardware/code/source/ipcore_dependencies/tx_client_fifo_8.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1835" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/Dropbox/Works and collections/Elec/Rice/PDL/Hardware/code/source/mapping.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1835" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/Dropbox/Works and collections/Elec/Rice/PDL/Hardware/code/source/pdl_block.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1835" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/Dropbox/Works and collections/Elec/Rice/PDL/Hardware/code/source/pdl_puf.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1835" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/Dropbox/Works and collections/Elec/Rice/PDL/Hardware/code/source/pdl_switch.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1835" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/Dropbox/Works and collections/Elec/Rice/PDL/Hardware/code/source/sirc_files/ethernet2BlockMem.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1835" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/Dropbox/Works and collections/Elec/Rice/PDL/Hardware/code/source/sirc_files/ethernetController.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1835" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/Dropbox/Works and collections/Elec/Rice/PDL/Hardware/code/source/sirc_files/fifo36Wrapper.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1835" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/Dropbox/Works and collections/Elec/Rice/PDL/Hardware/code/source/sirc_files/iobuf.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1835" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/Dropbox/Works and collections/Elec/Rice/PDL/Hardware/code/source/sirc_files/system.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1835" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/Dropbox/Works and collections/Elec/Rice/PDL/Hardware/code/source/sirc_handler.v&quot; into library work</arg>
+</msg>
+
 </messages>
 
